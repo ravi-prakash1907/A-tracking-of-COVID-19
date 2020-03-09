@@ -10,7 +10,7 @@ A dedicated repository for my data-science and analytics' work on the **_novel C
 
 
 ## How fast it grew since Jan 21st, 2020
-![image](Project/My%20Work/PLOTS/gifs/everAffected.gif)
+![image](COVID-19/PLOTS/gifs/everAffected.gif)
 
 <hr />
 
