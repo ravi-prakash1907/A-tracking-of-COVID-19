@@ -540,7 +540,7 @@ write.csv(Hubei.Recovered, file = "ready_to_use/COVID-19/Hubei/Hubei_daily_Recov
 write.csv(Hubei.summary, file = "ready_to_use/COVID-19/Hubei/Hubei_summary.csv", row.names = FALSE)
 write.csv(Hubei.datewise, file = "ready_to_use/COVID-19/Hubei/Hubei_dataset_dateWise_summary.csv", row.names = FALSE)
 
-################      DIAMOND PRINCESS     #################
+##########      DIAMOND PRINCESS     ############
 write.csv(Diamond.Princess.Confirmed, file = "ready_to_use/COVID-19/Cruise/Diamond_Princess_daily_Confirmed.csv", row.names = FALSE)
 write.csv(Diamond.Princess.Deaths, file = "ready_to_use/COVID-19/Cruise/Diamond_Princess_daily_Deaths.csv", row.names = FALSE)
 write.csv(Diamond.Princess.Recovered, file = "ready_to_use/COVID-19/Cruise/Diamond_Princess_daily_Recovered.csv", row.names = FALSE)
@@ -563,7 +563,6 @@ write.csv(country.summarizer(cName), file = "ready_to_use/COVID-19/China/China_A
 
 write.csv(datewise(cName, FALSE, Countries), file = "ready_to_use/COVID-19/China/China_dataset_dateWise_summary.csv", row.names = FALSE)
 
-
 ################      WORLD     #################
 Non.China.Countries.daily.Confirmed = All.Countries.daily.Confirmed
 Non.China.Countries.daily.Deaths = All.Countries.daily.Deaths[ which(str_detect(All.Countries.daily.Deaths$Country, cName, negate = T)),]
@@ -585,38 +584,39 @@ write.csv(find.aggrigate("Non.China.Countries.summary", "World"), file = "ready_
 write.csv(Non.China.datewise, file = "ready_to_use/COVID-19/World/World_dataset_dateWise_summary.csv", row.names = FALSE)
 
 
+################      Mixed     #################
+write.csv(All.Countries.daily.Confirmed, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Confirmed.csv", row.names = FALSE)
+write.csv(All.Countries.daily.Recovered, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Deaths.csv", row.names = FALSE)
+write.csv(All.Countries.daily.Deaths, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Recovered.csv", row.names = FALSE)
+
+write.csv(bulk.summary, file = "ready_to_use/COVID-19/Mixed/bulk_summary.csv")
+write.csv(All.Countries.summary, file = "ready_to_use/COVID-19/Mixed/All_Countries_summary.csv", row.names = FALSE)
+write.csv(dataset.countryWise, file = "ready_to_use/COVID-19/Mixed/countryWise_bulk_summary.csv", row.names = FALSE)
+write.csv(dataset.dateWise, file = "ready_to_use/COVID-19/Mixed/dateWise_bulk_summary.csv", row.names = FALSE)
 
 ############################################
 
 
 
+####
 write.csv(Confirmed, file = "ready_to_use/COVID-19/Confirmed.csv", row.names = FALSE)
 write.csv(Deaths, file = "ready_to_use/COVID-19/Deaths.csv", row.names = FALSE)
 write.csv(Recovered, file = "ready_to_use/COVID-19/Recovered.csv", row.names = FALSE)
 
-write.csv(bulk.summary, file = "ready_to_use/COVID-19/Mixed/bulk_summary.csv")
-
-####
 write.csv(One.Country.States.daily.Confirmed, file = "ready_to_use/COVID-19/One_Country_States_daily_Confirmed.csv", row.names = FALSE)
 write.csv(One.Country.States.daily.Recovered, file = "ready_to_use/COVID-19/One_Country_States_daily_Deaths.csv", row.names = FALSE)
 write.csv(One.Country.States.daily.Deaths, file = "ready_to_use/COVID-19/One_Country_States_daily_Recovered.csv", row.names = FALSE)
 write.csv(One.Country.Aggregate.daily.Confirmed, file = "ready_to_use/COVID-19/One_Country_Aggregate_daily_Confirmed.csv", row.names = FALSE)
 write.csv(One.Country.Aggregate.daily.Recovered, file = "ready_to_use/COVID-19/One_Country_Aggregate_daily_Deaths.csv", row.names = FALSE)
 write.csv(One.Country.Aggregate.daily.Deaths, file = "ready_to_use/COVID-19/One_Country_Aggregate_daily_Recovered.csv", row.names = FALSE)
-####
-
-write.csv(All.Countries.daily.Confirmed, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Confirmed.csv", row.names = FALSE)
-write.csv(All.Countries.daily.Recovered, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Deaths.csv", row.names = FALSE)
-write.csv(All.Countries.daily.Deaths, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Recovered.csv", row.names = FALSE)
-
 
 write.csv(One.Country.States.summary, file = "ready_to_use/COVID-19/One_Country_States_summary.csv", row.names = FALSE)
 write.csv(One.Country.Aggregate.summary, file = "ready_to_use/COVID-19/One_Country_Aggregate_summary.csv", row.names = FALSE)
-write.csv(All.Countries.summary, file = "ready_to_use/COVID-19/Mixed/All_Countries_summary.csv", row.names = FALSE)
 
 
-write.csv(dataset.countryWise, file = "ready_to_use/COVID-19/Mixed/countryWise_bulk_summary.csv", row.names = FALSE)
-write.csv(dataset.dateWise, file = "ready_to_use/COVID-19/Mixed/dateWise_bulk_summary.csv", row.names = FALSE)
+
+
+
 
 
 ################################

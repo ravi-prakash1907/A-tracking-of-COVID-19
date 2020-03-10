@@ -300,12 +300,12 @@ cleaned.still.Affected <- read.csv("cleaned/still.Affected.csv")
 #str(cleaned.Confirmed)
 
 
-View(cleaned.Confirmed)
-View(cleaned.Deaths)
-View(cleaned.Recovered)
+#View(cleaned.Confirmed)
+#View(cleaned.Deaths)
+#View(cleaned.Recovered)
 
-View(cleaned.ever.Affected)
-View(cleaned.still.Affected)
+#View(cleaned.ever.Affected)
+#View(cleaned.still.Affected)
 
 
 
