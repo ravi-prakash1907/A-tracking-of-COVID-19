@@ -1,16 +1,17 @@
-# A-tracking-of-2019-nCoV
-A dedicated repository for my data-science and analytics' work on the **_novel Coronavirus_**, that came into action during late 2019
+# A tracking of 2019 nCoV
+A dedicated repository for my data-science and analytics' work on the **_novel Coronavirus_**, that came into action during late 2019 <br />
 
 
-# nCoVID-19
-> It began to affect people in Wuhan i.e. a city in Hubei province of China
-> Diamond Princess cruise ship was the most-affected place by Coronavirus, outside China
-> Over **1 million** cases have been recorded all over te world
+# 2019-nCoV
+> It began to affect people in _Wuhan_ i.e. a city in **Hubei** province of China <br />
+> **Diamond Princess** _cruise ship_ was the most-affected place by Coronavirus, outside China  <br />
+> Over **1 million** cases have been recorded all over te world  <br />
+> It has hit over **100** countries throughout the world, till date  <br />
 
 
 
 ## How fast it grew since Jan 21st, 2020
-![image](Project/My%20Work/PLOTS/gifs/everAffected.gif)
+![Countries reporting the cases of 19-nCoV, on the Daily Basis](Project/My%20Work/PLOTS/gifs/everAffected.gif)
 
 <hr />
 
