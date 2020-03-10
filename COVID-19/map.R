@@ -23,7 +23,7 @@ still.Affected <- read.csv("cleaned/still.Affected.csv")
 #####################################################################
 
 # MAIN : for visualization
-visualize_on_map <- function(df, Path) {
+visualize_on_map <- function(df, Path, index = 1) {
   get(df) -> Affected
   
   ##########################################
@@ -50,7 +50,7 @@ visualize_on_map <- function(df, Path) {
   
   
   # generating plots, datewise
-  i = 1
+  i = index
   while(T) {
     if(i>length(myList)){ # length(myList)
       print("Stoppppppp!!!!!!!!!!!!!!!!")
@@ -111,11 +111,9 @@ visualize_on_map <- function(df, Path) {
 
 #####################################################################
 
-visualize_on_map("ever.Affected", "PLOTS/pngs/ever")
-visualize_on_map("still.Affected", "PLOTS/pngs/still")
+visualize_on_map("ever.Affected", "PLOTS/pngs/ever", index = 47)    # pass index also to plot map(s) from index-th day
+visualize_on_map("still.Affected", "PLOTS/pngs/still", index = 47)  # by default index is 1
 
-####      TASKS
-# 2) % change ---->  req. datasets (chapter 2)
 
 
 
