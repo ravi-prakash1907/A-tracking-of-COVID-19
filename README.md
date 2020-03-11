@@ -10,7 +10,7 @@ A dedicated repository for my data-science and analytics' work on the **_novel C
 
 
 
-## How fast it grew since Jan 21st, 2020
+## How fast it grew since Jan 21<sup>st</sup>, 2020
 
 ![Countries reporting the cases of 19-nCoV, on the Daily Basis](COVID-19/PLOTS/gifs/everAffected.gif)
 
