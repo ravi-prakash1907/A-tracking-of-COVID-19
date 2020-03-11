@@ -11,11 +11,8 @@ A dedicated repository for my data-science and analytics' work on the **_novel C
 
 
 ## How fast it grew since Jan 21st, 2020
-<<<<<<< HEAD
-![Countries reporting the cases of 19-nCoV, on the Daily Basis](Project/My%20Work/PLOTS/gifs/everAffected.gif)
-=======
-![image](COVID-19/PLOTS/gifs/everAffected.gif)
->>>>>>> d116e1aab226afb7a51ea48280e908de4a79cb0a
+
+![Countries reporting the cases of 19-nCoV, on the Daily Basis](COVID-19/PLOTS/gifs/everAffected.gif)
 
 <hr />
 
