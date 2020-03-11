@@ -1,3 +1,6 @@
+# Setting the working directory
+setwd("/home/ravi/Documents/A-tracking-of-2019-nCoV/COVID-19/")
+
 #------------------ VARIABLES -----------------#
 
 ####   Daily Data   ####
@@ -32,8 +35,6 @@ library(stringr)
 #----------------------------------------------#
 
 
-# Setting the working directory
-setwd("/home/ravi/Documents/A-tracking-of-2019-nCoV/COVID-19/")
 
 ### data files (csv) ###
 
