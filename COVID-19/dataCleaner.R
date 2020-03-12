@@ -10,9 +10,13 @@ library(RFmarkerDetector) # random forest  ---> for autoscale()
 
 
 ## replace new time series files first, then run following command -----> 'n your dataset is updated
-check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv", header = TRUE)
+check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
 check.Deaths = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
 check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
+
+#check.Confirmed = read.csv("/home/ravi/Documents/Johns H. University/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
+#check.Deaths = read.csv("/home/ravi/Documents/Johns H. University/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
+#check.Recovered = read.csv("/home/ravi/Documents/Johns H. University/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
 
 # removing NAs
 
