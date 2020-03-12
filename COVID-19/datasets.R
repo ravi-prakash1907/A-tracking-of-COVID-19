@@ -1,5 +1,5 @@
 # Setting the working directory
-setwd("/home/ravi/Documents/A-tracking-of-2019-nCoV/COVID-19/")
+setwd("~/Documents/A-tracking-of-2019-nCoV/COVID-19/")
 
 #------------------ VARIABLES -----------------#
 
