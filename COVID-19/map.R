@@ -1,14 +1,10 @@
 # visualization on map
-library(stringr)
-library(countrycode)
 library(dplyr) # left join
-library(rlist)
 library(ggplot2)
-library(ggmap)
 library(maps)
 
 # Setting the working directory
-setwd("/home/ravi/Documents/A-tracking-of-2019-nCoV/COVID-19/")
+setwd("~/Documents/A-tracking-of-2019-nCoV/COVID-19/")
 
 
 ## TO PLOT COUNTRIES
@@ -32,7 +28,7 @@ visualize_on_map <- function(df, Path, index = 1) {
   columns <- colnames(Affected)
   
   day = 1:(length(columns)-4)
-  d = as.Date("20/01/2020", format(c("%d/%m/%Y")))
+  d = as.Date("21/01/2020", format(c("%d/%m/%Y")))
   date = as.character((day + d), format(c("%d/%m/%Y")))
   
   # storing data frames datewise
@@ -101,7 +97,7 @@ visualize_on_map <- function(df, Path, index = 1) {
     ##########################################################################################
     
     
-    pic = paste("pic",i, sep = "")
+    pic = paste("pic",i+1, sep = "")
     imageName = paste(pic,"png", sep = ".")
     
     ggsave(path = Path, filename = imageName, width = 16, height = 9, scale = 1)
@@ -111,8 +107,8 @@ visualize_on_map <- function(df, Path, index = 1) {
 
 #####################################################################
 
-visualize_on_map("ever.Affected", "PLOTS/pngs/ever", index = 48)    # pass index also to plot map(s) from index-th day
-visualize_on_map("still.Affected", "PLOTS/pngs/still", index = 47)  # by default index is 1
+visualize_on_map("ever.Affected", "PLOTS/pngs/ever")    # pass index also to plot map(s) from index-th day
+visualize_on_map("still.Affected", "PLOTS/pngs/still")  # by default index is 1
 
 
 
