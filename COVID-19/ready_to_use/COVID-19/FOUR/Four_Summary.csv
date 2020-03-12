@@ -1,5 +1,7 @@
 "Location","Confirmed","Deaths","Recovered","Active.Cases","Closed.Cases"
-"Hubei",67760,3024,47743,16993,50767
-"China",12997,112,12363,522,12475
-"World",37262,1123,4326,31813,5449
-"Diamond Princess",696,6,40,-40,80
+"Hubei",67773,3046,49134,15593,52180
+"China",13148,115,12510,523,12625
+"World",45304,1479,5045,38780,6524
+"Diamond Princess",0,0,0,0,0
+"Diamond Princess",46,0,0,0,0
+"Diamond Princess",696,7,325,-325,650
