@@ -1,7 +1,7 @@
-# 21/01/2020 to yesterday
+# 22/01/2020 to yesterday
 
 # Setting the working directory
-setwd("/home/ravi/Documents/A-tracking-of-2019-nCoV/COVID-19/")
+setwd("~/Documents/A-tracking-of-2019-nCoV/COVID-19/")
 
 #####  LIBRARIES  #####
 # loading library for string operations
@@ -10,60 +10,42 @@ library(RFmarkerDetector) # random forest  ---> for autoscale()
 
 
 ## replace new time series files first, then run following command -----> 'n your dataset is updated
-check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
-check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
+check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv", header = TRUE)
 check.Deaths = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
-
-# loading
-Confirmed <- read.csv("old/time_series_2019-ncov-Confirmed.csv")
-Recovered <- read.csv("old/time_series_2019-ncov-Recovered.csv")
-Deaths <- read.csv("old/time_series_2019-ncov-Deaths.csv")
+check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
 
 # removing NAs
 
 # new files
 for (i in 1:nrow(check.Confirmed)) {
   for (j in 5:ncol(check.Confirmed)) {
-    check.Confirmed[i,j] = ifelse(is.na(check.Confirmed[i, j]), 0, check.Confirmed[i,j])
-  }
-}
-
-for (i in 1:nrow(check.Recovered)) {
-  for (j in 5:ncol(check.Recovered)) {
-    check.Recovered[i,j] = ifelse(is.na(check.Recovered[i, j]), 0, check.Recovered[i,j])
+    if(j==5) {
+      check.Confirmed[i,j] = ifelse(is.na(check.Confirmed[i, j]), 0, check.Confirmed[i,j])
+    } else {
+      check.Confirmed[i,j] = ifelse(is.na(check.Confirmed[i, j]), check.Confirmed[i, (j-1)], check.Confirmed[i,j])
+    }
   }
 }
 
 for (i in 1:nrow(check.Deaths)) {
   for (j in 5:ncol(check.Deaths)) {
-    check.Deaths[i,j] = ifelse(is.na(check.Deaths[i, j]), 0, check.Deaths[i,j])
+    if(j==5) {
+      check.Deaths[i,j] = ifelse(is.na(check.Deaths[i, j]), 0, check.Deaths[i,j])
+    } else {
+      check.Deaths[i,j] = ifelse(is.na(check.Deaths[i, j]), check.Deaths[i, (j-1)], check.Deaths[i,j])
+    }
   }
 }
 
-# old files
-for (i in 1:nrow(Confirmed)) {
-  for (j in 5:ncol(Confirmed)) {
-    Confirmed[i,j] = ifelse(is.na(Confirmed[i, j]), 0, Confirmed[i,j])
+for (i in 1:nrow(check.Recovered)) {
+  for (j in 5:ncol(check.Recovered)) {
+    if(j==5) {
+      check.Recovered[i,j] = ifelse(is.na(check.Recovered[i, j]), 0, check.Recovered[i,j])
+    } else {
+      check.Recovered[i,j] = ifelse(is.na(check.Recovered[i, j]), check.Recovered[i, (j-1)], check.Recovered[i,j])
+    }
   }
 }
-
-for (i in 1:nrow(Recovered)) {
-  for (j in 5:ncol(Recovered)) {
-    Recovered[i,j] = ifelse(is.na(Recovered[i, j]), 0, Recovered[i,j])
-  }
-}
-
-for (i in 1:nrow(Deaths)) {
-  for (j in 5:ncol(Deaths)) {
-    Deaths[i,j] = ifelse(is.na(Deaths[i, j]), 0, Deaths[i,j])
-  }
-}
-
-###########################
-#View(Confirmed)
-#View(Deaths)
-#View(Recovered)
-
 
 ####################
 #View(check.Confirmed)
@@ -72,113 +54,63 @@ for (i in 1:nrow(Deaths)) {
 
 
 
-####################################
-# Appending new rows (country/state)
-####################################
-joiner <- function(newDF, oldDF) {
-  
-  get(newDF) -> dfNew
-  get(oldDF) -> dfOld
-  newName = "X1.21.20"
-  #newName = colnames(dfOld[5])         # because it is "X1.21.20.22.00"
-  newRows = nrow(dfNew) - nrow(dfOld) # no. of new rows
-  for (i in 1:newRows) {
-    dfOld <- rbind(dfOld[,], dfOld[nrow(dfOld),])
-  }
-  
-  dfOld$Province.State <- dfNew$Province.State
-  dfOld$Country.Region <- dfNew$Country.Region
-  dfOld$Lat <- dfNew$Lat
-  dfOld$Long <- dfNew$Long
-  
-  row.names(dfOld) <- NULL      # re-indexing
-  
-  
-  dfNew <- cbind(dfNew[,1:4], dfOld[,5], dfNew[,5:ncol(dfNew)]) # 4-col, col(21/01/2020), rest col(till-date)
-  
-  temp <- c(colnames(dfNew[1:4]), newName, colnames(dfNew[6:ncol(dfNew)]))
-  colnames(dfNew) <- temp
-  
-  
-  return(dfNew)
-}
+###############################
 
-###########################
-###########################
+# replacing in states
+states = as.character(check.Confirmed$Province.State)
+states.levels = as.character(levels(check.Confirmed$Province.State))
 
-check.Confirmed = joiner("check.Confirmed", "Confirmed")
-check.Deaths = joiner("check.Deaths", "Deaths")
-check.Recovered = joiner("check.Recovered", "Recovered")
+states[states %in% ""] = "Others"
+states[states %in% "From Diamond Princess"] = "Diamond Princess"
+states.levels[states.levels %in% ""] = "Others"
+states.levels = states.levels[!states.levels %in% "From Diamond Princess"]
+
+# replacing in countries
+countries = as.character(check.Confirmed$Country.Region)
+countries.levels = as.character(levels(check.Confirmed$Country.Region))
+
+countries[countries %in% "US"] = "United States"
+countries[countries %in% "UK"] = "United Kingdom"
+countries.levels[countries.levels %in% "US"] = "United States"
+countries.levels[countries.levels %in% "UK"] = "United Kingdom"
 
 ###############################
 
-# replacing blank in states
-for (i in 1:length(levels(check.Confirmed$Province.State))) {
-  if(levels(check.Confirmed$Province.State)[i]=="") {
-    levels(check.Confirmed$Province.State)[i] = "Others" }
-}
-
-for (i in 1:length(levels(check.Deaths$Province.State))) {
-  if(levels(check.Deaths$Province.State)[i]=="") {
-    levels(check.Deaths$Province.State)[i] = "Others" }
-}
-
-for (i in 1:length(levels(check.Recovered$Province.State))) {
-  if(levels(check.Recovered$Province.State)[i]=="") {
-    levels(check.Recovered$Province.State)[i] = "Others" }
-}
-#####################
-
-# renaming countries etc...
-for (i in 1:length(levels(check.Confirmed$Country.Region))) {
-  if(levels(check.Confirmed$Country.Region)[i]=="Others") {
-    levels(check.Confirmed$Country.Region)[i] = "Diamond Princess cruise ship" }
-  
-  if(levels(check.Confirmed$Country.Region)[i]=="US") {
-    levels(check.Confirmed$Country.Region)[i] = "United States" }
-  
-  if(levels(check.Confirmed$Country.Region)[i]=="UK") {
-    levels(check.Confirmed$Country.Region)[i] = "United Kingdom" }
-  
-  if(levels(check.Confirmed$Country.Region)[i]=="Mainland China") {
-    levels(check.Confirmed$Country.Region)[i] = "China" }
-}
-
-for (i in 1:length(levels(check.Deaths$Country.Region))) {
-  if(levels(check.Deaths$Country.Region)[i]=="Others") {
-    levels(check.Deaths$Country.Region)[i] = "Diamond Princess cruise ship" }
-  
-  if(levels(check.Deaths$Country.Region)[i]=="US") {
-    levels(check.Deaths$Country.Region)[i] = "United States" }
-  
-  if(levels(check.Deaths$Country.Region)[i]=="UK") {
-    levels(check.Deaths$Country.Region)[i] = "United Kingdom" }
-  
-  if(levels(check.Deaths$Country.Region)[i]=="Mainland China") {
-    levels(check.Deaths$Country.Region)[i] = "China" }
-}
-
-for (i in 1:length(levels(check.Recovered$Country.Region))) {
-  
-  if(levels(check.Recovered$Country.Region)[i]=="Others") {
-    levels(check.Recovered$Country.Region)[i] = "Diamond Princess cruise ship" }
-  
-  if(levels(check.Recovered$Country.Region)[i]=="US") {
-    levels(check.Recovered$Country.Region)[i] = "United States" }
-  
-  if(levels(check.Recovered$Country.Region)[i]=="UK") {
-    levels(check.Recovered$Country.Region)[i] = "United Kingdom" }
-  
-  if(levels(check.Recovered$Country.Region)[i]=="Mainland China") {
-    levels(check.Recovered$Country.Region)[i] = "China" }
-}
+# rectified fectors
+states.factor  = factor(c(states), levels = c(states.levels))
+countries.factor  = factor(countries, levels = countries.levels)
 
 
-#####################
+# editing factors in datasets
+check.Confirmed = cbind(
+                    Province.State = states.factor,
+                    Country.Region = countries.factor,
+                    check.Confirmed[,3:ncol(check.Confirmed)]
+                  )
+
+check.Deaths = cbind(
+                    Province.State = states.factor,
+                    Country.Region = countries.factor,
+                    check.Deaths[,3:ncol(check.Deaths)]
+                  )
+
+check.Recovered = cbind(
+                    Province.State = states.factor,
+                    Country.Region = countries.factor,
+                    check.Recovered[,3:ncol(check.Recovered)]
+                  )
+
+
+
+
+
 
 #View(check.Confirmed)
 #View(check.Deaths)
 #View(check.Recovered)
+
+
+
 
 
 ###############################
@@ -191,20 +123,21 @@ cases.Active = cbind(check.Confirmed[,1:4],  (check.Confirmed[,5:ncol(check.Conf
 
 
 # Removing outlier i.e. Diamond.Princess
-Diamond.Princess.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Province.State, "Diamond Princess cruise ship", negate = F)), ]
-check.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Province.State, "Diamond Princess cruise ship", negate = T)), ]
+Diamond.Princess.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Province.State, "Diamond Princess", negate = F)), ]
+check.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Province.State, "Diamond Princess", negate = T)), ]
 
-Diamond.Princess.Deaths = check.Deaths[ which(str_detect(check.Deaths$Province.State, "Diamond Princess cruise ship", negate = F)),]
-check.Deaths = check.Deaths[ which(str_detect(check.Deaths$Province.State, "Diamond Princess cruise ship", negate = T)), ]
+Diamond.Princess.Deaths = check.Deaths[ which(str_detect(check.Deaths$Province.State, "Diamond Princess", negate = F)),]
+check.Deaths = check.Deaths[ which(str_detect(check.Deaths$Province.State, "Diamond Princess", negate = T)), ]
 
-Diamond.Princess.Recovered = check.Recovered[ which(str_detect(check.Recovered$Province.State, "Diamond Princess cruise ship", negate = F)), ]
-check.Recovered = check.Recovered[ which(str_detect(check.Recovered$Province.State, "Diamond Princess cruise ship", negate = T)), ]
+Diamond.Princess.Recovered = check.Recovered[ which(str_detect(check.Recovered$Province.State, "Diamond Princess", negate = F)), ]
+check.Recovered = check.Recovered[ which(str_detect(check.Recovered$Province.State, "Diamond Princess", negate = T)), ]
 
 
 ## Rectifying Row sequences
 row.names(check.Confirmed) <- NULL
 row.names(check.Deaths) <- NULL
 row.names(check.Recovered) <- NULL
+
 
 ###  When and Where COVID-19 ever.Affected / still.Affected  --->  excluding Diamond Princess
 ever.Affected = check.Confirmed
@@ -307,14 +240,6 @@ cleaned.still.Affected <- read.csv("cleaned/still.Affected.csv")
 #View(cleaned.ever.Affected)
 #View(cleaned.still.Affected)
 
-
-
-
-
-##########    TEST CODE     ###########
-
-
-
-
+##########    ENDS     ###########
 
 
