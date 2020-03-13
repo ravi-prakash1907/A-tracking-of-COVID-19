@@ -75,8 +75,12 @@ countries.levels = as.character(levels(check.Confirmed$Country.Region))
 
 countries[countries %in% "US"] = "United States"
 countries[countries %in% "UK"] = "United Kingdom"
+countries[countries %in% "Taiwan*"] = "Taiwan"
+countries[countries %in% "Congo (Kinshasa)"] = "Congo"
 countries.levels[countries.levels %in% "US"] = "United States"
 countries.levels[countries.levels %in% "UK"] = "United Kingdom"
+countries.levels[countries.levels %in% "Taiwan*"] = "Taiwan"
+countries.levels[countries.levels %in% "Congo (Kinshasa)"] = "Congo"
 
 ###############################
 
@@ -105,16 +109,9 @@ check.Recovered = cbind(
                   )
 
 
-
-
-
-
 #View(check.Confirmed)
 #View(check.Deaths)
 #View(check.Recovered)
-
-
-
 
 
 ###############################
@@ -127,14 +124,15 @@ cases.Active = cbind(check.Confirmed[,1:4],  (check.Confirmed[,5:ncol(check.Conf
 
 
 # Removing outlier i.e. Diamond.Princess
-Diamond.Princess.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Province.State, "Diamond Princess", negate = F)), ]
-check.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Province.State, "Diamond Princess", negate = T)), ]
+Diamond.Princess.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Country.Region, "Cruise Ship", negate = F)), ]
+check.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Country.Region, "Cruise Ship", negate = T)), ]
 
-Diamond.Princess.Deaths = check.Deaths[ which(str_detect(check.Deaths$Province.State, "Diamond Princess", negate = F)),]
-check.Deaths = check.Deaths[ which(str_detect(check.Deaths$Province.State, "Diamond Princess", negate = T)), ]
+Diamond.Princess.Deaths = check.Deaths[ which(str_detect(check.Deaths$Country.Region, "Cruise Ship", negate = F)),]
+check.Deaths = check.Deaths[ which(str_detect(check.Deaths$Country.Region, "Cruise Ship", negate = T)), ]
 
-Diamond.Princess.Recovered = check.Recovered[ which(str_detect(check.Recovered$Province.State, "Diamond Princess", negate = F)), ]
-check.Recovered = check.Recovered[ which(str_detect(check.Recovered$Province.State, "Diamond Princess", negate = T)), ]
+Diamond.Princess.Recovered = check.Recovered[ which(str_detect(check.Recovered$Country.Region, "Cruise Ship", negate = F)), ]
+check.Recovered = check.Recovered[ which(str_detect(check.Recovered$Country.Region, "Cruise Ship", negate = T)), ]
+
 
 
 ## Rectifying Row sequences
