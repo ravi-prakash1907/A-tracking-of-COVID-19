@@ -1,4 +1,4 @@
-# A tracking of 2019 nCoV
+# A tracking of 2019-nCoV
 A dedicated repository for my data-science and analytics' work on the **_novel Coronavirus_**, that came into action during late 2019 <br />
 
 
