@@ -182,11 +182,11 @@ states.summarizer = function(cName) {
   ###### overall data of the country (all states) ######
   df = data.frame(
     States = allStates,
-    Confirmed = C[,ncol(C)],
-    Deaths = D[,ncol(D)],
-    Recovered = R[,ncol(R)],
-    "Active Cases" = (C[,ncol(C)]) - (D[,ncol(D)] + R[,ncol(R)]),
-    "Closed Cases" = D[,ncol(D)] + R[,ncol(R)]
+    Confirmed = apply(C[, 3:ncol(C)], 1, max),
+    Deaths = apply(D[, 3:ncol(D)], 1, max),
+    Recovered = apply(R[, 3:ncol(R)], 1, max),
+    "Active Cases" = apply(C[, 3:ncol(C)], 1, max) - (apply(D[, 3:ncol(D)], 1, max) + apply(R[, 3:ncol(R)], 1, max)),
+    "Closed Cases" = apply(D[, 3:ncol(D)], 1, max) + apply(R[, 3:ncol(R)], 1, max)
   )
   
   return(df)
@@ -241,19 +241,24 @@ find.Country.Summery <- function(cName) { # finds the aggrigate data of any part
   summary.temp = data.frame(
     States = allStates,
     Country = allCountries,
-    Confirmed = Confirmed.temp[,ncol(Confirmed.temp)],
-    Deaths = Deaths.temp[,ncol(Deaths.temp)],
-    Recovered = Recovered.temp[,ncol(Recovered.temp)],
-    "Active Cases" = (Confirmed.temp[,ncol(Confirmed.temp)]) - (Deaths.temp[,ncol(Deaths.temp)] + Recovered.temp[,ncol(Recovered.temp)]),
-    "Closed Cases" = Deaths.temp[,ncol(Deaths.temp)] + Recovered.temp[,ncol(Recovered.temp)]
+    Confirmed = max(Confirmed.temp[,3:ncol(Confirmed.temp)]),
+    Deaths = max(Deaths.temp[,3:ncol(Deaths.temp)]),
+    Recovered = max(Recovered.temp[,3:ncol(Recovered.temp)]),
+    "Active Cases" = max(Confirmed.temp[,3:ncol(Confirmed.temp)]) - ( max(Deaths.temp[1,3:ncol(Deaths.temp)]) + max(Recovered.temp[1,3:ncol(Recovered.temp)]) ),
+    "Closed Cases" = max(Deaths.temp[,3:ncol(Deaths.temp)]) + max(Recovered.temp[1,3:ncol(Recovered.temp)])
   )
-  
+  ################
   t = apply(summary.temp[1:nrow(summary.temp),3:5], 2, sum)
   temp = summary.temp[1,]
   
   #### returning data of a single country
   return(temp)
-}
+}     # USED NOWARE
+
+
+
+
+
 
 
 countries.daily.bulk.summary = function(cList) { # date wise country data
@@ -278,12 +283,12 @@ countries.daily.bulk.summary = function(cList) { # date wise country data
     
     times = ncol(this.one.confirmed)-1      # no. of days
     day = 1:times
-    d = as.Date("20-01-2020", format(c("%d-%m-%Y")))
+    d = as.Date("21-01-2020", format(c("%d-%m-%Y")))
     
     date = as.character((day + d), format(c("%d-%m-%Y")))      # its lenngth is equal to --> no. of days
     date = factor(c(date), levels = date)
     
-    
+    #max(Deaths.temp[1,5:ncol(Deaths.temp)])
     confirmed = as.numeric(this.one.confirmed[1,2:ncol(this.one.confirmed)])
     
     deaths = as.numeric(this.one.deaths[1,2:ncol(this.one.deaths)])
@@ -318,7 +323,7 @@ world.daily.bulk.summary = function(dfC, dfD, dfR) { #date wise WORLD data
   
   times = ncol(this.one.confirmed)-1      # no. of days
   day = 1:times
-  d = as.Date("20-01-2020", format(c("%d-%m-%Y")))
+  d = as.Date("21-01-2020", format(c("%d-%m-%Y")))
   
   date = as.character((day + d), format(c("%d-%m-%Y")))      # its lenngth is equal to --> no. of days
   date = factor(c(date), levels = date)
@@ -355,6 +360,7 @@ datewise <- function(Country, yesORno, cList = Countries) {
   df = countries.daily.bulk.summary(Countries)
   df = df[ which(str_detect(df$Country, Country, negate = yesORno)), ]
   
+  row.names(df) <- NULL
   return(df)
 }
 
@@ -380,7 +386,7 @@ outlier.datewise <- function(Name, df1, df2, df3) { # hubei, dim. pr. etc..
   get(df3) -> dfR
   
   day = 1:(ncol(dfC)-1)
-  d = as.Date("20-01-2020", format(c("%d-%m-%Y")))
+  d = as.Date("21-01-2020", format(c("%d-%m-%Y")))
   
   date = as.character((day + d), format(c("%d-%m-%Y")))      # its lenngth is equal to --> no. of days
   date = factor(c(date), levels = date)
@@ -399,6 +405,8 @@ outlier.datewise <- function(Name, df1, df2, df3) { # hubei, dim. pr. etc..
     "Active Cases" = (confirmed) - (deaths + recovered),
     "Closed Cases" = deaths + recovered
   )
+  
+  row.names(df) <- NULL
   
   return(df)
 }
@@ -447,24 +455,27 @@ All.Countries.daily.Recovered <- countries.daily("Recovered")
 
 ###### overall data of the country (all states) ######
 One.Country.States.summary = states.summarizer(Country)
-One.Country.Aggregate.summary = country.summarizer(Country)
+One.Country.Aggregate.summary = country.summarizer("Congo")
 All.Countries.summary = total.summarizer(Countries)
 
 Hubei.summary = data.frame(
   State = "Hubei",
-  Confirmed = Hubei.Confirmed[,ncol(Hubei.Confirmed)],
-  Deaths = Hubei.Deaths[,ncol(Hubei.Deaths)],
-  Recovered = Hubei.Recovered[,ncol(Hubei.Recovered)],
-  "Active Cases" = (Hubei.Confirmed[,ncol(Hubei.Confirmed)]) - (Hubei.Deaths[,ncol(Hubei.Deaths)] + Hubei.Recovered[,ncol(Hubei.Recovered)]),
-  "Closed Cases" = Hubei.Deaths[,ncol(Hubei.Deaths)] + Hubei.Recovered[,ncol(Hubei.Recovered)]
+  
+  Confirmed = max(Hubei.Confirmed[,2:ncol(Hubei.Confirmed)]),
+  Deaths = max(Hubei.Deaths[,2:ncol(Hubei.Deaths)]),
+  Recovered = max(Hubei.Recovered[,2:ncol(Hubei.Recovered)]),
+  "Active Cases" = (max(Hubei.Confirmed[,2:ncol(Hubei.Confirmed)])) - (max(Hubei.Deaths[,2:ncol(Hubei.Deaths)]) + max(Hubei.Recovered[,2:ncol(Hubei.Recovered)])),
+  "Closed Cases" = max(Hubei.Deaths[,2:ncol(Hubei.Deaths)]) + max(Hubei.Recovered[,2:ncol(Hubei.Recovered)])
 )
+
 Diamond.Princess.summary = data.frame(
   Location = "Diamond Princess",
-  Confirmed = Diamond.Princess.Confirmed[,ncol(Diamond.Princess.Confirmed)],
-  Deaths = Diamond.Princess.Deaths[,ncol(Diamond.Princess.Deaths)],
-  Recovered = Diamond.Princess.Recovered[,ncol(Diamond.Princess.Recovered)],
-  "Active Cases" = (Diamond.Princess.Recovered[,ncol(Diamond.Princess.Recovered)]) - (Diamond.Princess.Recovered[,ncol(Diamond.Princess.Recovered)] + Diamond.Princess.Recovered[,ncol(Diamond.Princess.Recovered)]),
-  "Closed Cases" = Diamond.Princess.Recovered[,ncol(Diamond.Princess.Recovered)] + Diamond.Princess.Recovered[,ncol(Diamond.Princess.Recovered)]
+  
+  Confirmed = max(Diamond.Princess.Confirmed[,2:ncol(Diamond.Princess.Confirmed)]),
+  Deaths = max(Diamond.Princess.Deaths[,2:ncol(Diamond.Princess.Deaths)]),
+  Recovered = max(Diamond.Princess.Recovered[,2:ncol(Diamond.Princess.Recovered)]),
+  "Active Cases" = (max(Diamond.Princess.Confirmed[,2:ncol(Diamond.Princess.Confirmed)])) - (max(Diamond.Princess.Deaths[,2:ncol(Diamond.Princess.Deaths)]) + max(Diamond.Princess.Recovered[,2:ncol(Diamond.Princess.Recovered)])),
+  "Closed Cases" = max(Diamond.Princess.Deaths[,2:ncol(Diamond.Princess.Deaths)]) + max(Diamond.Princess.Recovered[,2:ncol(Diamond.Princess.Recovered)])
 )
 
 #View(One.Country.States.summary)
@@ -485,9 +496,9 @@ allCountries <- as.character(Confirmed$Country.Region)
 bulk.summary = data.frame(
   States = allStates,
   Country = allCountries,
-  Confirmed = Confirmed[,ncol(Confirmed)],
-  Deaths = Deaths[,ncol(Deaths)],
-  Recovered = Recovered[,ncol(Recovered)]
+  Confirmed = max(Confirmed[,5:ncol(Confirmed)]),
+  Deaths = max(Deaths[,5:ncol(Deaths)]),
+  Recovered = max(Recovered[,5:ncol(Recovered)])
 )
 #View(bulk.summary)
 
@@ -500,19 +511,23 @@ bulk.summary = data.frame(
 # date wise summary of all the countries
 dataset.countryWise = countries.daily.bulk.summary(Countries)
 dataset.dateWise = dataset.countryWise[order(dataset.countryWise$Date),]
-
-#View(dataset)
+row.names(dataset.dateWise) <- NULL
+#View(dataset.countryWise)
 #View(dataset.dateWise)
 
 #--------------------------------------------------------------------#
 One.country.dataset.dateWise = datewise(Country, FALSE, Countries)
 Rest.world.dataset.dateWise = datewise(Country, TRUE, Countries)
+
 #View(One.country.dataset.dateWise)
 #View(Rest.world.dataset.dateWise)
 
 ############
 Hubei.datewise = outlier.datewise("Hubei", "Hubei.Confirmed", "Hubei.Deaths", "Hubei.Recovered")
 Diamond.Princess.datewise = outlier.datewise("Diamond Princess", "Diamond.Princess.Confirmed", "Diamond.Princess.Deaths", "Diamond.Princess.Recovered")
+
+#View(Hubei.datewise)
+#View(Diamond.Princess.datewise)
 
 
 
