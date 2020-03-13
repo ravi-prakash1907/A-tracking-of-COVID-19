@@ -455,7 +455,7 @@ All.Countries.daily.Recovered <- countries.daily("Recovered")
 
 ###### overall data of the country (all states) ######
 One.Country.States.summary = states.summarizer(Country)
-One.Country.Aggregate.summary = country.summarizer("Congo")
+One.Country.Aggregate.summary = country.summarizer(Country)
 All.Countries.summary = total.summarizer(Countries)
 
 Hubei.summary = data.frame(
