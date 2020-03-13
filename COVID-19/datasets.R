@@ -226,41 +226,6 @@ total.summarizer <-  function(cList = Countries) { # country wise
 
 
 ###   In Bulk   ###
-
-##################
-find.Country.Summery <- function(cName) { # finds the aggrigate data of any particular country (1 row o/p)
-  Country = cName
-  
-  Confirmed.temp <- country.spread.daily("Confirmed", Country)
-  Deaths.temp <- country.spread.daily("Deaths", Country)
-  Recovered.temp <- country.spread.daily("Recovered", Country)
-  
-  allStates <- as.character(Confirmed.temp$States)
-  allCountries <- as.character(Confirmed.temp$Country)
-  
-  summary.temp = data.frame(
-    States = allStates,
-    Country = allCountries,
-    Confirmed = max(Confirmed.temp[,3:ncol(Confirmed.temp)]),
-    Deaths = max(Deaths.temp[,3:ncol(Deaths.temp)]),
-    Recovered = max(Recovered.temp[,3:ncol(Recovered.temp)]),
-    "Active Cases" = max(Confirmed.temp[,3:ncol(Confirmed.temp)]) - ( max(Deaths.temp[1,3:ncol(Deaths.temp)]) + max(Recovered.temp[1,3:ncol(Recovered.temp)]) ),
-    "Closed Cases" = max(Deaths.temp[,3:ncol(Deaths.temp)]) + max(Recovered.temp[1,3:ncol(Recovered.temp)])
-  )
-  ################
-  t = apply(summary.temp[1:nrow(summary.temp),3:5], 2, sum)
-  temp = summary.temp[1,]
-  
-  #### returning data of a single country
-  return(temp)
-}     # USED NOWARE
-
-
-
-
-
-
-
 countries.daily.bulk.summary = function(cList) { # date wise country data
   
   # structure of resulting dataset (initially blank)
@@ -496,9 +461,12 @@ allCountries <- as.character(Confirmed$Country.Region)
 bulk.summary = data.frame(
   States = allStates,
   Country = allCountries,
-  Confirmed = max(Confirmed[,5:ncol(Confirmed)]),
-  Deaths = max(Deaths[,5:ncol(Deaths)]),
-  Recovered = max(Recovered[,5:ncol(Recovered)])
+  
+  Confirmed = apply(Confirmed[, 5:ncol(Confirmed)], 1, max),
+  Deaths = apply(Deaths[, 5:ncol(Deaths)], 1, max),
+  Recovered = apply(Recovered[, 5:ncol(Recovered)], 1, max),
+  "Active Cases" = (apply(Confirmed[, 5:ncol(Confirmed)], 1, max)) - (apply(Deaths[, 5:ncol(Deaths)], 1, max) + apply(Recovered[, 5:ncol(Recovered)], 1, max)),
+  "Closed Cases" = apply(Deaths[, 5:ncol(Deaths)], 1, max) + apply(Recovered[, 5:ncol(Recovered)], 1, max)
 )
 #View(bulk.summary)
 
