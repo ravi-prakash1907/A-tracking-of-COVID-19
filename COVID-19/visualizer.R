@@ -18,17 +18,10 @@ Recovered = read.csv("ready_to_use/COVID-19/Recovered.csv")
 
 
 countryWise.bulk.summary = read.csv("ready_to_use/COVID-19/Mixed/countryWise_bulk_summary.csv")
+Four.dataset.locationWise = read.csv("ready_to_use/COVID-19/FOUR/Four_dataset_locationWise.csv")
+
 # train on 80% dates, test on 20%
 dateWise.bulk.summary = read.csv("ready_to_use/COVID-19/Mixed/dateWise_bulk_summary.csv")
-
-
-Four.daily.Confirmed = read.csv("ready_to_use/COVID-19/FOUR/Four_daily_Confirmed.csv")
-Four.daily.Deaths = read.csv("ready_to_use/COVID-19/FOUR/Four_daily_Deaths.csv")
-Four.daily.Recovered = read.csv("ready_to_use/COVID-19/FOUR/Four_daily_Recovered.csv")
-Four.Summary = read.csv("ready_to_use/COVID-19/FOUR/Four_Summary.csv")
-
-Four.dataset.locationWise = read.csv("ready_to_use/COVID-19/FOUR/Four_dataset_locationWise.csv")
-Four.dataset.dateWise = read.csv("ready_to_use/COVID-19/FOUR/Four_dataset_dateWise.csv")
 
 #---------------------------------------------------------------#
 ### Functions ###
@@ -284,6 +277,9 @@ till.date.Recovered = function(lName = c("Hubei", "World", "China", "Diamond Pri
     labs(x = "Dates", y = "Recovered", caption = "Plot by @ravi")
   
 }
+
+
+
 #---------------------------------------------------------------#
 
 
@@ -296,13 +292,13 @@ till.date.Recovered = function(lName = c("Hubei", "World", "China", "Diamond Pri
 
 
 ############### day wise
-confirmed.till.date("Italy")
+confirmed.till.date("Thailand")
 confirmed.till.date(c("Italy", "South Korea", "Hong Kong"))
 
-deaths.till.date("South Korea")
+deaths.till.date("Thailand")
 deaths.till.date(c("Italy", "South Korea", "Hong Kong"))
 
-recovery.till.date("China")
+recovery.till.date("Iran")
 recovery.till.date(c("Italy", "South Korea", "Hong Kong"))
 
 
