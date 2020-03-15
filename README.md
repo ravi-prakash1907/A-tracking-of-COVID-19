@@ -20,7 +20,9 @@ A dedicated repository for my data-science and analytics' work on the **_novel C
 
 ![Deaths' WorldCloud](COVID-19/PLOTS/wordclouds/deaths.png)
 
-<br />
+
+<hr /> <br /> 
+
 ## Resources
 
 ### COVID-19 Data
