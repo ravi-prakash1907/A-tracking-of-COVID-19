@@ -23,6 +23,12 @@ still.Affected <- read.csv("cleaned/still.Affected.csv")
 visualize_on_map <- function(df, Path, index = 1) {
   get(df) -> Affected
   
+  
+  ### for testing purpose ###
+  #Affected = ever.Affected
+  #Path = "PLOTS/pngs/ever"
+  #index = 52
+  
   ##########################################
   
   # storing column names
@@ -108,8 +114,8 @@ visualize_on_map <- function(df, Path, index = 1) {
 
 #####################################################################
 
-visualize_on_map("ever.Affected", "PLOTS/pngs/ever")    # pass index also to plot map(s) from index-th day
-visualize_on_map("still.Affected", "PLOTS/pngs/still")  # by default index is 1
+visualize_on_map("ever.Affected", "PLOTS/maps/pngs/ever", index = 52)    # pass index also to plot map(s) from index-th day
+visualize_on_map("still.Affected", "PLOTS/maps/pngs/still", index = 52)  # by default index is 1
 
 
 
