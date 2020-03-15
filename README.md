@@ -9,13 +9,18 @@ A dedicated repository for my data-science and analytics' work on the **_novel C
 > It has hit over **100** countries throughout the world, till date  <br />
 
 
-
+<br /> 
 ## How fast it grew since Jan 21<sup>st</sup>, 2020
 
 ![Countries reporting the cases of 19-nCoV, on the Daily Basis](COVID-19/PLOTS/maps/gifs/everAffected.gif)
 
-<hr />
+<hr /> 
+<br /> 
+## Wordcloud for Deaths reported in different countries
 
+![Deaths' WorldCloud](COVID-19/PLOTS/wordclouds/deaths.png)
+
+<br />
 ## Resources
 
 ### COVID-19 Data
