@@ -3,19 +3,19 @@ A dedicated repository for my data-science and analytics' work on the **_novel C
 
 
 # 2019-nCoV
-> It began to affect people in _Wuhan_ i.e. a city in **Hubei** province of China <br />
-> **Diamond Princess** _cruise ship_ was the most-affected place by Coronavirus, outside China  <br />
-> Over **1 million** cases have been recorded all over te world  <br />
-> It has hit over **100** countries throughout the world, till date  <br />
+> * It began to affect people in _Wuhan_ i.e. a city in **Hubei** province of China <br />
+> * **Diamond Princess** _cruise ship_ was the most-affected place by Coronavirus, outside China  <br />
+> * Over **1 million** cases have been recorded all over te world  <br />
+> * It has hit over **100** countries throughout the world, till date  <br />
 
+<br />
 
-<br /> 
 ## How fast it grew since Jan 21<sup>st</sup>, 2020
 
 ![Countries reporting the cases of 19-nCoV, on the Daily Basis](COVID-19/PLOTS/maps/gifs/everAffected.gif)
 
-<hr /> 
-<br /> 
+<hr /> <br /> 
+
 ## Wordcloud for Deaths reported in different countries
 
 ![Deaths' WorldCloud](COVID-19/PLOTS/wordclouds/deaths.png)
