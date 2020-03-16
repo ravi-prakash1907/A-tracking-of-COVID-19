@@ -56,13 +56,13 @@ row.names(Recovered) <- NULL
 
 # Hubei
 Hubei.Confirmed = read.csv("cleaned/Hubei/time_series_19-covid-Confirmed.csv")
-Hubei.Deaths = read.csv("cleaned/Hubei/time_series_19-covid-Recovered.csv")
-Hubei.Recovered = read.csv("cleaned/Hubei/time_series_19-covid-Deaths.csv")
+Hubei.Deaths = read.csv("cleaned/Hubei/time_series_19-covid-Deaths.csv")
+Hubei.Recovered = read.csv("cleaned/Hubei/time_series_19-covid-Recovered.csv")
 
 # Cruise
 Diamond.Princess.Confirmed = read.csv("cleaned/Diamond-Princess/time_series_19-covid-Confirmed.csv")
-Diamond.Princess.Deaths = read.csv("cleaned/Diamond-Princess/time_series_19-covid-Recovered.csv")
-Diamond.Princess.Recovered = read.csv("cleaned/Diamond-Princess/time_series_19-covid-Deaths.csv")
+Diamond.Princess.Deaths = read.csv("cleaned/Diamond-Princess/time_series_19-covid-Deaths.csv")
+Diamond.Princess.Recovered = read.csv("cleaned/Diamond-Princess/time_series_19-covid-Recovered.csv")
 
 
 #View(Confirmed)
@@ -570,8 +570,8 @@ write.csv(Non.China.datewise, file = "ready_to_use/COVID-19/World/World_dataset_
 
 ################      Mixed     #################
 write.csv(All.Countries.daily.Confirmed, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Confirmed.csv", row.names = FALSE)
-write.csv(All.Countries.daily.Recovered, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Deaths.csv", row.names = FALSE)
-write.csv(All.Countries.daily.Deaths, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Recovered.csv", row.names = FALSE)
+write.csv(All.Countries.daily.Deaths, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Deaths.csv", row.names = FALSE)
+write.csv(All.Countries.daily.Recovered, file = "ready_to_use/COVID-19/Mixed/All_Countries_daily_Recovered.csv", row.names = FALSE)
 
 write.csv(bulk.summary, file = "ready_to_use/COVID-19/Mixed/bulk_summary.csv")
 write.csv(All.Countries.summary, file = "ready_to_use/COVID-19/Mixed/All_Countries_summary.csv", row.names = FALSE)
@@ -588,11 +588,11 @@ write.csv(Deaths, file = "ready_to_use/COVID-19/Deaths.csv", row.names = FALSE)
 write.csv(Recovered, file = "ready_to_use/COVID-19/Recovered.csv", row.names = FALSE)
 
 write.csv(One.Country.States.daily.Confirmed, file = "ready_to_use/COVID-19/One_Country_States_daily_Confirmed.csv", row.names = FALSE)
-write.csv(One.Country.States.daily.Recovered, file = "ready_to_use/COVID-19/One_Country_States_daily_Deaths.csv", row.names = FALSE)
-write.csv(One.Country.States.daily.Deaths, file = "ready_to_use/COVID-19/One_Country_States_daily_Recovered.csv", row.names = FALSE)
+write.csv(One.Country.States.daily.Deaths, file = "ready_to_use/COVID-19/One_Country_States_daily_Deaths.csv", row.names = FALSE)
+write.csv(One.Country.States.daily.Recovered, file = "ready_to_use/COVID-19/One_Country_States_daily_Recovered.csv", row.names = FALSE)
 write.csv(One.Country.Aggregate.daily.Confirmed, file = "ready_to_use/COVID-19/One_Country_Aggregate_daily_Confirmed.csv", row.names = FALSE)
-write.csv(One.Country.Aggregate.daily.Recovered, file = "ready_to_use/COVID-19/One_Country_Aggregate_daily_Deaths.csv", row.names = FALSE)
-write.csv(One.Country.Aggregate.daily.Deaths, file = "ready_to_use/COVID-19/One_Country_Aggregate_daily_Recovered.csv", row.names = FALSE)
+write.csv(One.Country.Aggregate.daily.Deaths, file = "ready_to_use/COVID-19/One_Country_Aggregate_daily_Deaths.csv", row.names = FALSE)
+write.csv(One.Country.Aggregate.daily.Recovered, file = "ready_to_use/COVID-19/One_Country_Aggregate_daily_Recovered.csv", row.names = FALSE)
 
 write.csv(One.Country.States.summary, file = "ready_to_use/COVID-19/One_Country_States_summary.csv", row.names = FALSE)
 write.csv(One.Country.Aggregate.summary, file = "ready_to_use/COVID-19/One_Country_Aggregate_summary.csv", row.names = FALSE)

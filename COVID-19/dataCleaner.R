@@ -6,17 +6,28 @@ setwd("~/Documents/A-tracking-of-2019-nCoV/COVID-19/")
 #####  LIBRARIES  #####
 # loading library for string operations
 library(stringr)
+library(RCurl)
+
+library(AUCRF)
+library(randomForest)
 library(RFmarkerDetector) # random forest  ---> for autoscale()
 
 
 ## replace new time series files first, then run following command -----> 'n your dataset is updated
+
+# if internet connection available
+  # check.Confirmed <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"))
+  # check.Deaths <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv"))
+  # check.Recovered <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv"))
+  ### saving
+  # write.csv(check.Confirmed, "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv", row.names = F)
+  # write.csv(check.Confirmed, "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv", row.names = F)
+  # write.csv(check.Confirmed, "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv", row.names = F)
+
+# else
 check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
 check.Deaths = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
 check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
-
-#check.Confirmed = read.csv("/home/ravi/Documents/Johns H. University/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
-#check.Deaths = read.csv("/home/ravi/Documents/Johns H. University/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
-#check.Recovered = read.csv("/home/ravi/Documents/Johns H. University/COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
 
 # removing NAs
 
@@ -202,19 +213,19 @@ row.names(Hubei.Recovered) <- NULL
 
 ## Diamond Princess
 write.csv(Diamond.Princess.Confirmed, file = "cleaned/Diamond-Princess/time_series_19-covid-Confirmed.csv", row.names = FALSE)
-write.csv(Diamond.Princess.Deaths, file = "cleaned/Diamond-Princess/time_series_19-covid-Recovered.csv", row.names = FALSE)
-write.csv(Diamond.Princess.Recovered, file = "cleaned/Diamond-Princess/time_series_19-covid-Deaths.csv", row.names = FALSE)
+write.csv(Diamond.Princess.Deaths, file = "cleaned/Diamond-Princess/time_series_19-covid-Deaths.csv", row.names = FALSE)
+write.csv(Diamond.Princess.Recovered, file = "cleaned/Diamond-Princess/time_series_19-covid-Recovered.csv", row.names = FALSE)
 
 ## Hubei
 write.csv(Hubei.Confirmed, file = "cleaned/Hubei/time_series_19-covid-Confirmed.csv", row.names = FALSE)
-write.csv(Hubei.Deaths, file = "cleaned/Hubei/time_series_19-covid-Recovered.csv", row.names = FALSE)
-write.csv(Hubei.Recovered, file = "cleaned/Hubei/time_series_19-covid-Deaths.csv", row.names = FALSE)
+write.csv(Hubei.Deaths, file = "cleaned/Hubei/time_series_19-covid-Deaths.csv", row.names = FALSE)
+write.csv(Hubei.Recovered, file = "cleaned/Hubei/time_series_19-covid-Recovered.csv", row.names = FALSE)
 
 
 ## Main files
 write.csv(check.Confirmed, file = "cleaned/time_series_19-covid-Confirmed.csv", row.names = FALSE)
-write.csv(check.Recovered, file = "cleaned/time_series_19-covid-Recovered.csv", row.names = FALSE)
 write.csv(check.Deaths, file = "cleaned/time_series_19-covid-Deaths.csv", row.names = FALSE)
+write.csv(check.Recovered, file = "cleaned/time_series_19-covid-Recovered.csv", row.names = FALSE)
 
 ###   For map plot & gif
 write.csv(ever.Affected, file = "cleaned/ever.Affected.csv", row.names = FALSE)
