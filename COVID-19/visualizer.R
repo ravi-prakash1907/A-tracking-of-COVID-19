@@ -268,6 +268,7 @@ till.date.Recovered = function(lName = c("Hubei", "World", "China", "Diamond Pri
   d %>% 
     ggplot(aes(Day, Recovered, color = Location)) +
     geom_line(size = 2, alpha = 0.8) +
+    geom_point(color = "black", alpha = 0.3) +
     theme_minimal() +
     scale_x_continuous(label = new, breaks = c(10, 20, 30, 40)) +
     scale_y_continuous(sec.axis = sec_axis(~ ., breaks = d_ends)) +
@@ -304,6 +305,9 @@ recovery.till.date(c("Italy", "South Korea", "Hong Kong"))
 
 
 ########################
+#####     BEST     #####
+########################
+
 ## a Histogram or Bar plot will be better for --> Four.dataset.locationWise
 View(Four.dataset.locationWise)
 
@@ -323,44 +327,6 @@ till.date.Recovered()
 #################################
 
 # 1) Active / Closed cases  (World)
-View(Four.dataset.locationWise)
-world = Four.dataset.locationWise[which(str_detect(Four.dataset.locationWise$Location, "World")),]
-world.df = data.frame(
-  Day = c(rep(world$Day, 2)),
-  Date = c(rep(as.Date(world$Date), 2)),
-  "Case Status" = factor(c(rep("Active", nrow(world)), rep("Closed", nrow(world))), levels = c("Active", "Closed")),
-  Numbers = c(world$Active.Cases, world$Closed.Cases)
-)
-
-# Change line type
-mean.caseWise <- ddply(world.df, "Case.Status", summarise, grp.mean=mean(Numbers))
-head(mean.caseWise)
-
-ggplot(world.df, aes(x=Numbers, color=Case.Status)) +
-  geom_histogram(binwidth = 2500, fill="white", alpha=0.5, position="dodge") +
-  geom_vline(data=mean.caseWise, aes(xintercept = grp.mean, color = Case.Status), linetype = "dashed") +
-  theme(legend.position = "top") +scale_color_grey() + theme_classic() +
-  theme(legend.position="top")
-
-
-ggplot(world.df, aes(x=Numbers, color=Case.Status)) +
-  geom_histogram(binwidth = 2500, fill = "white", position = "dodge") +
-  geom_vline(data=mean.caseWise, aes(xintercept = grp.mean, color = Case.Status),
-             linetype = "dashed") +
-  scale_color_brewer(palette="Paired") +
-  theme_classic()+theme(legend.position="top")
-
-
-ggplot(world.df, aes(x=Numbers, color=Case.Status, fill=Case.Status)) +
-  geom_histogram(binwidth = 3500, aes(y=..density..), position="identity", alpha=0.5)+
-  geom_density(alpha=0.6)+
-  geom_vline(data=mu, aes(xintercept=grp.mean, color=Case.Status),
-             linetype="dashed")+
-  scale_color_manual(values=c("#999999", "#E69F00", "#56B4E9"))+
-  scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9"))+
-  labs(title="Cases histogram plot",x="Cases", y = "Density")+
-  theme_classic()
-
 
 
 
