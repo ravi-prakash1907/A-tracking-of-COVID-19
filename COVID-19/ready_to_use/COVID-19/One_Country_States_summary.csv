@@ -1,16 +1,16 @@
 "States","Confirmed","Deaths","Recovered","Active.Cases","Closed.Cases"
-"Guangdong",1356,8,1299,49,1307
+"Guangdong",1360,8,1304,48,1312
 "Henan",1273,22,1250,1,1272
-"Zhejiang",1227,1,1211,15,1212
+"Zhejiang",1231,1,1211,19,1212
 "Hunan",1018,4,1014,0,1018
 "Anhui",990,6,984,0,990
 "Jiangxi",935,1,934,0,935
 "Shandong",760,7,741,12,748
-"Jiangsu",631,0,630,1,630
-"Chongqing",576,6,569,1,575
-"Sichuan",539,3,511,25,514
-"Heilongjiang",482,13,447,22,460
-"Beijing",437,8,349,80,357
+"Jiangsu",631,0,631,0,631
+"Chongqing",576,6,570,0,576
+"Sichuan",539,3,516,20,519
+"Heilongjiang",482,13,453,16,466
+"Beijing",442,8,353,81,361
 "Shanghai",353,3,324,26,327
 "Hebei",318,6,310,2,316
 "Fujian",296,1,295,0,296
@@ -19,11 +19,11 @@
 "Yunnan",174,2,172,0,174
 "Hainan",168,6,160,2,166
 "Guizhou",146,2,143,1,145
-"Tianjin",136,3,132,1,135
+"Tianjin",136,3,133,0,136
 "Shanxi",133,0,133,0,133
-"Gansu",129,2,89,38,91
-"Hong Kong",140,4,78,58,82
-"Liaoning",125,1,113,11,114
+"Gansu",133,2,91,40,93
+"Hong Kong",145,4,81,60,85
+"Liaoning",125,1,114,10,115
 "Jilin",93,1,91,1,92
 "Xinjiang",76,3,73,0,76
 "Inner Mongolia",75,1,71,3,72
