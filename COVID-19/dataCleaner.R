@@ -13,21 +13,46 @@ library(randomForest)
 library(RFmarkerDetector) # random forest  ---> for autoscale()
 
 
-## replace new time series files first, then run following command -----> 'n your dataset is updated
+#########################################
 
-# if internet connection available
-  # check.Confirmed <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"))
-  # check.Deaths <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv"))
-  # check.Recovered <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv"))
-  ### saving
-  # write.csv(check.Confirmed, "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv", row.names = F)
-  # write.csv(check.Confirmed, "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv", row.names = F)
-  # write.csv(check.Confirmed, "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv", row.names = F)
 
-# else
-check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
-check.Deaths = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
-check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
+check.Confirmed = NULL
+check.Deaths = NULL
+check.Recovered = NULL
+
+# loading the datasets
+if(url.exists("https://raviprakashravi.cf/")){  # Internet is available!
+  
+  # names
+  confirmLocation = "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
+  deathsLocation = "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv"
+  recoveredLocation = "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv"
+  
+  ##########################
+  
+  # having backup
+  write.csv(read.csv(confirmLocation), "Johns H. University/csse_covid_19_time_series/backup/time_series_19-covid-Confirmed.csv")
+  write.csv(read.csv(deathsLocation), "Johns H. University/csse_covid_19_time_series/backup/time_series_19-covid-Deaths.csv")
+  write.csv(read.csv(recoveredLocation), "Johns H. University/csse_covid_19_time_series/backup/time_series_19-covid-Recovered.csv")
+  
+  # loading new data
+  check.Confirmed <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"))
+  check.Deaths <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv"))
+  check.Recovered <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv"))
+  
+  # saving new data
+  write.csv(check.Confirmed, confirmLocation, row.names = F)
+  write.csv(check.Deaths, deathsLocation, row.names = F)
+  write.csv(check.Recovered, recoveredLocation, row.names = F)
+  
+} else {  # Internet is NOT available!!!
+  
+  check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
+  check.Deaths = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
+  check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
+}  
+
+#################################################
 
 # removing NAs
 
