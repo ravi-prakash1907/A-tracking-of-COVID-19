@@ -51,7 +51,7 @@ visualize_on_map <- function(df, Path, index = 1) {
     }
   }
   
-  
+  # head(myList)
   # generating plots, datewise
   i = index
   while(T) {
@@ -63,13 +63,21 @@ visualize_on_map <- function(df, Path, index = 1) {
     affected.Today = as.data.frame(myList[i])
     row.names(affected.Today) <- NULL
     
-    Countries <- factor(as.character(affected.Today$Country.Region))
+    
+    #################################
+    Countries <- as.character(affected.Today$Country.Region)
+    Countries.levels <- as.character(levels(affected.Today$Country.Region))
+    Countries[Countries %in% "United States"] = "USA"
+    Countries.levels[Countries.levels %in% "United States"] = "USA"
+    
+    Countries = factor(c(Countries), levels = c(Countries.levels))
+    #################################
+    
     
     to_append <- data.frame(
       rank = 1:length(Countries),
       country = Countries
     )
-    
     
     ############################################################################################
     
@@ -78,7 +86,7 @@ visualize_on_map <- function(df, Path, index = 1) {
     
     map.world_joined <- left_join(map.world, to_append, by = c('region' = 'country'))
     map.world_joined <- map.world_joined %>% mutate(fill_flg = ifelse(is.na(rank),F,T))
-    
+    # map.world_joined[which(str_detect(map.world_joined$region, "USA")),]
     # countries/locations affected by coronavirus
     ggplot() +
       geom_polygon(data = map.world_joined, aes(x = long, y = lat, group = group, fill = fill_flg), color = "#252525") +
@@ -114,8 +122,8 @@ visualize_on_map <- function(df, Path, index = 1) {
 
 #####################################################################
 # index 54   --->   15th March
-visualize_on_map("ever.Affected", "PLOTS/maps/pngs/ever", index = 55)    # pass index also to plot map(s) from index-th day
-visualize_on_map("still.Affected", "PLOTS/maps/pngs/still", index = 55)  # by default index is 1
+visualize_on_map("ever.Affected", "PLOTS/maps/pngs/ever", index = 1)    # pass index also to plot map(s) from index-th day
+visualize_on_map("still.Affected", "PLOTS/maps/pngs/still", index = 1)  # by default index is 1
 
 
 
