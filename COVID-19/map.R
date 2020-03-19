@@ -27,7 +27,7 @@ visualize_on_map <- function(df, Path, index = 1) {
   ### for testing purpose ###
   #Affected = ever.Affected
   #Path = "PLOTS/pngs/ever"
-  #index = 52
+  #index = 57
   
   ##########################################
   
@@ -64,11 +64,38 @@ visualize_on_map <- function(df, Path, index = 1) {
     row.names(affected.Today) <- NULL
     
     
-    #################################
+    # renaming the countries as per their standered name
     Countries <- as.character(affected.Today$Country.Region)
     Countries.levels <- as.character(levels(affected.Today$Country.Region))
     Countries[Countries %in% "United States"] = "USA"
+    Countries[Countries %in% "United Kingdom"] = "UK"
+    Countries[Countries %in% "North Macedonia"] = "Macedonia"
     Countries.levels[Countries.levels %in% "United States"] = "USA"
+    Countries.levels[Countries.levels %in% "United Kingdom"] = "UK"
+    Countries.levels[Countries.levels %in% "North Macedonia"] = "Macedonia"
+    
+    
+    if(length(Countries[Countries %in% "Saint Vincent and the Grenadines"]) != 0){
+      Countries[Countries %in% "Saint Vincent and the Grenadines"] = "Saint Vincent"
+      Countries.levels[Countries.levels %in% "Saint Vincent and the Grenadines"] = "Saint Vincent"
+      
+      Countries = c(Countries, "Grenadines")
+      Countries.levels = c(Countries.levels, "Grenadines")
+    }
+    if(length(Countries[Countries %in% "Antigua and Barbuda"]) != 0){
+      Countries[Countries %in% "Antigua and Barbuda"] = "Antigua"
+      Countries.levels[Countries.levels %in% "Antigua and Barbuda"] = "Antigua"
+      
+      Countries = c(Countries, "Barbuda")
+      Countries.levels = c(Countries.levels, "Barbuda")
+    }
+    if(length(Countries[Countries %in% "Trinidad and Tobago"]) != 0){
+      Countries[Countries %in% "Trinidad and Tobago"] = "Trinidad"
+      Countries.levels[Countries.levels %in% "Trinidad and Tobago"] = "Trinidad"
+      
+      Countries = c(Countries, "Tobago")
+      Countries.levels = c(Countries.levels, "Tobago")
+    }
     
     Countries = factor(c(Countries), levels = c(Countries.levels))
     #################################
@@ -81,12 +108,47 @@ visualize_on_map <- function(df, Path, index = 1) {
     
     ############################################################################################
     
+    
     # getting world map
-    map.world <- map_data("world") 
+    map.world <- map_data("world")
+    
     
     map.world_joined <- left_join(map.world, to_append, by = c('region' = 'country'))
     map.world_joined <- map.world_joined %>% mutate(fill_flg = ifelse(is.na(rank),F,T))
-    # map.world_joined[which(str_detect(map.world_joined$region, "USA")),]
+    
+    
+    ##################################################
+    ## list of countries that can't be plotted
+    listIsolated <- function() {
+      log = NULL
+      for (r in to_append$rank) {
+        
+        x = map.world[which(map.world$rank == r),"fill_flg"] & T
+        l = T
+        for (t in 1:length(x)) {
+          if(t==1) {
+            l = x[t]
+          } else {
+            l = l & x[t] 
+          }
+        }
+        
+        if(length(l) == 0)
+          log = c(log, r)
+      }
+      
+      return(to_append[which(to_append$rank %in% log),'country'])
+    }
+    temp = as.character(listIsolated())
+    #print(temp)
+    
+    # go above and manually add them to plot list
+    ##################################################
+    
+    
+    head(map.world_joined[which(str_detect(map.world_joined$region, "French Guiana")),])
+    
+    #map.world_joined[(10.45283 %in% map.world_joined[,'long']),]
     # countries/locations affected by coronavirus
     ggplot() +
       geom_polygon(data = map.world_joined, aes(x = long, y = lat, group = group, fill = fill_flg), color = "#252525") +
@@ -123,8 +185,7 @@ visualize_on_map <- function(df, Path, index = 1) {
 #####################################################################
 # index 54   --->   15th March
 visualize_on_map("ever.Affected", "PLOTS/maps/pngs/ever", index = 1)    # pass index also to plot map(s) from index-th day
-visualize_on_map("still.Affected", "PLOTS/maps/pngs/still", index = 1)  # by default index is 1
-
+visualize_on_map("still.Affected", "PLOTS/maps/pngs/still")  # by default index is 1
 
 
 

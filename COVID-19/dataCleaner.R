@@ -62,7 +62,12 @@ for (i in 1:nrow(check.Confirmed)) {
     if(j==5) {
       check.Confirmed[i,j] = ifelse(is.na(check.Confirmed[i, j]), 0, check.Confirmed[i,j])
     } else {
-      check.Confirmed[i,j] = ifelse(is.na(check.Confirmed[i, j]), check.Confirmed[i, (j-1)], check.Confirmed[i,j])
+      #check.Confirmed[i,j] = ifelse(is.na(check.Confirmed[i, j]), check.Confirmed[i, (j-1)], check.Confirmed[i,j])
+      if(is.na(check.Confirmed[i, j])){
+        check.Confirmed[i,j] = check.Confirmed[i, (j-1)]
+      } else if(check.Confirmed[i, (j-1)] > check.Confirmed[i, j]){
+        check.Confirmed[i,j] = check.Confirmed[i, (j-1)]
+      }
     }
   }
 }
@@ -72,7 +77,12 @@ for (i in 1:nrow(check.Deaths)) {
     if(j==5) {
       check.Deaths[i,j] = ifelse(is.na(check.Deaths[i, j]), 0, check.Deaths[i,j])
     } else {
-      check.Deaths[i,j] = ifelse(is.na(check.Deaths[i, j]), check.Deaths[i, (j-1)], check.Deaths[i,j])
+      #check.Deaths[i,j] = ifelse(is.na(check.Deaths[i, j]), check.Deaths[i, (j-1)], check.Deaths[i,j])
+      if(is.na(check.Deaths[i, j])){
+        check.Deaths[i,j] = check.Deaths[i, (j-1)]
+      } else if(check.Deaths[i, (j-1)] > check.Deaths[i, j]){
+        check.Deaths[i,j] = check.Deaths[i, (j-1)]
+      }
     }
   }
 }
@@ -82,7 +92,12 @@ for (i in 1:nrow(check.Recovered)) {
     if(j==5) {
       check.Recovered[i,j] = ifelse(is.na(check.Recovered[i, j]), 0, check.Recovered[i,j])
     } else {
-      check.Recovered[i,j] = ifelse(is.na(check.Recovered[i, j]), check.Recovered[i, (j-1)], check.Recovered[i,j])
+      #check.Recovered[i,j] = ifelse(is.na(check.Recovered[i, j]), check.Recovered[i, (j-1)], check.Recovered[i,j])
+      if(is.na(check.Recovered[i, j])){
+        check.Recovered[i,j] = check.Recovered[i, (j-1)]
+      } else if(check.Recovered[i, (j-1)] > check.Recovered[i, j]){
+        check.Recovered[i,j] = check.Recovered[i, (j-1)]
+      }
     }
   }
 }
@@ -112,11 +127,18 @@ countries.levels = as.character(levels(check.Confirmed$Country.Region))
 countries[countries %in% "US"] = "United States"
 countries[countries %in% "UK"] = "United Kingdom"
 countries[countries %in% "Taiwan*"] = "Taiwan"
-countries[countries %in% "Congo (Kinshasa)"] = "Congo"
+countries[countries %in% "The Bahamas"] = "Bahamas"
+countries[countries %in% "Gambia, The"] = "Gambia"
+countries[countries %in% "Korea, South"] = "South Korea"
+countries[countries %in% c("Congo (Brazzaville)", "Congo (Kinshasa)", "Republic of the Congo")] = "Democratic Republic of the Congo"
+###
 countries.levels[countries.levels %in% "US"] = "United States"
 countries.levels[countries.levels %in% "UK"] = "United Kingdom"
 countries.levels[countries.levels %in% "Taiwan*"] = "Taiwan"
-countries.levels[countries.levels %in% "Congo (Kinshasa)"] = "Congo"
+countries.levels[countries.levels %in% "The Bahamas"] = "Bahamas"
+countries.levels[countries.levels %in% "Gambia, The"] = "Gambia"
+countries.levels[countries.levels %in% "Korea, South"] = "South Korea"
+countries[countries %in% c("Congo (Brazzaville)", "Congo (Kinshasa)", "Republic of the Congo")] = "Democratic Republic of the Congo"
 
 ###############################
 
