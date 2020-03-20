@@ -294,6 +294,7 @@ till.date.Recovered = function(lName = c("Hubei", "World", "China", "Diamond Pri
 
 ############### day wise
 confirmed.till.date("Thailand")
+
 confirmed.till.date(c("Italy", "South Korea", "Hong Kong"))
 
 deaths.till.date("Thailand")

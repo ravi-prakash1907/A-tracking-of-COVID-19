@@ -145,10 +145,6 @@ visualize_on_map <- function(df, Path, index = 1) {
     # go above and manually add them to plot list
     ##################################################
     
-    
-    head(map.world_joined[which(str_detect(map.world_joined$region, "French Guiana")),])
-    
-    #map.world_joined[(10.45283 %in% map.world_joined[,'long']),]
     # countries/locations affected by coronavirus
     ggplot() +
       geom_polygon(data = map.world_joined, aes(x = long, y = lat, group = group, fill = fill_flg), color = "#252525") +

@@ -56,7 +56,6 @@ if(url.exists("https://raviprakashravi.cf/")){  # Internet is available!
 
 # removing NAs
 
-# new files
 for (i in 1:nrow(check.Confirmed)) {
   for (j in 5:ncol(check.Confirmed)) {
     if(j==5) {
@@ -138,7 +137,9 @@ countries.levels[countries.levels %in% "Taiwan*"] = "Taiwan"
 countries.levels[countries.levels %in% "The Bahamas"] = "Bahamas"
 countries.levels[countries.levels %in% "Gambia, The"] = "Gambia"
 countries.levels[countries.levels %in% "Korea, South"] = "South Korea"
-countries[countries %in% c("Congo (Brazzaville)", "Congo (Kinshasa)", "Republic of the Congo")] = "Democratic Republic of the Congo"
+
+countries.levels = countries.levels[!countries.levels %in% c("Congo (Brazzaville)", "Congo (Kinshasa)", "Republic of the Congo")]
+countries.levels = c(countries.levels, "Democratic Republic of the Congo")
 
 ###############################
 
@@ -175,12 +176,6 @@ check.Recovered = cbind(
 ###############################
 #str(check.Confirmed)
 
-## Closed cases (i.e. Recovered or Death cases)
-cases.Closed = cbind(check.Confirmed[,1:4],  (check.Deaths[,5:ncol(check.Deaths)] + check.Recovered[,5:ncol(check.Recovered)]))
-## Active cases 
-cases.Active = cbind(check.Confirmed[,1:4],  (check.Confirmed[,5:ncol(check.Confirmed)] - cases.Closed[,5:ncol(cases.Closed)]))
-
-
 # Removing outlier i.e. Diamond.Princess
 Diamond.Princess.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Country.Region, "Cruise Ship", negate = F)), ]
 check.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Country.Region, "Cruise Ship", negate = T)), ]
@@ -197,6 +192,13 @@ check.Recovered = check.Recovered[ which(str_detect(check.Recovered$Country.Regi
 row.names(check.Confirmed) <- NULL
 row.names(check.Deaths) <- NULL
 row.names(check.Recovered) <- NULL
+
+
+
+## Closed cases (i.e. Recovered or Death cases)
+cases.Closed = cbind(check.Confirmed[,1:4],  (check.Deaths[,5:ncol(check.Deaths)] + check.Recovered[,5:ncol(check.Recovered)]))
+## Active cases 
+cases.Active = cbind(check.Confirmed[,1:4],  (check.Confirmed[,5:ncol(check.Confirmed)] - cases.Closed[,5:ncol(cases.Closed)]))
 
 
 ###  When and Where COVID-19 ever.Affected / still.Affected  --->  excluding Diamond Princess
