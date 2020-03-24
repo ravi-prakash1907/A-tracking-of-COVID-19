@@ -193,17 +193,19 @@ till.date.Confirmed = function(lName = c("Hubei", "World", "China", "Diamond Pri
     pull(Confirmed)    # col can be changed
   
   temp = as.character(Four.dataset.locationWise$Date[1:nlevels(Four.dataset.locationWise$Date)])
-  new = c(temp[10], temp[20], temp[30], temp[40])
+  new = c(temp[1], temp[6], temp[11], temp[16], temp[21], temp[26], temp[31], temp[36], temp[41], temp[46], temp[51], temp[56], temp[61])
   
   d %>% 
     ggplot(aes(Day, Confirmed, color = Location)) +
     geom_line(size = 2, alpha = 0.8) +
-    theme_minimal() +
-    scale_x_continuous(label = new, breaks = c(10, 20, 30, 40)) +
-    scale_y_continuous(sec.axis = sec_axis(~ ., breaks = d_ends)) +
-    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-    ggtitle("Few(specify type of such countries) reporting more deaths for the confirmed cases",
-            subtitle = "Based on the dataset of given country") +
+    geom_point(color = "black", alpha = 0.3) +
+    theme(text = element_text(family = "Gill Sans")
+          ,panel.background = element_rect(fill = "#ffffff")
+          ,plot.background = element_rect(fill = "#ffffff")
+    ) +
+    scale_x_continuous(label = new, breaks = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60)+1) +
+    scale_y_continuous(sec.axis = sec_axis(~ ., breaks = d_ends),  labels = c('0 K', '50 K', '100 K', '150 K', '200 K'), breaks = c(0, 50000, 100000, 150000, 200000)) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
     labs(x = "Dates", y = "Confirmed", caption = "Plot by @ravi")
   
 }
@@ -228,17 +230,19 @@ till.date.Deaths = function(lName = c("Hubei", "World", "China", "Diamond Prince
     pull(Deaths)    # col can be changed
   
   temp = as.character(Four.dataset.locationWise$Date[1:nlevels(Four.dataset.locationWise$Date)])
-  new = c(temp[10], temp[20], temp[30], temp[40])
+  new = c(temp[1], temp[6], temp[11], temp[16], temp[21], temp[26], temp[31], temp[36], temp[41], temp[46], temp[51], temp[56], temp[61])
   
   d %>% 
     ggplot(aes(Day, Deaths, color = Location)) +
     geom_line(size = 2, alpha = 0.8) +
-    theme_minimal() +
-    scale_x_continuous(label = new, breaks = c(10, 20, 30, 40)) +
+    geom_point(color = "black", alpha = 0.3) +
+    theme(text = element_text(family = "Gill Sans")
+          ,panel.background = element_rect(fill = "#ffffff")
+          ,plot.background = element_rect(fill = "#ffffff")
+    ) +
+    scale_x_continuous(label = new, breaks = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60)+1) +
     scale_y_continuous(sec.axis = sec_axis(~ ., breaks = d_ends)) +
-    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-    ggtitle("Few(specify type of such countries) reporting more deaths for the confirmed cases",
-            subtitle = "Based on the dataset of given country") +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
     labs(x = "Dates", y = "Deaths", caption = "Plot by @ravi")
   
 }
@@ -263,22 +267,24 @@ till.date.Recovered = function(lName = c("Hubei", "World", "China", "Diamond Pri
     pull(Recovered)    # col can be changed
   
   temp = as.character(Four.dataset.locationWise$Date[1:nlevels(Four.dataset.locationWise$Date)])
-  new = c(temp[10], temp[20], temp[30], temp[40])
+  new = c(temp[1], temp[6], temp[11], temp[16], temp[21], temp[26], temp[31], temp[36], temp[41], temp[46], temp[51], temp[56], temp[61])
   
   d %>% 
     ggplot(aes(Day, Recovered, color = Location)) +
     geom_line(size = 2, alpha = 0.8) +
     geom_point(color = "black", alpha = 0.3) +
-    theme_minimal() +
-    scale_x_continuous(label = new, breaks = c(10, 20, 30, 40)) +
+    theme(text = element_text(family = "Gill Sans")
+          ,panel.background = element_rect(fill = "#ffffff")
+          ,plot.background = element_rect(fill = "#ffffff")
+    ) +
+    scale_x_continuous(label = new, breaks = c(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60)+1) +
     scale_y_continuous(sec.axis = sec_axis(~ ., breaks = d_ends)) +
-    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-    ggtitle("Few(specify type of such countries) reporting more deaths for the confirmed cases",
-            subtitle = "Based on the dataset of given country") +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
     labs(x = "Dates", y = "Recovered", caption = "Plot by @ravi")
   
 }
 
+till.date.Recovered(c("Hubei", "China", "World"))
 
 
 #---------------------------------------------------------------#
@@ -313,8 +319,8 @@ recovery.till.date(c("Italy", "South Korea", "Hong Kong"))
 View(Four.dataset.locationWise)
 
 # Lines
-till.date.Confirmed(c("Hubei", "China"))
-till.date.Deaths("Hubei", T)
+till.date.Confirmed()
+till.date.Deaths()
 till.date.Recovered()
 
 ###########################################################################
