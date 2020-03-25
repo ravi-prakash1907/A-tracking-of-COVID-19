@@ -287,53 +287,6 @@ library(mlbench)
 library(kernlab)
 ```
 
-    Loading required package: randomForest
-    
-    randomForest 4.6-14
-    
-    Type rfNews() to see new features/changes/bug fixes.
-    
-    AUCRF 1.1
-    
-    Registered S3 methods overwritten by 'ggplot2':
-      method         from 
-      [.quosures     rlang
-      c.quosures     rlang
-      print.quosures rlang
-    
-    
-    Attaching package: ‘RFmarkerDetector’
-    
-    
-    The following object is masked from ‘package:stats’:
-    
-        screeplot
-    
-    
-    Loading required package: lattice
-    
-    Loading required package: ggplot2
-    
-    
-    Attaching package: ‘ggplot2’
-    
-    
-    The following object is masked from ‘package:randomForest’:
-    
-        margin
-    
-    
-    
-    Attaching package: ‘kernlab’
-    
-    
-    The following object is masked from ‘package:ggplot2’:
-    
-        alpha
-    
-    
-
-
 <br />
 
 ### * Data Collection
