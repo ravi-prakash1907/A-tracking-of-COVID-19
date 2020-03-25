@@ -2,19 +2,6 @@
 <center>(Data-Science cum Data-Mining project in R)</center> <br />
 <a href="https://raviprakashravi.cf/" target="_blank"><code style="float:right; background:none"> -Ravi Prakash</code></a>
 
-<h3> <font color="purple"><u>This section includes:</u></font> </h3>
-
-> * Introduction to **COVID-19** <br />
-> * A well defined (and explained, as well) problem, that the whole world in going through, currently <br />
-> * Statistical models to understanding the unfolding of COVID-19, with days <br />
-> * A step-wise _data analysis_ approach to attain the most feasible/optimal solution <br />
-> * Accurate and easily understandable visualizations to understand the scenario, even better <br />
-> * Various data-science _tests_ and _algorithms_ to bring sharpness and accuracy to the research <br />
-> * Predictions for upcoming based on the studies and scientific analysis done <br />
-
-* _This is a working project on the real time data_
-<br /> 
-<hr /> 
 <br /><br /> 
 
 <center>
