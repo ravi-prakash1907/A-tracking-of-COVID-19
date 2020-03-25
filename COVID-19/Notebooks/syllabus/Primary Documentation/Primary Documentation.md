@@ -1,15 +1,49 @@
-<center> <font color="green"> 
-    
-# <u>A Predictive Data Analysis ~ 19-nCoV</u>
-
-</font> </center><br />
+<center>
+    <font color="green"> 
+        <h1><u>A Predictive Data Analysis ~ 19-nCoV</u></h1>
+    </font>
+</center><br />
 
 <center>(Data-Science cum Data-Mining project in R)</center> <br />
-<a href="https://raviprakashravi.cf/" target="_blank"><code style="float:right; background:none"> -Ravi Prakash</code></a>
+<a href="https://raviprakashravi.cf/" target="_blank">
+    <code style="float:right; background:none"> -Ravi Prakash</code>
+</a>
+
+<br /><hr />
+
+
+### <a href="#Data-Understanding:">DATA PREPROCESSIG</a>
+
+> #### <a href="#Data-Understanding:">Data Understanding</a> & <a href="#Data-Preparation:">Data Preparation</a>
+> 1. Removal of NAs
+> 2. Handling missing values
+> 3. Outlier 
+    * identification
+    * varification
+    * removal
+    * by mean comparision
+> <br /><br />
+> 4. EDA graphs
+    * by boxplot
+    * by scatter plot
+
+### <a href="#Choosing-the-Right-Algo.">ALGORITHMS</a>
+> * Comparision of 4 Algos
+> * ### <a href="#Explanation-of-Pooled-Datasets-(bulk-&-four)">Concept used</a>
+>> #### role of pre processing:
+>> * Outlier identification & removal
+>> * Scaling (for maps)
+
+### <a href="#Evaluation:">Result Evaluation</a>
+
+> #### <a href="h#4.-Polynomial-regression">Based on:</a>
+> * RMSE
+> * R<sup>2</sup>
+
+<hr /><br />
 
 <center>
-
-#    <u>Table of Contents</u>
+    <h1><u>Table of Contents</u></h1>
 </center>
 
 > #### 1. <a href="#Introduction">Introduction</a>
@@ -32,18 +66,13 @@ It can be for various types of predictions categorization.
 * Some other types of data-analysis can be <i>Descriptive, Diagnostic or Prescriptive Analysis.</i>
 
 This <b>Data Mining Project</b> involves a sequence of (<i>six</i>) steps i.e. <br />
-<i>
-    
+<i>    
 > a) Business Understanding <br />
 > b) Data Understanding <br />
 > c) Data Preparation <br />
 > d) Modeling <br />
 > e) Evaluation <br />
-> f) Deployment <br />
-
-</i>
-
-</font>
+> f) Deployment </i></font>
 
 <hr />
 
@@ -53,9 +82,7 @@ This <b>Data Mining Project</b> involves a sequence of (<i>six</i>) steps i.e. <
 
 <center>
     <font color="teal">
-        
-        
-# "<u>Rate of growth of COVID-19 in China : within next one week</u>"
+        <h1>"<u>Rate of growth of COVID-19 in China : within next one week</u>"</h1>
    </font>
 <center/>
 
@@ -65,7 +92,7 @@ This <b>Data Mining Project</b> involves a sequence of (<i>six</i>) steps i.e. <
 
 <br /> 
 
-# <u>Introduction</u>
+<h2><u>Introduction</u></h2>
 
 > * <a href="#History-of-Pendemics:">History of Pandemics</a>
 > * <a href="#novel-Coronavirus:-2020">novel Coronavirus Diseases: 2020</a>
@@ -100,27 +127,28 @@ In 1820 the <i>First Cholera Pandemic</i> occurred, in <u>Asia</u>, affecting co
     Caused by: **novel Coronavirus - 2**
 </font>
 
-#### <u>Story of its origin</u>  -
+#### <u>Story of its origin</u>  - 
 > <font style="padding: 2%;">    
-    During November, 2019 - a severe viral infection was noticed in <b>Wuhan</b>, a city in <u>Hubei provinces of China</u>. On November 17<sup>th</sup> 2019, the first case this infection was reported. Doctor's initially took it lightly as if it was a normal fever/cold. But, when a wide range of patients reported similar symptoms, a doctor - <b>Dr. Li Wenliang</b> of <u>Chinese Academy of Sciences (<b>CAS</b>)</u> Lab, claimed that it was a type of <i>severe acute respiratory syndrome</i>, spreading through a new coronavirus transmission in the whole Hubei province, very rapidly. Reportedly, chainese government warned him not to leak this anywhere. But anyhow, this news got exposed during the late December, 2019. <br /><br />
-    As per the sources, in 2003, the same lab found first deadly SARS Coronavirus, led to 813 casualties, all over the world, within two months! <br /><br />
-    Initially, it was named as "<u>Wuhan Virus</u>". But, as it started spreading rapidly from Hubei to the whole mainland of China, its name got replaced by term "<u>China Virus</u>".<br />
-</font><br />
+During November, 2019 - a severe viral infection was noticed in <b>Wuhan</b>, a city in <u>Hubei provinces of China</u>. On November 17<sup>th</sup> 2019, the first case this infection was reported. Doctor's initially took it lightly as if it was a normal fever/cold. But, when a wide range of patients reported similar symptoms, a doctor - <b>Dr. Li Wenliang</b> of <u>Chinese Academy of Sciences (<b>CAS</b>)</u> Lab, claimed that it was a type of <i>severe acute respiratory syndrome</i>, spreading through a new coronavirus transmission in the whole Hubei province, very rapidly. Reportedly, chainese government warned him not to leak this anywhere. But anyhow, this news got exposed during the late December, 2019. <br /><br />
+As per the sources, in 2003, the same lab found first deadly SARS Coronavirus, led to 813 casualties, all over the world, within two months! <br /><br />
+Initially, it was named as "<u>Wuhan Virus</u>". But, as it started spreading rapidly from Hubei to the whole mainland of China, its name got replaced by term "<u>China Virus</u>".<br />
+</font>
+> <br />
 
 Finally, on <b>Feb. 11<sup>th</sup> 2020</b>, the World Health Organization (WHO) gave the disease an official name: <u><b>COVID-19</b></u>.<br />
 WHO has also declared the COVID-19 as a <u><b>pandemic<b></u>. 
 <br /><br /> 
 
 Since the outbreak of COVID-19, over 350000 people have been infected throughout the world and <b>over 15000 people</b> have been <b>killed</b>.<br /><br />
-    
+
 #### <center>This map shows the daily spread of the 2019-vCoV</center>
 <img src="pics/everAffected.gif" height="75%" width="75%" alt="GIF"/> <br /><br />
 
 #### <u>COVID-19: Outbreak in world</u> -
 > <font style="padding: 2%;">    
-    A grand Cruise Ship called <b>Diamond Princess</b> was all set for it's two weeks' journey from <u><b>Yokohama</b> (Japan) to China, Vietnam, Taiwan and back to Japan</u>. Guests boarded it on January 20<sup>th</sup>, but as the journey was about to end, on <b>February 1<sup>st</sup></b> tested positive for coronavirus, who disembarked in <u>Hong Kong on January 25<sup>th</sup></u>.<br /><br />
-    The cruise was cancelled from sailing as Japanese health instructors asked to check all the passengers, along with the crew.<br /><br />
-    And since then, the number of confirmed cases for COVID-19 kept increasing. Currently, the ship was carrying over 3500 people.
+A grand Cruise Ship called <b>Diamond Princess</b> was all set for it's two weeks' journey from <u><b>Yokohama</b> (Japan) to China, Vietnam, Taiwan and back to Japan</u>. Guests boarded it on January 20<sup>th</sup>, but as the journey was about to end, on <b>February 1<sup>st</sup></b> tested positive for coronavirus, who disembarked in <u>Hong Kong on January 25<sup>th</sup></u>.<br /><br />
+The cruise was cancelled from sailing as Japanese health instructors asked to check all the passengers, along with the crew.<br /><br />
+And since then, the number of confirmed cases for COVID-19 kept increasing. Currently, the ship was carrying over 3500 people.
 </font>
 
 <br /><br />
@@ -975,7 +1003,7 @@ cat("\n\n")
 
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_73_1.png)
+![png](output_80_1.png)
 
 
 
@@ -1782,7 +1810,7 @@ withChina
 
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_114_1.png)
+![png](output_121_1.png)
 
 
 <br /><br /> 
@@ -1833,11 +1861,11 @@ withoutChina
 
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_116_1.png)
+![png](output_123_1.png)
 
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_116_2.png)
+![png](output_123_2.png)
 
 
 <br /> 
@@ -2321,7 +2349,7 @@ region.scatter.plot
 ```
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_145_0.png)
+![png](output_152_0.png)
 
 
 <br /> 
@@ -2517,11 +2545,11 @@ svmk.tester
 ```
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_159_0.png)
+![png](output_166_0.png)
 
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_159_1.png)
+![png](output_166_1.png)
 
 
 <br />
@@ -2629,11 +2657,11 @@ knn.tester
 ```
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_167_0.png)
+![png](output_174_0.png)
 
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_167_1.png)
+![png](output_174_1.png)
 
 
 <br />
@@ -2735,11 +2763,11 @@ lm.tester
 ```
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_175_0.png)
+![png](output_182_0.png)
 
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_175_1.png)
+![png](output_182_1.png)
 
 
 <br />
@@ -2918,11 +2946,11 @@ plm.tester
 ```
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_185_0.png)
+![png](output_192_0.png)
 
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_185_1.png)
+![png](output_192_1.png)
 
 
 <br /> 
@@ -3116,11 +3144,11 @@ plm.tester
 ```
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_197_0.png)
+![png](output_204_0.png)
 
 
 
-![png](Primary%20Documentation_files/Primary%20Documentation_197_1.png)
+![png](output_204_1.png)
 
 
 
