@@ -21,7 +21,7 @@ check.Deaths = NULL
 check.Recovered = NULL
 
 # loading the datasets
-if(url.exists("https://raviprakashravi.cf/")){  # Internet is available!
+if(F){  # Internet is available!  ----->   url.exists("https://raviprakashravi.cf/")  # because files are no longer being updated
   
   # names
   confirmLocation = "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
@@ -51,6 +51,11 @@ if(url.exists("https://raviprakashravi.cf/")){  # Internet is available!
   check.Deaths = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
   check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
 }  
+
+
+check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
+check.Deaths = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
+check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
 
 #################################################
 

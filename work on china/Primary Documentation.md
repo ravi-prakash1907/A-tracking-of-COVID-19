@@ -429,11 +429,6 @@ str(check.Confirmed)
 #str(check.Recovered)
 ```
 
-
-```R
-
-```
-
     'data.frame':	468 obs. of  62 variables:
      $ Province.State: Factor w/ 321 levels "","Adams, IN",..: 1 1 1 1 1 25 196 298 237 1 ...
      $ Country.Region: Factor w/ 155 levels "Afghanistan",..: 142 76 129 103 90 27 8 8 8 25 ...
@@ -498,6 +493,11 @@ str(check.Confirmed)
      $ X3.18.20      : int  212 889 313 1 790 186 267 121 94 35 ...
      $ X3.19.20      : int  272 924 345 1 900 231 307 121 144 37 ...
 
+
+
+```R
+
+```
 
 ### Explanation of each columns in fetched data:-
 * There are 3 dedicated databases for data about Confirmed/Death/Recovery cases, all around the world
@@ -594,8 +594,37 @@ head(check.Recovered)
 ```
 
 
-    Error in eval(expr, envir, enclos): object 'check.Confirmed' not found
-    Traceback:
+<table>
+<thead><tr><th></th><th scope=col>Province.State</th><th scope=col>Country.Region</th><th scope=col>Lat</th><th scope=col>Long</th><th scope=col>X1.22.20</th><th scope=col>X1.23.20</th><th scope=col>X1.24.20</th><th scope=col>X1.25.20</th><th scope=col>X1.26.20</th><th scope=col>X1.27.20</th><th scope=col>...</th><th scope=col>X3.10.20</th><th scope=col>X3.11.20</th><th scope=col>X3.12.20</th><th scope=col>X3.13.20</th><th scope=col>X3.14.20</th><th scope=col>X3.15.20</th><th scope=col>X3.16.20</th><th scope=col>X3.17.20</th><th scope=col>X3.18.20</th><th scope=col>X3.19.20</th></tr></thead>
+<tbody>
+	<tr><th scope=row>166</th><td>Diamond Princess</td><td>Cruise Ship     </td><td>35.4437         </td><td>139.638         </td><td>NA              </td><td>NA              </td><td>NA              </td><td>NA              </td><td>NA              </td><td>NA              </td><td>...             </td><td>696             </td><td>696             </td><td>696             </td><td>696             </td><td>696             </td><td>696             </td><td>696             </td><td>696             </td><td>712             </td><td>712             </td></tr>
+</tbody>
+</table>
+
+
+
+
+<table>
+<thead><tr><th></th><th scope=col>Province.State</th><th scope=col>Country.Region</th><th scope=col>Lat</th><th scope=col>Long</th><th scope=col>X1.22.20</th><th scope=col>X1.23.20</th><th scope=col>X1.24.20</th><th scope=col>X1.25.20</th><th scope=col>X1.26.20</th><th scope=col>X1.27.20</th><th scope=col>...</th><th scope=col>X3.10.20</th><th scope=col>X3.11.20</th><th scope=col>X3.12.20</th><th scope=col>X3.13.20</th><th scope=col>X3.14.20</th><th scope=col>X3.15.20</th><th scope=col>X3.16.20</th><th scope=col>X3.17.20</th><th scope=col>X3.18.20</th><th scope=col>X3.19.20</th></tr></thead>
+<tbody>
+	<tr><th scope=row>431</th><td>French Guiana</td><td>France       </td><td>3.9339       </td><td>-53.1258     </td><td>0            </td><td>0            </td><td>0            </td><td>0            </td><td>0            </td><td>0            </td><td>...          </td><td>5            </td><td>3            </td><td>5            </td><td>3            </td><td>5            </td><td>7            </td><td>11           </td><td>11           </td><td>11           </td><td>11           </td></tr>
+</tbody>
+</table>
+
+
+
+
+<table>
+<thead><tr><th scope=col>Province.State</th><th scope=col>Country.Region</th><th scope=col>Lat</th><th scope=col>Long</th><th scope=col>X1.22.20</th><th scope=col>X1.23.20</th><th scope=col>X1.24.20</th><th scope=col>X1.25.20</th><th scope=col>X1.26.20</th><th scope=col>X1.27.20</th><th scope=col>...</th><th scope=col>X3.10.20</th><th scope=col>X3.11.20</th><th scope=col>X3.12.20</th><th scope=col>X3.13.20</th><th scope=col>X3.14.20</th><th scope=col>X3.15.20</th><th scope=col>X3.16.20</th><th scope=col>X3.17.20</th><th scope=col>X3.18.20</th><th scope=col>X3.19.20</th></tr></thead>
+<tbody>
+	<tr><td>                </td><td>Thailand        </td><td>15.0000         </td><td> 101.0000       </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>2               </td><td>2               </td><td>...             </td><td> 33             </td><td> 34             </td><td> 34             </td><td> 35             </td><td> 35             </td><td> 35             </td><td> 35             </td><td> 41             </td><td> 42             </td><td> 42             </td></tr>
+	<tr><td>                </td><td>Japan           </td><td>36.0000         </td><td> 138.0000       </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>1               </td><td>1               </td><td>...             </td><td>101             </td><td>118             </td><td>118             </td><td>118             </td><td>118             </td><td>118             </td><td>144             </td><td>144             </td><td>144             </td><td>150             </td></tr>
+	<tr><td>                </td><td>Singapore       </td><td> 1.2833         </td><td> 103.8333       </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>...             </td><td> 78             </td><td> 96             </td><td> 96             </td><td> 97             </td><td>105             </td><td>105             </td><td>109             </td><td>114             </td><td>114             </td><td>114             </td></tr>
+	<tr><td>                </td><td>Nepal           </td><td>28.1667         </td><td>  84.2500       </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>...             </td><td>  1             </td><td>  1             </td><td>  1             </td><td>  1             </td><td>  1             </td><td>  1             </td><td>  1             </td><td>  1             </td><td>  1             </td><td>  1             </td></tr>
+	<tr><td>                </td><td>Malaysia        </td><td> 2.5000         </td><td> 112.5000       </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>...             </td><td> 24             </td><td> 26             </td><td> 26             </td><td> 26             </td><td> 35             </td><td> 42             </td><td> 42             </td><td> 49             </td><td> 60             </td><td> 75             </td></tr>
+	<tr><td>British Columbia</td><td>Canada          </td><td>49.2827         </td><td>-123.1207       </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>0               </td><td>...             </td><td>  4             </td><td>  4             </td><td>  4             </td><td>  4             </td><td>  4             </td><td>  4             </td><td>  4             </td><td>  4             </td><td>  4             </td><td>  4             </td></tr>
+</tbody>
+</table>
 
 
 
@@ -1093,12 +1122,12 @@ cat("\n\n")
 
 ```
 
+    
+    
 
-    Error in ggplot(check.Confirmed): object 'check.Confirmed' not found
-    Traceback:
 
 
-    1. ggplot(check.Confirmed)
+![png](output_88_1.png)
 
 
 <br />
@@ -1301,12 +1330,21 @@ cat(unknown, "/", nrow(Recovered), " States are NOT identified")
 ```
 
 
-    Error in tail(Confirmed): object 'Confirmed' not found
-    Traceback:
+<table>
+<thead><tr><th></th><th scope=col>Province.State</th><th scope=col>Country.Region</th><th scope=col>Lat</th><th scope=col>Long</th><th scope=col>X1.22.20</th><th scope=col>X1.23.20</th><th scope=col>X1.24.20</th><th scope=col>X1.25.20</th><th scope=col>X1.26.20</th><th scope=col>X1.27.20</th><th scope=col>...</th><th scope=col>X3.10.20</th><th scope=col>X3.11.20</th><th scope=col>X3.12.20</th><th scope=col>X3.13.20</th><th scope=col>X3.14.20</th><th scope=col>X3.15.20</th><th scope=col>X3.16.20</th><th scope=col>X3.17.20</th><th scope=col>X3.18.20</th><th scope=col>X3.19.20</th></tr></thead>
+<tbody>
+	<tr><th scope=row>461</th><td>New Caledonia </td><td>France        </td><td>-20.9043      </td><td>165.6180      </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>...           </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>2             </td></tr>
+	<tr><th scope=row>462</th><td>Bermuda       </td><td>United Kingdom</td><td> 32.3078      </td><td>-64.7505      </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>...           </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>2             </td></tr>
+	<tr><th scope=row>463</th><td>Others        </td><td>Chad          </td><td> 15.4542      </td><td> 18.7322      </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>...           </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>1             </td></tr>
+	<tr><th scope=row>464</th><td>Others        </td><td>El Salvador   </td><td> 13.7942      </td><td>-88.8965      </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>...           </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>1             </td></tr>
+	<tr><th scope=row>465</th><td>Others        </td><td>Fiji          </td><td>-17.7134      </td><td>178.0650      </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>...           </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>1             </td></tr>
+	<tr><th scope=row>466</th><td>Others        </td><td>Nicaragua     </td><td> 12.8654      </td><td>-85.2072      </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>...           </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>0             </td><td>1             </td></tr>
+</tbody>
+</table>
 
 
-    1. tail(Confirmed)
 
+    146 / 466  States are NOT identified
 
 <br /> 
 As we know that Country column is a *Factor*, we <u>can easily list those countries'</u>, who have reported Confirmed cases (on the daily basis):
@@ -2259,7 +2297,7 @@ cat("RMSE: ", mse)
          1   ksvm     S4 
 
 
-    RMSE:  2.820561
+    RMSE:  2.139742
 
 <hr />
 <br /><br /> 
@@ -3155,8 +3193,51 @@ plm.predictions[which(plm.predictions$Degree == deg),c('RMSE', 'R2')]
     Support Vector Machine Regression
 
 
-    Error in eval(expr, envir, enclos): object 'svm.predictions' not found
-    Traceback:
+<table>
+<thead><tr><th scope=col>RMSE</th><th scope=col>R2</th></tr></thead>
+<tbody>
+	<tr><td>56.38561 </td><td>0.9164658</td></tr>
+</tbody>
+</table>
+
+
+
+    
+    k-Nearest Neighbour Regression
+
+
+<table>
+<thead><tr><th scope=col>RMSE</th><th scope=col>R2</th></tr></thead>
+<tbody>
+	<tr><td>58.38878 </td><td>0.9141718</td></tr>
+</tbody>
+</table>
+
+
+
+    
+    Linear Regression
+
+
+<table>
+<thead><tr><th scope=col>RMSE</th><th scope=col>R2</th></tr></thead>
+<tbody>
+	<tr><td>4.929334 </td><td>0.9131809</td></tr>
+</tbody>
+</table>
+
+
+
+    
+    Polynomial Regression
+
+
+<table>
+<thead><tr><th></th><th scope=col>RMSE</th><th scope=col>R2</th></tr></thead>
+<tbody>
+	<tr><th scope=row>11</th><td>0.5819927</td><td>0.9996465</td></tr>
+</tbody>
+</table>
 
 
 
@@ -3238,12 +3319,12 @@ tail(train.data)
 <table>
 <thead><tr><th></th><th scope=col>Day</th><th scope=col>Confirmed</th><th scope=col>Deaths</th><th scope=col>Recovered</th><th scope=col>Active.Cases</th><th scope=col>Closed.Cases</th><th scope=col>percent_active</th><th scope=col>percent_closed</th></tr></thead>
 <tbody>
-	<tr><th scope=row>45</th><td>55       </td><td>81033    </td><td>3217     </td><td>67910    </td><td>9906     </td><td>71127    </td><td>12.224649</td><td>87.77535 </td></tr>
-	<tr><th scope=row>46</th><td>56       </td><td>81058    </td><td>3230     </td><td>68798    </td><td>9030     </td><td>72028    </td><td>11.140171</td><td>88.85983 </td></tr>
-	<tr><th scope=row>47</th><td>57       </td><td>81103    </td><td>3241     </td><td>69755    </td><td>8107     </td><td>72996    </td><td> 9.995931</td><td>90.00407 </td></tr>
-	<tr><th scope=row>48</th><td>58       </td><td>81157    </td><td>3249     </td><td>70535    </td><td>7373     </td><td>73784    </td><td> 9.084860</td><td>90.91514 </td></tr>
-	<tr><th scope=row>49</th><td>59       </td><td>81251    </td><td>3253     </td><td>71266    </td><td>6732     </td><td>74519    </td><td> 8.285436</td><td>91.71450 </td></tr>
-	<tr><th scope=row>50</th><td>59       </td><td>81251    </td><td>3253     </td><td>71266    </td><td>6732     </td><td>74519    </td><td> 8.285436</td><td>91.71450 </td></tr>
+	<tr><th scope=row>44</th><td>53       </td><td>80977    </td><td>3193     </td><td>65660    </td><td>12124    </td><td>68853    </td><td>14.972153</td><td>85.02785 </td></tr>
+	<tr><th scope=row>45</th><td>55       </td><td>81033    </td><td>3217     </td><td>67910    </td><td> 9906    </td><td>71127    </td><td>12.224649</td><td>87.77535 </td></tr>
+	<tr><th scope=row>46</th><td>56       </td><td>81058    </td><td>3230     </td><td>68798    </td><td> 9030    </td><td>72028    </td><td>11.140171</td><td>88.85983 </td></tr>
+	<tr><th scope=row>47</th><td>57       </td><td>81103    </td><td>3241     </td><td>69755    </td><td> 8107    </td><td>72996    </td><td> 9.995931</td><td>90.00407 </td></tr>
+	<tr><th scope=row>48</th><td>58       </td><td>81157    </td><td>3249     </td><td>70535    </td><td> 7373    </td><td>73784    </td><td> 9.084860</td><td>90.91514 </td></tr>
+	<tr><th scope=row>49</th><td>59       </td><td>81251    </td><td>3253     </td><td>71266    </td><td> 6732    </td><td>74519    </td><td> 8.285436</td><td>91.71450 </td></tr>
 </tbody>
 </table>
 
