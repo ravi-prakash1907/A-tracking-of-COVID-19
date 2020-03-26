@@ -17,7 +17,7 @@
 > #### <a href="#Data-Understanding:">Data Understanding</a> & <a href="#Data-Preparation:">Data Preparation</a>
 > 1. Removal of NAs
 > 2. Handling missing values
-> 3. Outlier 
+> 3. Outlier
     * identification
     * varification
     * removal
@@ -33,6 +33,7 @@
 >> #### role of pre processing:
 >> * Outlier identification & removal
 >> * Scaling (for maps)
+>> * Model overfitting 
 
 ### <a href="#Evaluation:">Result Evaluation</a>
 
