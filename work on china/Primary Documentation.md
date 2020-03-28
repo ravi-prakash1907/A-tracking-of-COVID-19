@@ -3528,7 +3528,7 @@ By the end of this week, the cure of infected patient will prove to be more bene
     
 > 1. <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">World Health Organization</a>
 > 2. <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">Johns Hopkins University</a>
-> 3. <a href="https://www.mohfw.gov.in/" target="_blank">Ministry of Human Resource & Developmant - India</a>
+> 3. <a href="https://www.mohfw.gov.in/" target="_blank">Ministry of Health and Family Welfare - India</a>
 > 4. <a href="https://www.imperial.ac.uk/about/covid-19/" target="_blank">Imperial College of London</a>
 > 5. <a href="https://www.worldometers.info/coronavirus/" target="_blank">Worldometers</a>
 
