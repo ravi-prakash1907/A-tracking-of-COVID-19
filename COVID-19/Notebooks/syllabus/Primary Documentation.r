@@ -290,7 +290,7 @@ row.names(check.Confirmed) <- NULL
 row.names(check.Deaths) <- NULL
 row.names(check.Recovered) <- NULL
 
-Hubei.Confirmed
+View(Hubei.Confirmed)
 
 # Let's check the once dimention more
 
@@ -426,9 +426,9 @@ countries.daily <-  function(dfName, cList) {
 China.Confirmed = country.aggregate.daily("Confirmed", "China")
 World.Confirmed = countries.daily("Confirmed", Countries)
 
-China.Confirmed
+View(China.Confirmed)
 cat("\n\n")
-head(World.Confirmed)
+View(head(World.Confirmed))
 
 China.Deaths = country.aggregate.daily("Deaths", "China")
 World.Deaths = countries.daily("Deaths", Countries)
@@ -487,7 +487,7 @@ countries.daily.bulk.summary = function(cList) { # date wise country data
 
 
 bulk = countries.daily.bulk.summary(Countries)
-head(bulk)
+View(head(bulk))
 
 bulk$Active.Cases = bulk$Confirmed - (bulk$Deaths + bulk$Recovered)
 bulk$Closed.Cases = bulk$Deaths + bulk$Recovered
@@ -502,7 +502,7 @@ China.dataset = bulk[which(str_detect(bulk$Country, 'China')),]
 # World Pooled dataset (except china)
 bulk = bulk[which(str_detect(bulk$Country, 'China', negate=T)),] # updating bulk itself
 
-head(China.dataset)
+View(head(China.dataset))
 
 ## Load both datewise-datasets (world & FOUR)
 # includes data of all the countries
@@ -643,7 +643,7 @@ region = cbind(region1[,1:3], region1[,4:8]+region2[,4:8])
 region$'percent_active' = percent("region")     # Active cases, out of every 100 Confirmed cases
 region$'percent_closed' = 100-percent("region") # Closed cases, out of every 100 Confirmed cases
 
-head(region)
+View(head(region))
 
 region=region[,c(-1, -3)]
 head(region, 10)
@@ -930,7 +930,7 @@ for(deg in 1:20){
     plm.predictions = rbind(plm.predictions, temp)
 }
 
-plm.predictions
+View(plm.predictions)
 
 deg = 16
 
@@ -1036,6 +1036,7 @@ plm.tester <- ggplot(test.data, aes(Day, percent_active) ) +
               theme( plot.title = element_text(size = 20, face = "bold")) 
 
 
+
 # Prediction table at degree = 6
 tail(plm.trained, 5)
 tail(plm.tested, 5)
@@ -1070,7 +1071,7 @@ Prediction = cbind(
                 "Predicted by LM" = lm.tested$Pridicted_percent_active,
                 "Predicted by Poly LM" = plm.tested$Pridicted_percent_active
              )
-Prediction
+View(Prediction)
 
 # Appending 59th day's data to our training dataset
 train.data = rbind(train.data, temp.test[1,])            # RUN ONCE!!
@@ -1113,4 +1114,4 @@ finalEstimate <- data.frame(
 
 finalEstimate$"Estimated Active Case(%)" = predict(fit.plm, finalEstimate)
 
-finalEstimate
+View(finalEstimate)

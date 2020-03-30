@@ -3,6 +3,9 @@ A dedicated repository for my data-science and analytics' work on the **_novel C
 
 <br />
 
+This project mainly works onto the Confirmed & Deaths cases.
+(Earlier work including Recovered cases can be found in the Archived directories)
+
 # 2019-nCoV
 > * It began to affect people in _Wuhan_ i.e. a city in **Hubei** province of China <br />
 > * **Diamond Princess** _cruise ship_ was the most-affected place by Coronavirus, outside China  <br />

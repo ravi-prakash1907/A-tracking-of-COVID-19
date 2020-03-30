@@ -21,7 +21,7 @@ check.Deaths = NULL
 check.Recovered = NULL
 
 # loading the datasets
-if(F){  # Internet is available!  ----->   url.exists("https://raviprakashravi.cf/")  # because files are no longer being updated
+if(url.exists("https://raviprakashravi.cf/")){  # files for US are no longer being updated   --->    url.exists("https://raviprakashravi.cf/")
   
   # names
   confirmLocation = "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
@@ -36,9 +36,9 @@ if(F){  # Internet is available!  ----->   url.exists("https://raviprakashravi.c
   write.csv(read.csv(recoveredLocation), "Johns H. University/csse_covid_19_time_series/backup/time_series_19-covid-Recovered.csv")
   
   # loading new data
-  check.Confirmed <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"))
-  check.Deaths <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv"))
-  check.Recovered <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv"))
+  check.Confirmed <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"))
+  check.Deaths <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"))
+  check.Recovered <- read.csv(text = getURL("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv"))
   
   # saving new data
   write.csv(check.Confirmed, confirmLocation, row.names = F)
@@ -52,10 +52,13 @@ if(F){  # Internet is available!  ----->   url.exists("https://raviprakashravi.c
   check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
 }  
 
+india.conf = check.Confirmed[which(str_detect(check.Confirmed$Country.Region, "India")),]
 
-check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
-check.Deaths = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
-check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
+write.csv(india.conf, file = "~/Documents/COVID-19-India/time_series_data/jhu_format/time_series_19-covid-jhu-Confirmed.csv", row.names = FALSE)
+
+#check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
+#check.Deaths = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
+#check.Recovered = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
 
 #################################################
 
@@ -152,27 +155,67 @@ countries.factor  = factor(countries, levels = countries.levels)
 
 # editing factors in datasets
 check.Confirmed = cbind(
-                    Province.State = states.factor,
-                    Country.Region = countries.factor,
-                    check.Confirmed[,3:ncol(check.Confirmed)]
-                  )
+  Province.State = states.factor,
+  Country.Region = countries.factor,
+  check.Confirmed[,3:ncol(check.Confirmed)]
+)
 
 check.Deaths = cbind(
-                    Province.State = states.factor,
-                    Country.Region = countries.factor,
-                    check.Deaths[,3:ncol(check.Deaths)]
-                  )
+  Province.State = states.factor,
+  Country.Region = countries.factor,
+  check.Deaths[,3:ncol(check.Deaths)]
+)
 
-check.Recovered = cbind(
-                    Province.State = states.factor,
-                    Country.Region = countries.factor,
-                    check.Recovered[,3:ncol(check.Recovered)]
-                  )
+
+###################################################################################
+#######   Not Used - Recovered
+###################################################################################
+
+# replacing in states
+states = as.character(check.Recovered$Province.State)
+states.levels = as.character(levels(check.Recovered$Province.State))
+
+states[states %in% ""] = "Others"
+states[states %in% "From Diamond Princess"] = "Diamond Princess"
+states.levels[states.levels %in% ""] = "Others"
+states.levels = states.levels[!states.levels %in% "From Diamond Princess"]
+
+countries = as.character(check.Recovered$Country.Region)
+countries.levels = as.character(levels(check.Recovered$Country.Region))
+
+countries[countries %in% "US"] = "United States"
+countries[countries %in% "UK"] = "United Kingdom"
+countries[countries %in% "Taiwan*"] = "Taiwan"
+countries[countries %in% "The Bahamas"] = "Bahamas"
+countries[countries %in% "Gambia, The"] = "Gambia"
+countries[countries %in% "Korea, South"] = "South Korea"
+countries[countries %in% c("Congo (Brazzaville)", "Congo (Kinshasa)", "Republic of the Congo")] = "Democratic Republic of the Congo"
+###
+countries.levels[countries.levels %in% "US"] = "United States"
+countries.levels[countries.levels %in% "UK"] = "United Kingdom"
+countries.levels[countries.levels %in% "Taiwan*"] = "Taiwan"
+countries.levels[countries.levels %in% "The Bahamas"] = "Bahamas"
+countries.levels[countries.levels %in% "Gambia, The"] = "Gambia"
+countries.levels[countries.levels %in% "Korea, South"] = "South Korea"
+
+countries.levels = countries.levels[!countries.levels %in% c("Congo (Brazzaville)", "Congo (Kinshasa)", "Republic of the Congo")]
+countries.levels = c(countries.levels, "Democratic Republic of the Congo")
+
+
+# check.Recovered = cbind(
+#   Province.State = states.factor,
+#   Country.Region = countries.factor,
+#   check.Recovered[,3:ncol(check.Recovered)]
+# )
 
 
 #View(check.Confirmed)
 #View(check.Deaths)
 #View(check.Recovered)
+
+###################################################################################
+#######   Not Used - Recovered
+###################################################################################
 
 
 ###############################
@@ -185,8 +228,8 @@ check.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Country.Regi
 Diamond.Princess.Deaths = check.Deaths[ which(str_detect(check.Deaths$Country.Region, "Cruise Ship", negate = F)),]
 check.Deaths = check.Deaths[ which(str_detect(check.Deaths$Country.Region, "Cruise Ship", negate = T)), ]
 
-Diamond.Princess.Recovered = check.Recovered[ which(str_detect(check.Recovered$Country.Region, "Cruise Ship", negate = F)), ]
-check.Recovered = check.Recovered[ which(str_detect(check.Recovered$Country.Region, "Cruise Ship", negate = T)), ]
+# Diamond.Princess.Recovered = check.Recovered[ which(str_detect(check.Recovered$Country.Region, "Cruise Ship", negate = F)), ]
+# check.Recovered = check.Recovered[ which(str_detect(check.Recovered$Country.Region, "Cruise Ship", negate = T)), ]
 
 
 
@@ -198,13 +241,13 @@ row.names(check.Recovered) <- NULL
 
 
 ## Closed cases (i.e. Recovered or Death cases)
-cases.Closed = cbind(check.Confirmed[,1:4],  (check.Deaths[,5:ncol(check.Deaths)] + check.Recovered[,5:ncol(check.Recovered)]))
+#cases.Closed = cbind(check.Confirmed[,1:4],  (check.Deaths[,5:ncol(check.Deaths)] + check.Recovered[,5:ncol(check.Recovered)]))
 ## Active cases 
-cases.Active = cbind(check.Confirmed[,1:4],  (check.Confirmed[,5:ncol(check.Confirmed)] - cases.Closed[,5:ncol(cases.Closed)]))
+cases.Active = cbind(check.Confirmed[,1:4],  (check.Confirmed[,5:ncol(check.Confirmed)] - check.Deaths[,5:ncol(check.Deaths)])) # cases.Closed[,5:ncol(cases.Closed)]))
 
 
 ###  When and Where COVID-19 ever.Affected / still.Affected  --->  excluding Diamond Princess
-ever.Affected = check.Confirmed
+ever.Affected = cases.Active
 # Unit scaling
 for (i in row.names(ever.Affected)) {
   for (j in 5:ncol(ever.Affected)) {
@@ -213,12 +256,12 @@ for (i in row.names(ever.Affected)) {
   }
 }
 
-still.Affected = check.Confirmed
+highly.Affected = check.Deaths
 # Unit scaling
-for (i in row.names(still.Affected)) {
-  for (j in 5:ncol(still.Affected)) {
-    if(still.Affected[i,j] != 0)
-      still.Affected[i,j] = 1
+for (i in row.names(highly.Affected)) {
+  for (j in 5:ncol(highly.Affected)) {
+    if(highly.Affected[i,j] != 0)
+      highly.Affected[i,j] = 1
   }
 }
 
@@ -233,23 +276,23 @@ check.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Province.Sta
 Hubei.Deaths = check.Deaths[ which(str_detect(check.Deaths$Province.State, "Hubei", negate = F)),]
 check.Deaths = check.Deaths[ which(str_detect(check.Deaths$Province.State, "Hubei", negate = T)), ]
 
-Hubei.Recovered = check.Recovered[ which(str_detect(check.Recovered$Province.State, "Hubei", negate = F)), ]
-check.Recovered = check.Recovered[ which(str_detect(check.Recovered$Province.State, "Hubei", negate = T)), ]
+# Hubei.Recovered = check.Recovered[ which(str_detect(check.Recovered$Province.State, "Hubei", negate = F)), ]
+# check.Recovered = check.Recovered[ which(str_detect(check.Recovered$Province.State, "Hubei", negate = T)), ]
 
 
 
 ## Rectifying Row sequences
 row.names(check.Confirmed) <- NULL
 row.names(check.Deaths) <- NULL
-row.names(check.Recovered) <- NULL
+# row.names(check.Recovered) <- NULL
 
 row.names(Diamond.Princess.Confirmed) <- NULL
 row.names(Diamond.Princess.Deaths) <- NULL
-row.names(Diamond.Princess.Recovered) <- NULL
+# row.names(Diamond.Princess.Recovered) <- NULL
 
 row.names(Hubei.Confirmed) <- NULL
 row.names(Hubei.Deaths) <- NULL
-row.names(Hubei.Recovered) <- NULL
+# row.names(Hubei.Recovered) <- NULL
 
 
 ###
@@ -265,22 +308,22 @@ row.names(Hubei.Recovered) <- NULL
 ## Diamond Princess
 write.csv(Diamond.Princess.Confirmed, file = "cleaned/Diamond-Princess/time_series_19-covid-Confirmed.csv", row.names = FALSE)
 write.csv(Diamond.Princess.Deaths, file = "cleaned/Diamond-Princess/time_series_19-covid-Deaths.csv", row.names = FALSE)
-write.csv(Diamond.Princess.Recovered, file = "cleaned/Diamond-Princess/time_series_19-covid-Recovered.csv", row.names = FALSE)
+# write.csv(Diamond.Princess.Recovered, file = "cleaned/Diamond-Princess/time_series_19-covid-Recovered.csv", row.names = FALSE)
 
 ## Hubei
 write.csv(Hubei.Confirmed, file = "cleaned/Hubei/time_series_19-covid-Confirmed.csv", row.names = FALSE)
 write.csv(Hubei.Deaths, file = "cleaned/Hubei/time_series_19-covid-Deaths.csv", row.names = FALSE)
-write.csv(Hubei.Recovered, file = "cleaned/Hubei/time_series_19-covid-Recovered.csv", row.names = FALSE)
+# write.csv(Hubei.Recovered, file = "cleaned/Hubei/time_series_19-covid-Recovered.csv", row.names = FALSE)
 
 
 ## Main files
 write.csv(check.Confirmed, file = "cleaned/time_series_19-covid-Confirmed.csv", row.names = FALSE)
 write.csv(check.Deaths, file = "cleaned/time_series_19-covid-Deaths.csv", row.names = FALSE)
-write.csv(check.Recovered, file = "cleaned/time_series_19-covid-Recovered.csv", row.names = FALSE)
+# write.csv(check.Recovered, file = "cleaned/time_series_19-covid-Recovered.csv", row.names = FALSE)
 
 ###   For map plot & gif
 write.csv(ever.Affected, file = "cleaned/ever.Affected.csv", row.names = FALSE)
-write.csv(still.Affected, file = "cleaned/still.Affected.csv", row.names = FALSE)
+write.csv(highly.Affected, file = "cleaned/highly.Affected.csv", row.names = FALSE)
 
 
 
@@ -289,10 +332,10 @@ write.csv(still.Affected, file = "cleaned/still.Affected.csv", row.names = FALSE
 
 cleaned.Confirmed <- read.csv("cleaned/time_series_19-covid-Confirmed.csv")
 cleaned.Deaths <- read.csv("cleaned/time_series_19-covid-Deaths.csv")
-cleaned.Recovered <- read.csv("cleaned/time_series_19-covid-Recovered.csv")
+# cleaned.Recovered <- read.csv("cleaned/time_series_19-covid-Recovered.csv")
 
 cleaned.ever.Affected <- read.csv("cleaned/ever.Affected.csv")
-cleaned.still.Affected <- read.csv("cleaned/still.Affected.csv")
+cleaned.highly.Affected <- read.csv("cleaned/highly.Affected.csv")
 
 #str(cleaned.Confirmed)
 
@@ -302,7 +345,7 @@ cleaned.still.Affected <- read.csv("cleaned/still.Affected.csv")
 #View(cleaned.Recovered)
 
 #View(cleaned.ever.Affected)
-#View(cleaned.still.Affected)
+#View(cleaned.highly.Affected)
 
 ##########    ENDS     ###########
 

@@ -1,0 +1,500 @@
+"","States","Country","Confirmed","Deaths","Recovered","Active.Cases","Closed.Cases"
+"1","Others","Afghanistan",40,1,1,38,2
+"2","Others","Albania",89,2,2,85,4
+"3","Others","Algeria",201,17,65,119,82
+"4","Others","Andorra",113,1,1,111,2
+"5","Others","Angola",2,0,0,2,0
+"6","Others","Antigua and Barbuda",1,0,0,1,0
+"7","Others","Argentina",225,4,3,218,7
+"8","Others","Armenia",194,0,2,192,2
+"9","New South Wales","Australia",533,6,4,523,10
+"10","Victoria","Australia",296,0,70,226,70
+"11","Queensland","Australia",221,0,8,213,8
+"12","South Australia","Australia",100,0,3,97,3
+"13","Diamond Princess","Australia",8,0,0,8,0
+"14","Western Australia","Australia",120,1,0,119,1
+"15","Tasmania","Australia",22,0,3,19,3
+"16","Northern Territory","Australia",3,0,0,3,0
+"17","Australian Capital Territory","Australia",19,0,0,19,0
+"18","Others","Austria",3244,16,9,3219,25
+"19","Others","Azerbaijan",65,1,11,53,12
+"20","Others","Bahamas",0,0,0,0,0
+"21","Others","Bahamas, The",4,0,0,4,0
+"22","Others","Bahrain",332,2,149,181,151
+"23","Others","Bangladesh",27,2,3,22,5
+"24","Others","Barbados",14,0,0,14,0
+"25","Others","Belarus",76,0,15,61,15
+"26","Others","Belgium",3401,75,263,3063,338
+"27","Others","Benin",2,0,0,2,0
+"28","Others","Bhutan",2,0,0,2,0
+"29","Others","Bolivia",24,0,0,24,0
+"30","Others","Bosnia and Herzegovina",126,1,2,123,3
+"31","Others","Brazil",1593,25,2,1566,27
+"32","Others","Brunei",88,0,2,86,2
+"33","Others","Bulgaria",187,3,3,181,6
+"34","Others","Burkina Faso",75,4,5,66,9
+"35","Others","Cabo Verde",3,0,0,3,0
+"36","Others","Cambodia",84,0,1,83,1
+"37","Others","Cameroon",40,0,0,40,0
+"38","British Columbia","Canada",424,10,4,410,14
+"39","Ontario","Canada",425,5,6,414,11
+"40","Alberta","Canada",259,1,0,258,1
+"41","Quebec","Canada",219,5,0,214,5
+"42","New Brunswick","Canada",17,0,0,17,0
+"43","Manitoba","Canada",20,0,0,20,0
+"44","Saskatchewan","Canada",52,0,0,52,0
+"45","Grand Princess","Canada",13,0,0,13,0
+"46","Newfoundland and Labrador","Canada",9,0,0,9,0
+"47","Prince Edward Island","Canada",3,0,0,3,0
+"48","Nova Scotia","Canada",28,0,0,28,0
+"49","Northwest Territories","Canada",1,0,0,1,0
+"50","Others","Cape Verde",1,0,0,1,0
+"51","Others","Central African Republic",3,0,0,3,0
+"52","Others","Chad",1,0,0,1,0
+"53","Others","Chile",632,1,8,623,9
+"54","Guangdong","China",1413,8,1332,73,1340
+"55","Henan","China",1274,22,1250,2,1272
+"56","Zhejiang","China",1238,1,1221,16,1222
+"57","Hunan","China",1018,4,1014,0,1018
+"58","Anhui","China",990,6,984,0,990
+"59","Jiangxi","China",936,1,934,1,935
+"60","Shandong","China",767,7,751,9,758
+"61","Jiangsu","China",633,0,631,2,631
+"62","Chongqing","China",577,6,570,1,576
+"63","Sichuan","China",543,3,536,4,539
+"64","Heilongjiang","China",484,13,466,5,479
+"65","Beijing","China",522,8,400,114,408
+"66","Shanghai","China",404,4,329,71,333
+"67","Hebei","China",319,6,310,3,316
+"68","Fujian","China",313,1,295,17,296
+"69","Guangxi","China",254,2,250,2,252
+"70","Shaanxi","China",248,3,239,6,242
+"71","Yunnan","China",176,2,172,2,174
+"72","Hainan","China",168,6,161,1,167
+"73","Guizhou","China",147,2,144,1,146
+"74","Tianjin","China",141,3,133,5,136
+"75","Shanxi","China",133,0,133,0,133
+"76","Gansu","China",136,2,114,20,116
+"77","Hong Kong","China",317,4,100,213,104
+"78","Liaoning","China",127,2,124,1,126
+"79","Jilin","China",93,1,92,0,93
+"80","Xinjiang","China",76,3,73,0,76
+"81","Inner Mongolia","China",75,1,74,0,75
+"82","Ningxia","China",75,0,75,0,75
+"83","Qinghai","China",18,0,18,0,18
+"84","Macau","China",24,0,10,14,10
+"85","Tibet","China",1,0,1,0,1
+"86","Others","Colombia",231,2,3,226,5
+"87","Others","Costa Rica",134,2,2,130,4
+"88","Others","Cote d'Ivoire",14,0,1,13,1
+"89","Others","Croatia",254,1,5,248,6
+"90","Others","Cuba",35,1,0,34,1
+"91","Others","Cyprus",95,1,3,91,4
+"92","Others","Czechia",1120,1,6,1113,7
+"93","Others","Democratic Republic of the Congo",30,1,0,29,1
+"94","Others","Democratic Republic of the Congo",3,0,0,3,0
+"95","Others","Democratic Republic of the Congo",0,0,0,0,0
+"96","Denmark","Denmark",1395,13,1,1381,14
+"97","Faroe Islands","Denmark",115,0,0,115,0
+"98","Greenland","Denmark",4,0,0,4,0
+"99","Others","Djibouti",1,0,0,1,0
+"100","Others","Dominica",1,0,0,1,0
+"101","Others","Dominican Republic",202,3,0,199,3
+"102","Others","East Timor",1,0,0,1,0
+"103","Others","Ecuador",789,14,3,772,17
+"104","Others","Egypt",327,14,56,257,70
+"105","Others","El Salvador",3,0,0,3,0
+"106","Others","Equatorial Guinea",6,0,0,6,0
+"107","Others","Eritrea",1,0,0,1,0
+"108","Others","Estonia",326,0,2,324,2
+"109","Others","Eswatini",4,0,0,4,0
+"110","Others","Ethiopia",11,0,4,7,4
+"111","Others","Fiji",2,0,0,2,0
+"112","Others","Finland",626,1,10,615,11
+"113","France","France",16018,674,2200,13144,2874
+"114","St Martin","France",4,0,0,4,0
+"115","Saint Barthelemy","France",3,0,0,3,0
+"116","French Polynesia","France",15,0,0,15,0
+"117","French Guiana","France",18,0,6,12,6
+"118","Mayotte","France",11,0,0,11,0
+"119","Guadeloupe","France",56,0,0,56,0
+"120","Reunion","France",47,0,0,47,0
+"121","New Caledonia","France",4,0,0,4,0
+"122","Others","French Guiana",18,0,6,12,6
+"123","Others","Gabon",5,1,0,4,1
+"124","Others","Gambia",1,0,0,1,0
+"125","Others","Georgia",54,0,3,51,3
+"126","Others","Germany",24873,94,266,24513,360
+"127","Others","Ghana",24,1,0,23,1
+"128","Others","Greece",624,15,19,590,34
+"129","Others","Greenland",0,0,0,0,0
+"130","Others","Grenada",1,0,0,1,0
+"131","Others","Guadeloupe",56,0,0,56,0
+"132","Others","Guam",0,1,0,-1,1
+"133","Others","Guatemala",19,1,0,18,1
+"134","Others","Guernsey",0,0,0,0,0
+"135","Others","Guinea",2,0,0,2,0
+"136","Others","Guyana",7,1,0,6,1
+"137","Others","Haiti",2,0,0,2,0
+"138","Others","Holy See",1,0,0,1,0
+"139","Others","Honduras",26,0,0,26,0
+"140","Others","Hungary",131,6,16,109,22
+"141","Others","Iceland",568,5,36,527,41
+"142","Others","India",396,7,27,362,34
+"143","Others","Indonesia",514,48,29,437,77
+"144","Others","Iran",21638,1685,7931,12022,9616
+"145","Others","Iraq",233,20,57,156,77
+"146","Others","Ireland",906,4,5,897,9
+"147","Others","Israel",1071,1,37,1033,38
+"148","Others","Italy",59138,5476,7024,46638,12500
+"149","Others","Jamaica",16,1,2,13,3
+"150","Others","Japan",1086,40,235,811,275
+"151","Others","Jersey",0,0,0,0,0
+"152","Others","Jordan",112,0,1,111,1
+"153","Others","Kazakhstan",60,3,0,57,3
+"154","Others","Kenya",15,0,0,15,0
+"155","Others","Kosovo",2,0,0,2,0
+"156","Others","Kuwait",188,0,27,161,27
+"157","Others","Kyrgyzstan",14,0,0,14,0
+"158","Others","Latvia",139,0,1,138,1
+"159","Others","Lebanon",248,4,8,236,12
+"160","Others","Liberia",3,0,0,3,0
+"161","Others","Liechtenstein",37,0,0,37,0
+"162","Others","Lithuania",131,1,1,129,2
+"163","Others","Luxembourg",798,8,6,784,14
+"164","Others","Madagascar",3,0,0,3,0
+"165","Others","Malaysia",1306,10,139,1157,149
+"166","Others","Maldives",13,0,0,13,0
+"167","Others","Malta",90,0,2,88,2
+"168","Others","Martinique",37,1,0,36,1
+"169","Others","Mauritania",2,0,0,2,0
+"170","Others","Mauritius",18,1,0,17,1
+"171","Others","Mayotte",11,0,0,11,0
+"172","Others","Mexico",251,2,4,245,6
+"173","Others","Moldova",94,1,1,92,2
+"174","Others","Monaco",23,0,1,22,1
+"175","Others","Mongolia",10,0,0,10,0
+"176","Others","Montenegro",21,0,0,21,0
+"177","Others","Morocco",115,4,3,108,7
+"178","Others","Mozambique",1,0,0,1,0
+"179","Others","Namibia",3,0,0,3,0
+"180","Others","Nepal",2,0,1,1,1
+"181","Netherlands","Netherlands",4204,179,2,4023,181
+"182","Curacao","Netherlands",3,1,0,2,1
+"183","Aruba","Netherlands",8,0,0,8,0
+"184","Sint Maarten","Netherlands",1,0,0,1,0
+"185","Others","New Zealand",66,0,0,66,0
+"186","Others","Nicaragua",2,0,0,2,0
+"187","Others","Niger",2,0,0,2,0
+"188","Others","Nigeria",30,0,2,28,2
+"189","Others","North Macedonia",114,1,1,112,2
+"190","Others","Norway",2383,7,1,2375,8
+"191","Others","Oman",55,0,17,38,17
+"192","Others","Pakistan",776,5,13,758,18
+"193","Others","Panama",245,3,0,242,3
+"194","Others","Papua New Guinea",1,0,0,1,0
+"195","Others","Paraguay",22,1,0,21,1
+"196","Others","Peru",363,5,1,357,6
+"197","Others","Philippines",380,25,17,338,42
+"198","Others","Poland",634,7,13,614,20
+"199","Others","Portugal",1600,14,5,1581,19
+"200","Others","Puerto Rico",0,1,0,-1,1
+"201","Others","Qatar",494,0,33,461,33
+"202","Others","Reunion",47,0,0,47,0
+"203","Others","Romania",433,3,64,366,67
+"204","Others","Russia",367,1,16,350,17
+"205","Others","Rwanda",19,0,0,19,0
+"206","Others","Saint Lucia",2,0,0,2,0
+"207","Others","Saint Vincent and the Grenadines",1,0,0,1,0
+"208","Others","San Marino",160,20,4,136,24
+"209","Others","Saudi Arabia",511,0,16,495,16
+"210","Others","Senegal",67,0,5,62,5
+"211","Others","Serbia",222,2,1,219,3
+"212","Others","Seychelles",7,0,0,7,0
+"213","Others","Singapore",455,2,144,309,146
+"214","Others","Slovakia",185,1,7,177,8
+"215","Others","Slovenia",414,2,0,412,2
+"216","Others","Somalia",1,0,0,1,0
+"217","Others","South Africa",274,0,0,274,0
+"218","Others","South Korea",8897,104,2909,5884,3013
+"219","Others","Spain",28768,1772,2575,24421,4347
+"220","Others","Sri Lanka",82,0,3,79,3
+"221","Others","Sudan",2,1,0,1,1
+"222","Others","Suriname",5,0,0,5,0
+"223","Others","Sweden",1934,21,16,1897,37
+"224","Others","Switzerland",7245,98,131,7016,229
+"225","Others","Syria",1,0,0,1,0
+"226","Others","Taiwan",169,2,28,139,30
+"227","Others","Tanzania",12,0,0,12,0
+"228","Others","Thailand",599,1,44,554,45
+"229","Others","The Gambia",0,0,0,0,0
+"230","Others","Timor-Leste",1,0,0,1,0
+"231","Others","Togo",16,0,1,15,1
+"232","Others","Trinidad and Tobago",50,0,1,49,1
+"233","Others","Tunisia",75,3,1,71,4
+"234","Others","Turkey",1236,30,0,1206,30
+"235","Others","Uganda",1,0,0,1,0
+"236","Others","Ukraine",73,3,1,69,4
+"237","Others","United Arab Emirates",153,2,38,113,40
+"238","Channel Islands","United Kingdom",32,0,0,32,0
+"239","Gibraltar","United Kingdom",15,0,2,13,2
+"240","United Kingdom","United Kingdom",5683,281,65,5337,346
+"241","Cayman Islands","United Kingdom",3,1,0,2,1
+"242","Montserrat","United Kingdom",1,0,0,1,0
+"243","Bermuda","United Kingdom",2,0,0,2,0
+"244","Isle of Man","United Kingdom",5,0,0,5,0
+"245","Washington","United States",1996,95,1,1900,96
+"246","New York","United States",15793,117,0,15676,117
+"247","California","United States",1642,30,6,1606,36
+"248","Massachusetts","United States",646,5,1,640,6
+"249","Diamond Princess","United States",49,0,0,49,0
+"250","Grand Princess","United States",30,1,0,29,1
+"251","Georgia","United States",600,23,0,577,23
+"252","Colorado","United States",476,6,0,470,6
+"253","Florida","United States",830,13,0,817,13
+"254","New Jersey","United States",1914,20,1,1893,21
+"255","Oregon","United States",161,5,0,156,5
+"256","Texas","United States",627,6,0,621,6
+"257","Illinois","United States",1049,9,2,1038,11
+"258","Pennsylvania","United States",509,3,0,506,3
+"259","Iowa","United States",90,0,0,90,0
+"260","Maryland","United States",244,3,3,238,6
+"261","North Carolina","United States",302,0,0,302,0
+"262","South Carolina","United States",196,3,0,193,3
+"263","Tennessee","United States",505,2,0,503,2
+"264","Virginia","United States",221,6,0,215,6
+"265","Arizona","United States",152,2,1,149,3
+"266","Indiana","United States",201,6,0,195,6
+"267","Kentucky","United States",99,3,1,95,4
+"268","District of Columbia","United States",102,2,0,100,2
+"269","Nevada","United States",190,2,0,188,2
+"270","New Hampshire","United States",65,0,0,65,0
+"271","Minnesota","United States",169,1,0,168,1
+"272","Nebraska","United States",51,0,0,51,0
+"273","Ohio","United States",355,3,0,352,3
+"274","Rhode Island","United States",83,0,0,83,0
+"275","Wisconsin","United States",381,4,1,376,5
+"276","Connecticut","United States",223,5,0,218,5
+"277","Hawaii","United States",48,0,0,48,0
+"278","Oklahoma","United States",67,2,0,65,2
+"279","Utah","United States",181,1,0,180,1
+"280","Kansas","United States",64,2,0,62,2
+"281","Louisiana","United States",837,20,0,817,20
+"282","Missouri","United States",100,3,0,97,3
+"283","Vermont","United States",52,2,0,50,2
+"284","Alaska","United States",21,0,0,21,0
+"285","Arkansas","United States",165,0,0,165,0
+"286","Delaware","United States",47,0,0,47,0
+"287","Idaho","United States",42,0,0,42,0
+"288","Maine","United States",89,0,0,89,0
+"289","Michigan","United States",1037,9,0,1028,9
+"290","Mississippi","United States",207,1,0,206,1
+"291","Montana","United States",31,0,0,31,0
+"292","New Mexico","United States",57,0,0,57,0
+"293","North Dakota","United States",28,0,0,28,0
+"294","South Dakota","United States",21,1,0,20,1
+"295","West Virginia","United States",12,0,0,12,0
+"296","Wyoming","United States",24,0,0,24,0
+"297","Kitsap, WA","United States",0,0,0,0,0
+"298","Solano, CA","United States",0,0,0,0,0
+"299","Santa Cruz, CA","United States",0,0,0,0,0
+"300","Napa, CA","United States",0,0,0,0,0
+"301","Ventura, CA","United States",0,0,0,0,0
+"302","Worcester, MA","United States",0,0,0,0,0
+"303","Gwinnett, GA","United States",0,0,0,0,0
+"304","DeKalb, GA","United States",0,0,0,0,0
+"305","Floyd, GA","United States",0,0,0,0,0
+"306","Fayette, GA","United States",0,0,0,0,0
+"307","Gregg, TX","United States",0,0,0,0,0
+"308","Monmouth, NJ","United States",0,0,0,0,0
+"309","Burlington, NJ","United States",0,0,0,0,0
+"310","Camden, NJ","United States",0,0,0,0,0
+"311","Passaic, NJ","United States",0,0,0,0,0
+"312","Union, NJ","United States",0,0,0,0,0
+"313","Eagle, CO","United States",0,0,0,0,0
+"314","Larimer, CO","United States",0,0,0,0,0
+"315","Arapahoe, CO","United States",0,0,0,0,0
+"316","Gunnison, CO","United States",0,0,0,0,0
+"317","Kane, IL","United States",0,0,0,0,0
+"318","Monroe, PA","United States",0,0,0,0,0
+"319","Philadelphia, PA","United States",0,0,0,0,0
+"320","Norfolk, VA","United States",0,0,0,0,0
+"321","Arlington, VA","United States",0,0,0,0,0
+"322","Spotsylvania, VA","United States",0,0,0,0,0
+"323","Loudoun, VA","United States",0,0,0,0,0
+"324","Prince George's, MD","United States",0,0,0,0,0
+"325","Pottawattamie, IA","United States",0,0,0,0,0
+"326","Camden, NC","United States",0,0,0,0,0
+"327","Pima, AZ","United States",0,0,0,0,0
+"328","Noble, IN","United States",0,0,0,0,0
+"329","Adams, IN","United States",0,0,0,0,0
+"330","Boone, IN","United States",0,0,0,0,0
+"331","Dane, WI","United States",0,0,0,0,0
+"332","Pierce, WI","United States",0,0,0,0,0
+"333","Cuyahoga, OH","United States",0,0,0,0,0
+"334","Weber, UT","United States",0,0,0,0,0
+"335","Bennington County, VT","United States",1,0,0,1,0
+"336","Carver County, MN","United States",1,0,0,1,0
+"337","Charlotte County, FL","United States",1,0,0,1,0
+"338","Cherokee County, GA","United States",1,0,0,1,0
+"339","Collin County, TX","United States",1,0,0,1,0
+"340","Jefferson County, KY","United States",1,0,0,1,0
+"341","Jefferson Parish, LA","United States",1,0,0,1,0
+"342","Shasta County, CA","United States",1,0,0,1,0
+"343","Spartanburg County, SC","United States",1,0,0,1,0
+"344","Harrison County, KY","United States",2,0,0,2,0
+"345","Johnson County, IA","United States",3,0,0,3,0
+"346","Berkshire County, MA","United States",1,0,0,1,0
+"347","Davidson County, TN","United States",1,0,0,1,0
+"348","Douglas County, OR","United States",1,0,0,1,0
+"349","Fresno County, CA","United States",1,0,0,1,0
+"350","Harford County, MD","United States",1,0,0,1,0
+"351","Hendricks County, IN","United States",2,0,0,2,0
+"352","Hudson County, NJ","United States",1,0,0,1,0
+"353","Johnson County, KS","United States",1,0,0,1,0
+"354","Kittitas County, WA","United States",1,0,0,1,0
+"355","Manatee County, FL","United States",2,0,0,2,0
+"356","Marion County, OR","United States",1,0,0,1,0
+"357","Okaloosa County, FL","United States",1,0,0,1,0
+"358","Polk County, GA","United States",1,0,0,1,0
+"359","Riverside County, CA","United States",1,0,0,1,0
+"360","Shelby County, TN","United States",1,0,0,1,0
+"361","St. Louis County, MO","United States",1,0,0,1,0
+"362","Suffolk County, NY","United States",1,0,0,1,0
+"363","Ulster County, NY","United States",1,0,0,1,0
+"364","Volusia County, FL","United States",1,0,0,1,0
+"365","Fairfax County, VA","United States",2,0,0,2,0
+"366","Rockingham County, NH","United States",1,0,0,1,0
+"367","Washington, D.C.","United States",2,0,0,2,0
+"368","Montgomery County, PA","United States",5,0,0,5,0
+"369","Alameda County, CA","United States",2,0,0,2,0
+"370","Broward County, FL","United States",3,0,0,3,0
+"371","Lee County, FL","United States",2,1,0,1,1
+"372","Pinal County, AZ","United States",2,0,0,2,0
+"373","Rockland County, NY","United States",4,0,0,4,0
+"374","Saratoga County, NY","United States",2,0,0,2,0
+"375","Charleston County, SC","United States",1,0,0,1,0
+"376","Clark County, WA","United States",1,0,0,1,0
+"377","Cobb County, GA","United States",3,0,0,3,0
+"378","Davis County, UT","United States",1,0,0,1,0
+"379","El Paso County, CO","United States",1,0,0,1,0
+"380","Honolulu County, HI","United States",1,0,0,1,0
+"381","Jackson County, OR ","United States",2,0,0,2,0
+"382","Jefferson County, WA","United States",1,0,0,1,0
+"383","Kershaw County, SC","United States",1,0,0,1,0
+"384","Klamath County, OR","United States",1,0,0,1,0
+"385","Madera County, CA","United States",1,0,0,1,0
+"386","Pierce County, WA","United States",4,0,0,4,0
+"387","Tulsa County, OK","United States",1,0,0,1,0
+"388","Douglas County, CO","United States",3,0,0,3,0
+"389","Providence County, RI","United States",3,0,0,3,0
+"390","Chatham County, NC","United States",1,0,0,1,0
+"391","Delaware County, PA","United States",1,0,0,1,0
+"392","Douglas County, NE","United States",3,0,0,3,0
+"393","Fayette County, KY","United States",1,0,0,1,0
+"394","Marion County, IN","United States",1,0,0,1,0
+"395","Middlesex County, MA","United States",7,0,0,7,0
+"396","Nassau County, NY","United States",17,0,0,17,0
+"397","Ramsey County, MN","United States",1,0,0,1,0
+"398","Washoe County, NV","United States",2,0,0,2,0
+"399","Wayne County, PA","United States",1,0,0,1,0
+"400","Yolo County, CA","United States",1,0,0,1,0
+"401","Santa Clara County, CA","United States",38,0,1,37,1
+"402","Clark County, NV","United States",2,0,0,2,0
+"403","Fort Bend County, TX","United States",6,0,0,6,0
+"404","Grant County, WA","United States",1,1,0,0,1
+"405","Santa Rosa County, FL","United States",1,1,0,0,1
+"406","Williamson County, TN","United States",1,0,0,1,0
+"407","New York County, NY","United States",19,0,0,19,0
+"408","Montgomery County, MD","United States",4,0,0,4,0
+"409","Suffolk County, MA","United States",8,0,1,7,1
+"410","Denver County, CO","United States",2,0,0,2,0
+"411","Summit County, CO","United States",1,0,0,1,0
+"412","Bergen County, NJ","United States",4,0,0,4,0
+"413","Harris County, TX","United States",6,0,0,6,0
+"414","San Francisco County, CA","United States",9,0,0,9,0
+"415","Contra Costa County, CA","United States",9,0,0,9,0
+"416","Orange County, CA","United States",4,0,0,4,0
+"417","Norfolk County, MA","United States",6,0,0,6,0
+"418","Maricopa County, AZ","United States",2,0,1,1,1
+"419","Wake County, NC","United States",1,0,0,1,0
+"420","Westchester County, NY","United States",98,0,0,98,0
+"421","Grafton County, NH","United States",3,0,0,3,0
+"422","Hillsborough, FL","United States",2,0,0,2,0
+"423","Placer County, CA","United States",7,1,0,6,1
+"424","San Mateo, CA","United States",2,0,0,2,0
+"425","Sonoma County, CA","United States",3,0,0,3,0
+"426","Umatilla, OR","United States",1,0,0,1,0
+"427","Fulton County, GA","United States",5,0,0,5,0
+"428","Washington County, OR","United States",8,0,0,8,0
+"429","Snohomish County, WA","United States",31,1,0,30,1
+"430","Humboldt County, CA","United States",1,0,0,1,0
+"431","Sacramento County, CA","United States",2,0,0,2,0
+"432","San Diego County, CA","United States",3,0,1,2,1
+"433","San Benito, CA","United States",2,0,0,2,0
+"434","Los Angeles, CA","United States",14,0,0,14,0
+"435","King County, WA","United States",83,17,1,65,18
+"436","Cook County, IL","United States",7,0,2,5,2
+"437","Skagit, WA","United States",0,0,0,0,0
+"438","Thurston, WA","United States",0,0,0,0,0
+"439","Island, WA","United States",0,0,0,0,0
+"440","Whatcom, WA","United States",0,0,0,0,0
+"441","Marin, CA","United States",0,0,0,0,0
+"442","Calaveras, CA","United States",0,0,0,0,0
+"443","Stanislaus, CA","United States",0,0,0,0,0
+"444","San Joaquin, CA","United States",0,0,0,0,0
+"445","Essex, MA","United States",0,0,0,0,0
+"446","Charlton, GA","United States",0,0,0,0,0
+"447","Collier, FL","United States",0,0,0,0,0
+"448","Pinellas, FL","United States",0,0,0,0,0
+"449","Alachua, FL","United States",0,0,0,0,0
+"450","Nassau, FL","United States",0,0,0,0,0
+"451","Pasco, FL","United States",0,0,0,0,0
+"452","Dallas, TX","United States",0,0,0,0,0
+"453","Tarrant, TX","United States",0,0,0,0,0
+"454","Montgomery, TX","United States",0,0,0,0,0
+"455","Middlesex, NJ","United States",0,0,0,0,0
+"456","Jefferson, CO","United States",0,0,0,0,0
+"457","Multnomah, OR","United States",0,0,0,0,0
+"458","Polk, OR","United States",0,0,0,0,0
+"459","Deschutes, OR","United States",0,0,0,0,0
+"460","McHenry, IL","United States",0,0,0,0,0
+"461","Lake, IL","United States",0,0,0,0,0
+"462","Bucks, PA","United States",0,0,0,0,0
+"463","Hanover, VA","United States",0,0,0,0,0
+"464","Lancaster, SC","United States",0,0,0,0,0
+"465","Sullivan, TN","United States",0,0,0,0,0
+"466","Johnson, IN","United States",0,0,0,0,0
+"467","Howard, IN","United States",0,0,0,0,0
+"468","St. Joseph, IN","United States",0,0,0,0,0
+"469","Knox, NE","United States",0,0,0,0,0
+"470","Stark, OH","United States",0,0,0,0,0
+"471","Anoka, MN","United States",0,0,0,0,0
+"472","Olmsted, MN","United States",0,0,0,0,0
+"473","Summit, UT","United States",0,0,0,0,0
+"474","Fairfield, CT","United States",0,0,0,0,0
+"475","Litchfield, CT","United States",0,0,0,0,0
+"476","Orleans, LA","United States",0,0,0,0,0
+"477","Pennington, SD","United States",0,0,0,0,0
+"478","Beadle, SD","United States",0,0,0,0,0
+"479","Charles Mix, SD","United States",0,0,0,0,0
+"480","Davison, SD","United States",0,0,0,0,0
+"481","Minnehaha, SD","United States",0,0,0,0,0
+"482","Bon Homme, SD","United States",0,0,0,0,0
+"483","Socorro, NM","United States",0,0,0,0,0
+"484","Bernalillo, NM","United States",0,0,0,0,0
+"485","Oakland, MI","United States",0,0,0,0,0
+"486","Wayne, MI","United States",0,0,0,0,0
+"487","New Castle, DE","United States",0,0,0,0,0
+"488","Alabama","United States",138,0,0,138,0
+"489","Puerto Rico","United States",23,1,0,22,1
+"490","Guam","United States",27,1,0,26,1
+"491","Virgin Islands","United States",3,0,0,3,0
+"492","United States Virgin Islands","United States",6,0,0,6,0
+"493","US","United States",1,0,178,-177,178
+"494","Others","Uruguay",135,0,0,135,0
+"495","Others","Uzbekistan",43,0,0,43,0
+"496","Others","Venezuela",70,0,15,55,15
+"497","Others","Vietnam",113,0,17,96,17
+"498","Others","Zambia",3,0,0,3,0
+"499","Others","Zimbabwe",3,0,0,3,0

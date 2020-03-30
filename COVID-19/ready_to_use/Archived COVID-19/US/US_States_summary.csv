@@ -1,0 +1,250 @@
+"States","Confirmed","Deaths","Recovered","Active.Cases","Closed.Cases"
+"Washington",1996,95,1,1900,96
+"New York",15793,117,0,15676,117
+"California",1642,30,6,1606,36
+"Massachusetts",646,5,1,640,6
+"Diamond Princess",49,0,0,49,0
+"Grand Princess",30,1,0,29,1
+"Georgia",600,23,0,577,23
+"Colorado",476,6,0,470,6
+"Florida",830,13,0,817,13
+"New Jersey",1914,20,1,1893,21
+"Oregon",161,5,0,156,5
+"Texas",627,6,0,621,6
+"Illinois",1049,9,2,1038,11
+"Pennsylvania",509,3,0,506,3
+"Iowa",90,0,0,90,0
+"Maryland",244,3,3,238,6
+"North Carolina",302,0,0,302,0
+"South Carolina",196,3,0,193,3
+"Tennessee",505,2,0,503,2
+"Virginia",221,6,0,215,6
+"Arizona",152,2,1,149,3
+"Indiana",201,6,0,195,6
+"Kentucky",99,3,1,95,4
+"District of Columbia",102,2,0,100,2
+"Nevada",190,2,0,188,2
+"New Hampshire",65,0,0,65,0
+"Minnesota",169,1,0,168,1
+"Nebraska",51,0,0,51,0
+"Ohio",355,3,0,352,3
+"Rhode Island",83,0,0,83,0
+"Wisconsin",381,4,1,376,5
+"Connecticut",223,5,0,218,5
+"Hawaii",48,0,0,48,0
+"Oklahoma",67,2,0,65,2
+"Utah",181,1,0,180,1
+"Kansas",64,2,0,62,2
+"Louisiana",837,20,0,817,20
+"Missouri",100,3,0,97,3
+"Vermont",52,2,0,50,2
+"Alaska",21,0,0,21,0
+"Arkansas",165,0,0,165,0
+"Delaware",47,0,0,47,0
+"Idaho",42,0,0,42,0
+"Maine",89,0,0,89,0
+"Michigan",1037,9,0,1028,9
+"Mississippi",207,1,0,206,1
+"Montana",31,0,0,31,0
+"New Mexico",57,0,0,57,0
+"North Dakota",28,0,0,28,0
+"South Dakota",21,1,0,20,1
+"West Virginia",12,0,0,12,0
+"Wyoming",24,0,0,24,0
+"Kitsap, WA",0,0,0,0,0
+"Solano, CA",0,0,0,0,0
+"Santa Cruz, CA",0,0,0,0,0
+"Napa, CA",0,0,0,0,0
+"Ventura, CA",0,0,0,0,0
+"Worcester, MA",0,0,0,0,0
+"Gwinnett, GA",0,0,0,0,0
+"DeKalb, GA",0,0,0,0,0
+"Floyd, GA",0,0,0,0,0
+"Fayette, GA",0,0,0,0,0
+"Gregg, TX",0,0,0,0,0
+"Monmouth, NJ",0,0,0,0,0
+"Burlington, NJ",0,0,0,0,0
+"Camden, NJ",0,0,0,0,0
+"Passaic, NJ",0,0,0,0,0
+"Union, NJ",0,0,0,0,0
+"Eagle, CO",0,0,0,0,0
+"Larimer, CO",0,0,0,0,0
+"Arapahoe, CO",0,0,0,0,0
+"Gunnison, CO",0,0,0,0,0
+"Kane, IL",0,0,0,0,0
+"Monroe, PA",0,0,0,0,0
+"Philadelphia, PA",0,0,0,0,0
+"Norfolk, VA",0,0,0,0,0
+"Arlington, VA",0,0,0,0,0
+"Spotsylvania, VA",0,0,0,0,0
+"Loudoun, VA",0,0,0,0,0
+"Prince George's, MD",0,0,0,0,0
+"Pottawattamie, IA",0,0,0,0,0
+"Camden, NC",0,0,0,0,0
+"Pima, AZ",0,0,0,0,0
+"Noble, IN",0,0,0,0,0
+"Adams, IN",0,0,0,0,0
+"Boone, IN",0,0,0,0,0
+"Dane, WI",0,0,0,0,0
+"Pierce, WI",0,0,0,0,0
+"Cuyahoga, OH",0,0,0,0,0
+"Weber, UT",0,0,0,0,0
+"Bennington County, VT",1,0,0,1,0
+"Carver County, MN",1,0,0,1,0
+"Charlotte County, FL",1,0,0,1,0
+"Cherokee County, GA",1,0,0,1,0
+"Collin County, TX",1,0,0,1,0
+"Jefferson County, KY",1,0,0,1,0
+"Jefferson Parish, LA",1,0,0,1,0
+"Shasta County, CA",1,0,0,1,0
+"Spartanburg County, SC",1,0,0,1,0
+"Harrison County, KY",2,0,0,2,0
+"Johnson County, IA",3,0,0,3,0
+"Berkshire County, MA",1,0,0,1,0
+"Davidson County, TN",1,0,0,1,0
+"Douglas County, OR",1,0,0,1,0
+"Fresno County, CA",1,0,0,1,0
+"Harford County, MD",1,0,0,1,0
+"Hendricks County, IN",2,0,0,2,0
+"Hudson County, NJ",1,0,0,1,0
+"Johnson County, KS",1,0,0,1,0
+"Kittitas County, WA",1,0,0,1,0
+"Manatee County, FL",2,0,0,2,0
+"Marion County, OR",1,0,0,1,0
+"Okaloosa County, FL",1,0,0,1,0
+"Polk County, GA",1,0,0,1,0
+"Riverside County, CA",1,0,0,1,0
+"Shelby County, TN",1,0,0,1,0
+"St. Louis County, MO",1,0,0,1,0
+"Suffolk County, NY",1,0,0,1,0
+"Ulster County, NY",1,0,0,1,0
+"Volusia County, FL",1,0,0,1,0
+"Fairfax County, VA",2,0,0,2,0
+"Rockingham County, NH",1,0,0,1,0
+"Washington, D.C.",2,0,0,2,0
+"Montgomery County, PA",5,0,0,5,0
+"Alameda County, CA",2,0,0,2,0
+"Broward County, FL",3,0,0,3,0
+"Lee County, FL",2,1,0,1,1
+"Pinal County, AZ",2,0,0,2,0
+"Rockland County, NY",4,0,0,4,0
+"Saratoga County, NY",2,0,0,2,0
+"Charleston County, SC",1,0,0,1,0
+"Clark County, WA",1,0,0,1,0
+"Cobb County, GA",3,0,0,3,0
+"Davis County, UT",1,0,0,1,0
+"El Paso County, CO",1,0,0,1,0
+"Honolulu County, HI",1,0,0,1,0
+"Jackson County, OR ",2,0,0,2,0
+"Jefferson County, WA",1,0,0,1,0
+"Kershaw County, SC",1,0,0,1,0
+"Klamath County, OR",1,0,0,1,0
+"Madera County, CA",1,0,0,1,0
+"Pierce County, WA",4,0,0,4,0
+"Tulsa County, OK",1,0,0,1,0
+"Douglas County, CO",3,0,0,3,0
+"Providence County, RI",3,0,0,3,0
+"Chatham County, NC",1,0,0,1,0
+"Delaware County, PA",1,0,0,1,0
+"Douglas County, NE",3,0,0,3,0
+"Fayette County, KY",1,0,0,1,0
+"Marion County, IN",1,0,0,1,0
+"Middlesex County, MA",7,0,0,7,0
+"Nassau County, NY",17,0,0,17,0
+"Ramsey County, MN",1,0,0,1,0
+"Washoe County, NV",2,0,0,2,0
+"Wayne County, PA",1,0,0,1,0
+"Yolo County, CA",1,0,0,1,0
+"Santa Clara County, CA",38,0,1,37,1
+"Clark County, NV",2,0,0,2,0
+"Fort Bend County, TX",6,0,0,6,0
+"Grant County, WA",1,1,0,0,1
+"Santa Rosa County, FL",1,1,0,0,1
+"Williamson County, TN",1,0,0,1,0
+"New York County, NY",19,0,0,19,0
+"Montgomery County, MD",4,0,0,4,0
+"Suffolk County, MA",8,0,1,7,1
+"Denver County, CO",2,0,0,2,0
+"Summit County, CO",1,0,0,1,0
+"Bergen County, NJ",4,0,0,4,0
+"Harris County, TX",6,0,0,6,0
+"San Francisco County, CA",9,0,0,9,0
+"Contra Costa County, CA",9,0,0,9,0
+"Orange County, CA",4,0,0,4,0
+"Norfolk County, MA",6,0,0,6,0
+"Maricopa County, AZ",2,0,1,1,1
+"Wake County, NC",1,0,0,1,0
+"Westchester County, NY",98,0,0,98,0
+"Grafton County, NH",3,0,0,3,0
+"Hillsborough, FL",2,0,0,2,0
+"Placer County, CA",7,1,0,6,1
+"San Mateo, CA",2,0,0,2,0
+"Sonoma County, CA",3,0,0,3,0
+"Umatilla, OR",1,0,0,1,0
+"Fulton County, GA",5,0,0,5,0
+"Washington County, OR",8,0,0,8,0
+"Snohomish County, WA",31,1,0,30,1
+"Humboldt County, CA",1,0,0,1,0
+"Sacramento County, CA",2,0,0,2,0
+"San Diego County, CA",3,0,1,2,1
+"San Benito, CA",2,0,0,2,0
+"Los Angeles, CA",14,0,0,14,0
+"King County, WA",83,17,1,65,18
+"Cook County, IL",7,0,2,5,2
+"Skagit, WA",0,0,0,0,0
+"Thurston, WA",0,0,0,0,0
+"Island, WA",0,0,0,0,0
+"Whatcom, WA",0,0,0,0,0
+"Marin, CA",0,0,0,0,0
+"Calaveras, CA",0,0,0,0,0
+"Stanislaus, CA",0,0,0,0,0
+"San Joaquin, CA",0,0,0,0,0
+"Essex, MA",0,0,0,0,0
+"Charlton, GA",0,0,0,0,0
+"Collier, FL",0,0,0,0,0
+"Pinellas, FL",0,0,0,0,0
+"Alachua, FL",0,0,0,0,0
+"Nassau, FL",0,0,0,0,0
+"Pasco, FL",0,0,0,0,0
+"Dallas, TX",0,0,0,0,0
+"Tarrant, TX",0,0,0,0,0
+"Montgomery, TX",0,0,0,0,0
+"Middlesex, NJ",0,0,0,0,0
+"Jefferson, CO",0,0,0,0,0
+"Multnomah, OR",0,0,0,0,0
+"Polk, OR",0,0,0,0,0
+"Deschutes, OR",0,0,0,0,0
+"McHenry, IL",0,0,0,0,0
+"Lake, IL",0,0,0,0,0
+"Bucks, PA",0,0,0,0,0
+"Hanover, VA",0,0,0,0,0
+"Lancaster, SC",0,0,0,0,0
+"Sullivan, TN",0,0,0,0,0
+"Johnson, IN",0,0,0,0,0
+"Howard, IN",0,0,0,0,0
+"St. Joseph, IN",0,0,0,0,0
+"Knox, NE",0,0,0,0,0
+"Stark, OH",0,0,0,0,0
+"Anoka, MN",0,0,0,0,0
+"Olmsted, MN",0,0,0,0,0
+"Summit, UT",0,0,0,0,0
+"Fairfield, CT",0,0,0,0,0
+"Litchfield, CT",0,0,0,0,0
+"Orleans, LA",0,0,0,0,0
+"Pennington, SD",0,0,0,0,0
+"Beadle, SD",0,0,0,0,0
+"Charles Mix, SD",0,0,0,0,0
+"Davison, SD",0,0,0,0,0
+"Minnehaha, SD",0,0,0,0,0
+"Bon Homme, SD",0,0,0,0,0
+"Socorro, NM",0,0,0,0,0
+"Bernalillo, NM",0,0,0,0,0
+"Oakland, MI",0,0,0,0,0
+"Wayne, MI",0,0,0,0,0
+"New Castle, DE",0,0,0,0,0
+"Alabama",138,0,0,138,0
+"Puerto Rico",23,1,0,22,1
+"Guam",27,1,0,26,1
+"Virgin Islands",3,0,0,3,0
+"United States Virgin Islands",6,0,0,6,0
+"US",1,0,178,-177,178

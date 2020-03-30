@@ -11,9 +11,29 @@ setwd("~/Documents/A-tracking-of-2019-nCoV/COVID-19/")
 ## TO PLOT COUNTRIES
 # generating List of countries
 ever.Affected <- read.csv("cleaned/ever.Affected.csv")
-still.Affected <- read.csv("cleaned/still.Affected.csv")
+highly.Affected <- read.csv("cleaned/highly.Affected.csv")
 
+us.ever.Affected <- read.csv("cleaned/us.ever.Affected.csv")
+us.highly.Affected <- read.csv("cleaned/us.highly.Affected.csv")
 
+###
+noOfNewCol = ncol(ever.Affected) - ncol(us.ever.Affected)
+
+if(noOfNewCol > 0){
+  for (col in 1:noOfNewCol) {
+    us.ever.Affected = cbind(us.ever.Affected, us.ever.Affected[,ncol(us.ever.Affected)])
+    us.highly.Affected = cbind(us.highly.Affected, us.highly.Affected[,ncol(us.highly.Affected)])
+  }
+}
+colnames(us.ever.Affected) <- colnames(ever.Affected)
+colnames(us.highly.Affected) <- colnames(us.highly.Affected)
+
+write.csv(us.ever.Affected, file = "cleaned/us.ever.Affected.csv", row.names = FALSE)
+write.csv(us.ever.Affected, file = "cleaned/us.highly.Affected.csv", row.names = FALSE)
+#View(us.ever.Affected)
+## appending US
+ever.Affected = rbind(ever.Affected, us.ever.Affected)
+highly.Affected = rbind(highly.Affected, us.highly.Affected)
 
 #####################################################################
 #                             Function                              #
@@ -180,9 +200,9 @@ visualize_on_map <- function(df, Path, index = 1) {
 
 #####################################################################
 # index 54   --->   15th March
-newDay = 62
+newDay = 68
 visualize_on_map("ever.Affected", "PLOTS/maps/pngs/ever", index = newDay)    # pass index also to plot map(s) from index-th day
-visualize_on_map("still.Affected", "PLOTS/maps/pngs/still", index = newDay)  # by default index is 1
+visualize_on_map("highly.Affected", "PLOTS/maps/pngs/highly", index = newDay)  # by default index is 1
 
 
 
