@@ -200,7 +200,7 @@ visualize_on_map <- function(df, Path, index = 1) {
 
 #####################################################################
 # index 54   --->   15th March
-newDay = 68
+newDay = 69
 visualize_on_map("ever.Affected", "PLOTS/maps/pngs/ever", index = newDay)    # pass index also to plot map(s) from index-th day
 visualize_on_map("highly.Affected", "PLOTS/maps/pngs/highly", index = newDay)  # by default index is 1
 
