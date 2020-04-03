@@ -32,4 +32,4 @@ This project mainly works onto the Confirmed & Deaths cases.
 ### COVID-19 Data
 1. [CSSE at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/)
 2. [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/)
-3. [Worldmeter - Live](https://www.worldometers.info/coronavirus/)
+3. [Worldometer - Live](https://www.worldometers.info/coronavirus/)
