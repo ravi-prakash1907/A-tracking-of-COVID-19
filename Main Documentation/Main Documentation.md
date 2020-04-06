@@ -34,7 +34,7 @@ This <b>Data Mining Project</b> involves a sequence of (<i>six</i>) steps i.e. <
 
 In this project, I will be using the _**time series dataset(s)**_ that will consist of the data values of different locations, worldwide.
 
-
+### [DATA PREPROCESSIG &amp; POSTPROCESSING](#data-understanding)
 ### <a href="#Data-Understanding:">DATA PREPROCESSIG &amp; POSTPROCESSING</a>
 
 > #### <a href="#Data-Understanding:">Data Understanding</a> & <a href="#Data-Preparation:">Data Preparation</a>
