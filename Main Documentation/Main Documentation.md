@@ -77,9 +77,9 @@ In this project, I will be using the _**time series dataset(s)**_ that will cons
 
 ## Introduction
 
-> * [History of Pandemics](#history-of-pendemics)
-> * [novel Coronavirus Diseases: 2020](#novel-coronavirus-2020)
-> * [The Outbreak - COVID-19](#The-Outbreak---COVID-19)
+> * [History of Pandemics](#history-of-pandemics)
+> * [novel Coronavirus Diseases: 2020](#novel-coronavirus-disease-2020)
+> * [The Outbreak - COVID-19](#covid-19-outbreak-in-world--)
 
 ### History of Pandemics: 
 
@@ -246,9 +246,9 @@ This all would be helpful for other countries as well, in order to bring the Rep
 
 ## Data Understanding:
 
-> * [DATA &AMP; PROBLEM STATEMENT](#-Data-&-Problem-Statement)
-> * [BEGINNING WITH THE CODING SECTION](#Beginning-with-the-coading-section)
-> * [DATA COLLECTION](-Data-Collection)
+> * [DATA &AMP; PROBLEM STATEMENT](#-data--problem-statement)
+> * [BEGINNING WITH THE CODING SECTION](#beginning-with-the-coding-section)
+> * [DATA COLLECTION](#-data-collection)
 
 ### * Data & Problem Statement
 
@@ -561,8 +561,8 @@ check.Confirmed[which(str_detect(check.Confirmed$Province.State, "Hubei")),]
 > * [DATA REDUCTION](#-Data-Reduction)
 >   - [Scaling](#Scaling)
 > * [DATA TRANSFORMATION](#-Data-transformation)
->   - [Arranging data Country-Wise](#Arrenging-data-Country-Wise)
->   - [Pooled Datasets](#Explaination-of-Pooled-Datasets-bulk--four)
+>   - [Arranging data Country-Wise](#arranging-data-country-wise)
+>   - [Pooled Datasets](#explanation-of-pooled-datasets-bulk--four)
 
 Now, as we have the raw data for our analysis, we can move forward for our next phase i.e. Data-Preparation.<br />
 * The data-preparation is considered to be the most time consuming phase of any datascience project.<br />
@@ -827,9 +827,8 @@ head(check.Recovered)
 </tbody>
 </table>
 
-
-
 <br /> 
+
 #### * Data Reduction
 
 
@@ -1010,7 +1009,7 @@ check.Confirmed[which(check.Confirmed$X1.29.20 > 400), c("Province.State", "Coun
 
 
 <br /> 
-So, it's **Hubei**.<br />
+So, it's **Hubei**. <br />
 We'll verify it by comparison of mean value on daily basis, including and excluding the Hubei province. 
 
 
