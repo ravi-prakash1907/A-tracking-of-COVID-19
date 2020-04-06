@@ -1,33 +1,26 @@
-
-    <font color="green"> 
-        
-# <u>A Predictive Data Analysis ~ 19-nCoV</u>
-        
-   </font>
-<br />
+# A Predictive Data Analysis ~ 19-nCoV
 
 (Data-Science cum Data-Mining project in R) <br />
-  ```diff
-  -[Ravi Prakash](https://raviprakashravi.cf/)
-  ```
+
+[Ravi Prakash](https://raviprakashravi.cf/)
 
 <hr />
 
-<font size="4">
+
     
-A <font color="purple"><u><b> Predictive Data Analysis </b></u></font> is a type of data-analysis where after the complete statistical study of the data, the model predicts some estimate when it receives a new datum.
+A **Predictive Data Analysis** is a type of data-analysis where after the complete statistical study of the data, the model predicts some estimate when it receives a new datum.
 It can be for various types of predictions categorization.
 
-* Some other types of data-analysis can be <i>Descriptive, Diagnostic or Prescriptive Analysis.</i>
+* Some other types of data-analysis can be _Descriptive, Diagnostic or Prescriptive Analysis._
 
-This <b>Data Mining Project</b> involves a sequence of (<i>six</i>) steps i.e. <br />
-<i>    
+This **Data Mining Project** involves a sequence of (_six_) steps i.e. <br />
+   
 > a) Business Understanding <br />
 > b) Data Understanding <br />
 > c) Data Preparation <br />
 > d) Modeling <br />
 > e) Evaluation <br />
-> f) Deployment </i></font>
+> f) Deployment
 
 <br /><br />
 ## Main Data-Mining Concepts Used
@@ -55,7 +48,7 @@ In this project, I will be using the _**time series dataset(s)**_ that will cons
 <hr /><br />
 
 
-    <h1><u>Table of Contents</u></h1>
+# Table of Contents
 
 
 > #### 1. [Introduction](#Introduction)
@@ -75,95 +68,87 @@ In this project, I will be using the _**time series dataset(s)**_ that will cons
 <br /><br />
 
 
-    <font color="teal">
-        <h1>"<u>Rate of growth of COVID-19 in China : within next one week</u>"</h1>
-   </font>
-<center/>
+# "Rate of growth of COVID-19 in China : within next one week"
+
 
 <br /><br />
 
 <br /> 
 
-<h2><u>Introduction</u></h2>
+## Introduction
 
-> * [History of Pandemics](#History-of-Pendemics)
-> * [novel Coronavirus Diseases: 2020](#novel-Coronavirus-2020)
+> * [History of Pandemics](#history-of-pendemics)
+> * [novel Coronavirus Diseases: 2020](#novel-coronavirus-2020)
 > * [The Outbreak - COVID-19](#The-Outbreak---COVID-19)
 
 ### History of Pandemics: 
 
 <br />
 
-> * #### <u>Great Plague of Marseille: 1720</u>
+> * #### Great Plague of Marseille: 1720
 > <br />
-> <font size="3" style="padding: 2%;"> 
-As per the records <u>Great Plague of Marseille</u> started when a ship called <u>Grand-Saint-Antoine</u> docked in Marseille, France, carrying a cargo of goods from the eastern Mediterranean. <br />
-It continued for the next three years, <u>killing up to <b>30%</b> of the population of Marseille</u>.<br /> 
-</font>
-> * #### <u>First Cholera Pandemic: 1820</u>
+> As per the records Great Plague of Marseille started when a ship called Grand-Saint-Antoine docked in Marseille, France, carrying a cargo of goods from the eastern Mediterranean. <br />
+It continued for the next three years, killing up to **30%** of the population of Marseille.<br /> 
+
+> * #### First Cholera Pandemic: 1820
 > <br />
-> <font size="3" style="padding: 2%;"> 
-In 1820 the <i>First Cholera Pandemic</i> occurred, in <u>Asia</u>, affecting countries, mainly <u>Indonesia, Thailand and the Philippines</u>. This pandemic has also <u>killed about <b>100,000</b></u> as declared officially. It was a bacterial infection caused due to the contaminated water.
+> In 1820 the _First Cholera Pandemic_ occurred, in Asia, affecting countries, mainly Indonesia, Thailand and the Philippines. This pandemic has also killed about **100,000** as declared officially. It was a bacterial infection caused due to the contaminated water.
 <br />
-</font>
-> * #### <u>Spanish Influenza/Flu: 1920</u>
+
+> * #### Spanish Influenza/Flu: 1920
 > <br />
-> <font size="3" style="padding: 2%;"> 
-<u>Spanish Flu</u> was the mose recent and the most unrelenting pandemics. It has infected about half <u>a billion people</u> and <b>killed 100 million</b>. The Spanish flu holds the official record for the deadliest pandemic officially recorded in history.
-</font>
+> Spanish Flu was the mose recent and the most unrelenting pandemics. It has infected about half a billion people and **killed 100 million**. The Spanish flu holds the official record for the deadliest pandemic officially recorded in history.
+
 
 <br /><hr /><br />
 
 
 
-## <u>novel Coronavirus Disease: 2020</u> 
+## novel Coronavirus Disease: 2020 
 <br /> 
-<font size="4" style="padding: 2%;"> 
 
-In the 21<sup>st</sup> century, novel **Co**rona**vi**rus **D**isease (COVID-19) has appeared as the most severe pandemic, originated from <b>Hubei</b> province of China.<br /><br /> 
+In the 21<sup>st</sup> century, novel **Co**rona**vi**rus **D**isease (COVID-19) has appeared as the most severe pandemic, originated from **Hubei** province of China.<br /><br /> 
     Caused by: **novel Coronavirus - 2**
     
-</font>
+
 
 <br />
 
 
 
-### <u>Story of its origin</u>  - 
-> <font size="3" style="padding: 2%;">    
-During November, 2019 - a severe viral infection was noticed in <b>Wuhan</b>, a city in <u>Hubei provinces of China</u>. On November 17<sup>th</sup> 2019, the first case this infection was reported. Doctor's initially took it lightly as if it was a normal fever/cold. But, when a wide range of patients reported similar symptoms, a doctor - <b>Dr. Li Wenliang</b> of <u>Chinese Academy of Sciences (<b>CAS</b>)</u> Lab, claimed that it was a type of <i>severe acute respiratory syndrome</i>, spreading through a new coronavirus transmission in the whole Hubei province, very rapidly. Reportedly, chainese government warned him not to leak this anywhere. But anyhow, this news got exposed during the late December, 2019. <br /><br />
+### Story of its origin  - 
+> During November, 2019 - a severe viral infection was noticed in **Wuhan**, a city in Hubei provinces of China. On November 17<sup>th</sup> 2019, the first case this infection was reported. Doctor's initially took it lightly as if it was a normal fever/cold. But, when a wide range of patients reported similar symptoms, a doctor - **Dr. Li Wenliang** of Chinese Academy of Sciences (**CAS**) Lab, claimed that it was a type of _severe acute respiratory syndrome_, spreading through a new coronavirus transmission in the whole Hubei province, very rapidly. Reportedly, chainese government warned him not to leak this anywhere. But anyhow, this news got exposed during the late December, 2019. <br /><br />
 As per the sources, in 2003, the same lab found first deadly SARS Coronavirus, led to 813 casualties, all over the world, within two months! <br /><br />
-Initially, it was named as "<u>Wuhan Virus</u>". But, as it started spreading rapidly from Hubei to the whole mainland of China, its name got replaced by term "<u>China Virus</u>".<br />
-</font>
+Initially, it was named as "Wuhan Virus". But, as it started spreading rapidly from Hubei to the whole mainland of China, its name got replaced by term "China Virus".<br />
+
 > <br />
 
 
 
-Finally, on <b>Feb. 11<sup>th</sup> 2020</b>, the World Health Organization (WHO) gave the disease an official name: <u><b>COVID-19</b></u>.<br />
-WHO has also declared the COVID-19 as a <u><b>pandemic</b></u>. 
+Finally, on **Feb. 11<sup>th</sup> 2020**, the World Health Organization (WHO) gave the disease an official name: **COVID-19**.<br />
+WHO has also declared the COVID-19 as a **pandemic**. 
 <br /><br /> 
 
-Since the outbreak of COVID-19, over 350000 people have been infected throughout the world and <b>over 15000 people</b> have been <b>killed</b>.<br /><br />
+Since the outbreak of COVID-19, over 350000 people have been infected throughout the world and **over 15000 people** have been **killed**.<br /><br />
 
 
 
 #### This map shows the daily spread of the 2019-vCoV
 <img src="pics/everAffected.gif" height="75%" width="75%" alt="GIF"/> <br /><br />
 
-### <u>COVID-19: Outbreak in world</u> -
-> <font size="3" style="padding: 2%;">    
-A grand Cruise Ship called <b>Diamond Princess</b> was all set for it's two weeks' journey from <u><b>Yokohama</b> (Japan) to China, Vietnam, Taiwan and back to Japan</u>. Guests boarded it on January 20<sup>th</sup>, but as the journey was about to end, on <b>February 1<sup>st</sup></b> tested positive for coronavirus, who disembarked in <u>Hong Kong on January 25<sup>th</sup></u>.<br /><br />
+### COVID-19: Outbreak in world -
+> A grand Cruise Ship called **Diamond Princess** was all set for it's two weeks' journey from **Yokohama** (Japan) to China, Vietnam, Taiwan and back to Japan. Guests boarded it on January 20<sup>th</sup>, but as the journey was about to end, on **February 1<sup>st</sup>** tested positive for coronavirus, who disembarked in Hong Kong on January 25<sup>th</sup>.<br /><br />
 The cruise was cancelled from sailing as Japanese health instructors asked to check all the passengers, along with the crew.<br /><br />
 And since then, the number of confirmed cases for COVID-19 kept increasing. Currently, the ship was carrying over 3500 people.
-</font>
+
 
 <br />
 
 
 
-<font size="3"> 
-<h5>As per the data available, following graphs show the 2019-nCoV cases have increased since Jan. 22<sup>nd</sup>:</h5> <br /><br />
-</font>
+ 
+##### As per the data available, following graphs show the 2019-nCoV cases have increased since Jan. 22<sup>nd</sup>: <br /><br />
+
 * Confirmed Cases:
   <img src="pics/tracker/confirmed.png" height="75%" width="90%" alt="Code to generate the map-plot!!"/>
 * Death Cases:
@@ -173,22 +158,22 @@ And since then, the number of confirmed cases for COVID-19 kept increasing. Curr
 
 ### About the Disease
 
-<font size="3"> 
-    The COVID-19 is spread as rapidly as it has the <u><b>Reproducibility Score</b> (R-naught) <b>2.5</b></u>.
+ 
+    The COVID-19 is spread as rapidly as it has the **Reproducibility Score** (R-naught) **2.5**.
     <img src="pics/rnaught.png" height="75%" width="90%" alt="Code to generate the map-plot!!"/>
     <br /><br />
-    <b>Reproducibility Score:</b> is meant for the number of average persons, whom an infected person is further infecting. In more generalized language, on an average, from every COVID-19 patient, virus are getting transmitted to at least 2.5 fit persons.<br />
-    For <u>Ebola</u>, this number is <u>appx. 1.7</u><br /><br />
+    **Reproducibility Score:** is meant for the number of average persons, whom an infected person is further infecting. In more generalized language, on an average, from every COVID-19 patient, virus are getting transmitted to at least 2.5 fit persons.<br />
+    For Ebola, this number is appx. 1.7<br /><br />
     In order to have controle on any epidemic, the reproducibility score has to be decreased as much as possible.<br /><br />
     That's why, most of the highly countries are locked down. In many of them, there are the shortage of hospitals/beds/doctors, too.<br />
     Due to the lockdown, the market is also going down.<br /><br />
-</font>
+
 
 <br /> 
 ### Symptoms: 
 <br /> 
-<font size="3">
-    The <i>severe acute respiratory syndrome COVID-19</i> <b>(SARS-CoV-19)</b>, which is often termed as <u>2019-nCoV</u>, as well, is basically a viral disease spread by the <u>novel coronavirus</u> in which the virus tend to attack onto the respiratory system of the patient.<br />
+
+    The _severe acute respiratory syndrome COVID-19_ **(SARS-CoV-19)**, which is often termed as 2019-nCoV, as well, is basically a viral disease spread by the novel coronavirus in which the virus tend to attack onto the respiratory system of the patient.<br />
 
 Though the studies are still going on, following are some most common symptoms of COVID-19, known so far:
 > 1. Fever
@@ -197,24 +182,24 @@ Though the studies are still going on, following are some most common symptoms o
 > 4. Shortness of Breath
 > 5. Nasal Congestion etc..
 
-These are the symptoms that are reported by most of the patients. Apart from these, few patients also found to develop <u>aches and pains</u> and <u>get the sniffles</u>, according to data from China.
-</font>
+These are the symptoms that are reported by most of the patients. Apart from these, few patients also found to develop aches and pains and get the sniffles, according to data from China.
+
 
 <hr />
 <br />
 
-## <u>Business Understanding:</u>
+## Business Understanding:
 
-<font size="3">
-    Now we all are well aware that this is a very severe pandemic i.e. the <u>pandemic of 21<sup>st</sup> century</u>. Not only this but another major problem is that it has been around <b>5 months</b>, since when the <i>2019-nCoV</i> appeared, first.<br /><br /> 
+
+    Now we all are well aware that this is a very severe pandemic i.e. the pandemic of 21<sup>st</sup> century. Not only this but another major problem is that it has been around **5 months**, since when the _2019-nCoV_ appeared, first.<br /><br /> 
     Scientists are still trying to create the vaccine as soon as possible, but for now, no final cure is up.<br /><hr /><br />
-</font>
 
-## <u><b>Why do this analysis?</b></u>
 
-<font size="3">
-<b>Due to this pandemic:</b>
-</font><br /> 
+## **Why do this analysis?**
+
+
+**Due to this pandemic:**
+<br /> 
 
 > 1. Almost every country in the world has atleast one confirm case of COVID-19<br />
 > 2. The diseases is spreading very rapidly<br />
@@ -231,25 +216,25 @@ China, being the origin of the COVID-19, is the most affected country, in the wo
 <img src="pics/deaths.png" height="75%" width="90%" alt="Code to generate the map-plot!!"/>
 
 <br />
- <i>* Here we find the China to be the most affected country!</i> 
+ _* Here we find the China to be the most affected country!_ 
 <br />
 
-## <u><b>CONTRIBUTION OF THIS PROJECT</b></u>
+## **CONTRIBUTION OF THIS PROJECT**
 
-<font size="4">
-<u>Finds an estimate about the rate of increase/decrease in appearance of new cases for next one week, in case of China.</u><br /><br />
-</font>
-<font size="4">
+
+Finds an estimate about the rate of increase/decrease in appearance of new cases for next one week, in case of China.<br /><br />
+
+
     
 > 1. This estimate can help the country to know how much new beds/hospitals are going to be required within next few days.<br />
 > 2. Helpful for the country in terms of the financial planning, as the economy is also going down.<br />
 > 3. Directs where the **focus** has to be driven **first**.
 > 4. It would convey a more precise information for deciding that how the money has to be divided for the constructions of new hospitals/isolation centers, COVID-19 test kits, other medical equipments, caring and treatments, etc.. <br />
 
-</font>
-<font size="4">
-<u>This all would be helpful for other countries as well, in order to bring the Reproducibility Score (<b>R-naught</b>) down to an acceptable limit.</u> (by applying useful strategies of China)
-</font>
+
+
+This all would be helpful for other countries as well, in order to bring the Reproducibility Score (**R-naught**) down to an acceptable limit. (by applying useful strategies of China)
+
 
 
 
@@ -259,7 +244,7 @@ China, being the origin of the COVID-19, is the most affected country, in the wo
 
 <br />
 
-## <u>Data Understanding:</u>
+## Data Understanding:
 
 > * [DATA &AMP; PROBLEM STATEMENT](#-Data-&-Problem-Statement)
 > * [BEGINNING WITH THE CODING SECTION](#Beginning-with-the-coading-section)
@@ -270,10 +255,10 @@ China, being the origin of the COVID-19, is the most affected country, in the wo
 Our is aim to analyze that what would be the status of the epidemic will change, within a week and hence, how log it might take to China to have its control over this infection<br />
 Further, we'd aim to generalize it for any of the country, so that we could find the status of the same, whenever required. Obviously, we'd have to change few parameters, tho' we won't have to waste our time again and again in data preparation for a particular country.<br /><br />
 
-<b>Hence we need the data about:</b>
-> 1. <u>Confirmed</u> cases of COVID-19, throughout the world
-> 2. <u>Death</u> cases due to COVID-19, throughout the world
-> 3. Total <u>Recovery</u> from COVID-19, throughout the world
+**Hence we need the data about:**
+> 1. Confirmed cases of COVID-19, throughout the world
+> 2. Death cases due to COVID-19, throughout the world
+> 3. Total Recovery from COVID-19, throughout the world
 
 We've collected this data from various sources including [CSSE @Johns Hopkins University]((https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)), [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) & [MoHFW - India](https://www.mohfw.gov.in/).<br />
 <br /> 
@@ -312,7 +297,7 @@ library(kernlab)
 
 ### * Data Collection
 
-Basically, we have collected the <b>raw data</b> from websites and GitHub repository.
+Basically, we have collected the **raw data** from websites and GitHub repository.
 
 
 ```R
@@ -322,8 +307,8 @@ check.Deaths = read.csv("Notebooks/syllabus/static/raw/time_series_19-covid-Deat
 check.Recovered = read.csv("Notebooks/syllabus/static/raw/time_series_19-covid-Recovered.csv")
 ```
 
-The data, that we have collected is in the <b>CSV</b> (i.e. "<u><i>comma-separated values</i></u>") format.<br />
-A CSV file is used to store the <i>structured data</i> row-wise, where the data elements in each rows are separated by a comma (,).
+The data, that we have collected is in the **CSV** (i.e. "_comma-separated values_") format.<br />
+A CSV file is used to store the _structured data_ row-wise, where the data elements in each rows are separated by a comma (,).
 
 It's pretty similar to the following:
 ```
@@ -386,8 +371,8 @@ head(check.Recovered)
 
 
 
-#### We can see that type of collected data is: <u>time-series</u>
-> A <b>Time series data</b> of a variable have a set of observations on values at different points of time. They are usually collected at fixed intervals, such as daily, weekly, monthly, annually, quarterly, etc.
+#### We can see that type of collected data is: time-series
+> A **Time series data** of a variable have a set of observations on values at different points of time. They are usually collected at fixed intervals, such as daily, weekly, monthly, annually, quarterly, etc.
 
 <br />
 We observe that all the three datasets have same columns as well as the same type of data.
@@ -570,7 +555,7 @@ check.Confirmed[which(str_detect(check.Confirmed$Province.State, "Hubei")),]
 
 <hr /><br />
 
-## <u>Data Preparation:</u>
+## Data Preparation:
 
 > * [DATA CLEANING](#-Data-Cleaning)
 > * [DATA REDUCTION](#-Data-Reduction)
@@ -580,8 +565,8 @@ check.Confirmed[which(str_detect(check.Confirmed$Province.State, "Hubei")),]
 >   - [Pooled Datasets](#Explaination-of-Pooled-Datasets-bulk--four)
 
 Now, as we have the raw data for our analysis, we can move forward for our next phase i.e. Data-Preparation.<br />
-* The data-preparation is considered to be the <u>most time consuming phase</u> of any datascience project.<br />
-* On an average, an idal data-science project's <b>90%</b> of time is spent during Data-Collection and Data-Preparation.<br /><br />
+* The data-preparation is considered to be the most time consuming phase of any datascience project.<br />
+* On an average, an idal data-science project's **90%** of time is spent during Data-Collection and Data-Preparation.<br /><br />
 
 #### * Data Cleaning
 
@@ -641,7 +626,7 @@ head(check.Recovered)
 
 
 <br />
-So, there are also many issues (like <u>blanks in the place of states' name</u> and data of a <u>Cruise Ship among countries' data</u>) with our available datasets.<br />
+So, there are also many issues (like blanks in the place of states' name and data of a Cruise Ship among countries' data) with our available datasets.<br />
 To get rid of these issues, the data-cleaning is performed.<br />
 
 For data cleaning,we consider either of these two methods (or both, too):
@@ -657,17 +642,17 @@ For data cleaning,we consider either of these two methods (or both, too):
 
 
 Because we have the time-series dataset populated with discrete data values, storing the total count of the total people (having COVID-19 confirmed, have died due to COVID-19 or have recovered from COVID-19), the issues:
-> 1. <u>can NOT be resolved by MEAN</u><br />
+> 1. can NOT be resolved by MEAN<br />
 >     because in our case, either the Data value can remain CONSTANT or can INCREASE, on every next day.<br />
 >     the MEAN need not to be discrete<br />
 >     MEAN can also be less than the previous data, for any particular day etc..<br /><br />
-> 2. <u>can NOT be resolved by MODE</u><br />
+> 2. can NOT be resolved by MODE<br />
 >     because it's a medical data and hence any most often occurring number cannot be blindly replaced with a missing value etc..<br />
 
 Hence, we'll **NOT** be using any of the **replacement of MEAN/MODE/MEDIAN** 
 
 
-#### <u>We'll replace with maximum values</u>
+#### We'll replace with maximum values
 
 We will be replacing the missing values or NAs with the maximum value up to a day before the current day.<br />
 It means that - the values are carried constant for the next day whose data is missing.
@@ -911,9 +896,9 @@ _**OK! so it's gone!**_
 Now we have the dataset that hold the counts of the COVID-19 cases of different geographical locations.<br />
 Hence, we can now create a dataset to generate the map for every unique day.(that we saw early in this project)<br /><br />
 
-* It means, we want to <u>plot all the countries/regions</u> that are affected on a particular day
-* It gives us an idea that - among all the given countries, <u>either we are going to plot a selected country on world-map, or not</u>, for a specific day
-* the **factor** on which basis we'll be deciding is - <u>whether country has any confirmed case</u> till that day <u>or not</u>
+* It means, we want to plot all the countries/regions that are affected on a particular day
+* It gives us an idea that - among all the given countries, either we are going to plot a selected country on world-map, or not, for a specific day
+* the **factor** on which basis we'll be deciding is - whether country has any confirmed case till that day or not
 
 * So, We'd also **need** the _Latitude and Longitude_ position for those country
 <br /><br />
@@ -925,9 +910,9 @@ Finally, we can roughly estimate that we can have only 2 choices for any region,
 
 
 <br /> 
-<font size="3">
-    Therefor, We're going to use **Unit Scaling** to set all the values from <u>5th to last column</u>
-</font>
+
+    Therefor, We're going to use **Unit Scaling** to set all the values from 5th to last column
+
 <br /> 
 
 
@@ -1026,7 +1011,7 @@ check.Confirmed[which(check.Confirmed$X1.29.20 > 400), c("Province.State", "Coun
 
 <br /> 
 So, it's **Hubei**.<br />
-We'll verify it by comparison of mean value on daily basis, <u>including and excluding the Hubei province</u>. 
+We'll verify it by comparison of mean value on daily basis, including and excluding the Hubei province. 
 
 
 ```R
@@ -1216,7 +1201,7 @@ So, while talking about the whole world, the complete mainland of China seems to
 Although, we'll have to verify it first.
 ```
 <br /><br />
-<u>But because, it's not a single row, we will perform this action later i.e. during data-transformation.</u><br />
+But because, it's not a single row, we will perform this action later i.e. during data-transformation.<br />
 
 <hr /><br />
 
@@ -1315,17 +1300,17 @@ str(Hubei.Recovered)
      $ X3.19.20      : int 57682
 
 
-<font size="3">
+
 * Now, recalling the Problem Statement, we aim to find out the status of COVID-19 in China, within next 7 days
 * In order to do so, we need to analyze the status of COVID-19 on all the previous days
-</font> 
+ 
 
 ### What would it tell us?
 By this, we'd be capable enough to make an estimate by what RATE the Coronavirus is spreading since late January.<br /><br />
 Hence, we need to transform the data in order:
-> 1. such that rows hold every data <u>Country wise, instead of State wise</u>
-> 2. to include a <u>new column "Date"</u> to store aggregate data (of 3 datasets) in a single place
-> 3. <u>remove unnecessary columns</u> i.e. *States, Latitude & Longitude*
+> 1. such that rows hold every data Country wise, instead of State wise
+> 2. to include a new column "Date" to store aggregate data (of 3 datasets) in a single place
+> 3. remove unnecessary columns i.e. *States, Latitude & Longitude*
 
 #### Arranging data Country-Wise
 <br /> 
@@ -1364,7 +1349,7 @@ cat(unknown, "/", nrow(Recovered), " States are NOT identified")
     146 / 466  States are NOT identified
 
 <br /> 
-As we know that Country column is a *Factor*, we <u>can easily list those countries'</u>, who have reported Confirmed cases (on the daily basis):
+As we know that Country column is a *Factor*, we can easily list those countries', who have reported Confirmed cases (on the daily basis):
 
 
 ```R
@@ -1501,7 +1486,7 @@ World.Recovered = countries.daily("Recovered", Countries)
 * in order to do so, we'd have to transform our data into Cross-sectional (China, Hubei & Diamond Princess) or Pooled data (Countries of world other than China)
 
 <br /> 
-#### Let's understand what a <u>Cross-sectional</u> & a <u>Pooled data</u> is:-
+#### Let's understand what a Cross-sectional & a Pooled data is:-
 > * **Cross-sectional data:** Data of one or more variables, collected at the same point in time. <br />
 > * **Pooled data:** A combination of time series data and cross-sectional data.<br />
 
@@ -1581,8 +1566,8 @@ head(bulk)
 
 
 <br /> <br /> 
-<font size="3">
-<u>For better analysis, let's add 2 more columns:</u>
+
+For better analysis, let's add 2 more columns:
 > **1. Closed.Cases** = consists all cases, that are Expired or Recovered<br />
 > **2. Active.Cases** = cases that are neither Expired nor Recovered
 
@@ -1609,10 +1594,10 @@ tail(bulk)
 
 
 <br /> 
-<font size="3">
+
 So, our Pooled dataset ready.<br /><br />
-<u>Let's understand this dataset</u>:-
-</font>
+Let's understand this dataset:-
+
 
 
 ```R
@@ -1633,7 +1618,7 @@ str(bulk)
 
 ## Explanation of Pooled Datasets (bulk & four)
 <br /> 
- * <u>Pooled data is a combination of time series data and cross-sectional data</u> <br /><br />
+ * Pooled data is a combination of time series data and cross-sectional data <br /><br />
  
  
    Number of columns: 8 <br /> 
@@ -1712,10 +1697,10 @@ head(China.dataset)
 
 
 <br /> 
-<font size="3">
-In the same manner, we create <u>two</u> datasets
-* holds <u>**all** the data of all the countries except Hubei in China</u>
-* holds whole data categorized into <u>four locations</u>.
+
+In the same manner, we create two datasets
+* holds **all** the data of all the countries except Hubei in China
+* holds whole data categorized into four locations.
 <br /><br /> 
 These four locations are:
 > 1. Diamond Princess 
@@ -1731,7 +1716,7 @@ The 2<sup>nd</sup> type of dataset is very necessary because it consists of all 
 > 1. Here we are comparing them with the whole World's data collectively
 > 2. It's that kind of MEDICAL Data, where outliers can not be ignored! In-fact this single country and that ship are spreading the disease, rapidly.
 > 3. This 2nd dataset alone keeps track on the whole data, reported till the last date
-</font>
+
 
 <hr />
 * We've already saved this dataset
@@ -1825,11 +1810,11 @@ withChina
 
 
 <br /><br /> 
-<font size="3">
-Here we get a <u>continuous sequence of **outliers**</u>, for roughly upto 45 days<br />
+
+Here we get a continuous sequence of **outliers**, for roughly upto 45 days<br />
 Now, as per our previous analysis (through word-clouds and mean-comparison, we assumed the China as this outlier)<br /><br /> 
 In order to Test our hypothesis, let's plot China alone, as well as Rest of all data except China
-</font>
+
 
 
 ```R
@@ -1881,13 +1866,13 @@ withoutChina
 
 <br /> 
 #### Comparing above 2 plots with our previous single plot of the whole (4) data categorize, collectively:-
-<font size="3"> 
+ 
 1. First box plots resembles the sequence, that is far more similar to the Outliers' sequence
 2. Along with this, when we try plotting the whole data again, after removing the China, we find that there is no outlier, at all
 <br /> 
     
 So, finally we can say that the **China is an outlier**, and hence we'll study China, separately!
-</font>
+
 
 
 ```R
@@ -1932,17 +1917,17 @@ But, as these 2 are just discrete figures and hence can vary depending upon the 
 It means all these figures can vary dynamically
 <br /><br /> 
 So, in this situation, finding any internal relation between the columns Confirmed/Recovery/Death and Active/Closed cases ain't an easy task.<br />
-Now, in order to establish a relationship between these, the can take <u>**Rate of Increase** in Active/Closed cases</u>
+Now, in order to establish a relationship between these, the can take **Rate of Increase** in Active/Closed cases
 ```
 i.e. what percent (%) of Confirmed cases are Active/Closed, and which would simply be depend upon total Confirmed cases
 ```
 
 <br /> 
-<font size="3">
-<u>Hence, before we move towards creating a suitable model for our problem form available dataset, we'd have to do one last transformation, by adding two more columns to our existing dataset i.e.</u>
+
+Hence, before we move towards creating a suitable model for our problem form available dataset, we'd have to do one last transformation, by adding two more columns to our existing dataset i.e.
     1. Active Cases(%)
     2. Closed Cases(%)
-</font>
+
 
 
 ```R
@@ -2024,7 +2009,7 @@ str(four)
 
 <br /><hr /><br />
 
-## <u>Modeling:</u>
+## Modeling:
 
 > * [EXTRACTING CHINA](#Extracting-China)
 > * [CHOOSING THE RIGHT ALGO.](#Choosing-the-Right-Algo)
@@ -2112,7 +2097,7 @@ head(region)
 
 <br /> 
 Because, it is the dataset of China, the **Country** column is not necessary.<br />
-Simillarly, there is no need of **Date**, when we have <u>Day</u>
+Simillarly, there is no need of **Date**, when we have Day
 
 
 ```R
@@ -2138,11 +2123,11 @@ head(region, 10)
 </table>
 
 
-
 <br /> 
- <u><em>Now our Dataset is ready for modling</em></u> 
-<br />
 
+_Now our Dataset is ready for modling_ 
+
+<br />
 ### Choosing the Right Algo.
 
 
@@ -2157,17 +2142,17 @@ options(repr.plot.width=8, repr.plot.height=8)
 We are working onto a **Predictive Data Analysis** (as discussed earlier) project.<br />
 So, in this situation, we can choose between two types of predictive algorithms, based on our objective.<br />
 <br /> 
-<font size="3">
-<u>These 2 categories are</u>:-<br />
+
+These 2 categories are:-<br />
     
 1. Classification
 2. Regression
-</font>
 
 
 
 
-    <u>To estimate the future status of COVID-19 cases in China - we'll be using <b>Regression</b></u>
+
+    To estimate the future status of COVID-19 cases in China - we'll be using **Regression**
 
 
 
@@ -2175,29 +2160,29 @@ So, in this situation, we can choose between two types of predictive algorithms,
 <br /> 
 ## * Why Regression and not Classification?
 <br /> 
-<font size="3">
-* <u>Classification</u>:
+
+* Classification:
     * It is used to categorize the given data-points, there are discrete (i.e. selective) number of the categories.<br />
     * Every new data point (for which the estimation is being made) must belong to any of the existing class/category, only.<br />
 <br /><br /> 
-* <u>Regression</u>:
+* Regression:
     * It predicts the new possible outcome, based on the earlier trend.<br />
     * There is NO such necessity for the predicted value that it must be one among the given set of categories.<br />
-</font>
+
 
 <hr /><br /> <br /> 
 
-    <i>We want to calculate that what might be the upcoming figure for <em>Active Cases' %</em> in China, particularly; that ain't be limited values.</i>
+    _We want to calculate that what might be the upcoming figure for _Active Cases' %_ in China, particularly; that ain't be limited values._
     <br /> <br /> 
-    <font size="4">
-        <u>That's why, Regression has to be used!!</u>
-    </font>
+    
+        That's why, Regression has to be used!!
+    
 
 
 
 
 <br /> 
-We will compare mainly <u>3 regression algorithms</u> to predict the required value from rest all of the columns.<br />
+We will compare mainly 3 regression algorithms to predict the required value from rest all of the columns.<br />
 Then based onto the accuracy of the prediction using different columns, we'll choose the column that has to be used for prediction.
 
 
@@ -2324,8 +2309,8 @@ cat("RMSE: ", mse)
 
 <hr />
 <br /><br /> 
-<font size="3">
-    From the summary of different regression algorithms above, we find that <b>Day</b> column should be given the priority.
+
+    From the summary of different regression algorithms above, we find that **Day** column should be given the priority.
 
 As inn the summary of linear regression:<br /><br /> 
 ```
@@ -2341,7 +2326,7 @@ As inn the summary of linear regression:<br /><br />
     * and won't even this whole analysis.
 <br /><br /> 
 * So, finally we know that we should choose **Days** for Active Case(%).<br />
-</font>
+
 
 
 ```R
@@ -2369,7 +2354,7 @@ region.scatter.plot
 <br /> 
 From the above visualization, it's clear that on an average, the active case percentage has kept on decreasing over the days<br />
 
-Now we'll **split** our China dataset for <u>*training(80%) &amp; testing(20%)*</u> 
+Now we'll **split** our China dataset for *training(80%) &amp; testing(20%)* 
 
 <br /> 
 ### Data Splitting: train-test
@@ -2530,9 +2515,9 @@ head(test.data, 3)
 <br />
 
 ### Selection of an algorithm
-As our training & testing datasets are ready, now we have to select the <u>right regression algorithm to train our model</u><br /> 
+As our training & testing datasets are ready, now we have to select the right regression algorithm to train our model<br /> 
 <br />
-<font size="3">
+
 
 For this, we will compare four regression algorithms i.e.
     1. Support Vector Machines Regression
@@ -2546,7 +2531,7 @@ For this, we will compare four regression algorithms i.e.
 * Accuracy (should be maximized)
 * R-Squared (R<sup>2</sup>)
 * How perfectly the model fits while testing (as in the graphs) etc..
-</font>
+
 
 <hr /><br /> 
 
@@ -3073,13 +3058,13 @@ plm.tester
 
 
 <br /> 
-<font size="3">
+
 So we can see, here our model fits best for a polynomial regression having degree = 16<br />
 
 > We already have the data of **Day 59: i.e. 8.285436**<br />
 > To finalize the model, we will perform a final testing by predicting the Active Cases(%) for Day: 59, 60, 61
 
-</font>
+
 
 Creating A temporary dataset for this prediction
 
@@ -3137,8 +3122,8 @@ temp.required
 
 
 <br /> 
-Here we see a <u>high rise in the predicted values of Active Case(%)</u>, which seems very strange because we already know that China has been very successful to have control over this epidemic.<br />
-* It means that - although our model fits best in this scenario, yet <u>there's some problem behind this sudden rise</u> in new Cases.<br /><br />
+Here we see a high rise in the predicted values of Active Case(%), which seems very strange because we already know that China has been very successful to have control over this epidemic.<br />
+* It means that - although our model fits best in this scenario, yet there's some problem behind this sudden rise in new Cases.<br /><br />
 
 ### Then how our model fits so perfectly??
 > * Here comes the term: **Model Overfitting**!
@@ -3148,9 +3133,9 @@ Here we see a <u>high rise in the predicted values of Active Case(%)</u>, which 
     
 <br />
 
-<font size="3">
-<u>In overfitting, a model works with almost 100% accuracy, but fails to give right output on unseen data.</u>
-</font>
+
+In overfitting, a model works with almost 100% accuracy, but fails to give right output on unseen data.
+
 
 <br /><br /> 
 Hence, we'll have to choose some other degree..<br />
@@ -3292,7 +3277,7 @@ temp.required
 
 <hr /><br />
 
-## <u>Evaluation:</u>
+## Evaluation:
 
 > * [COMPARISION](#-Comparision-Among-Algorithms)
 > * [FINALIZED ALGO.](#-Finalized-Algo)
@@ -3403,30 +3388,30 @@ Prediction
 <br /><br /> 
 ### * Finalized Algo
 <br />
-<font size="3">
 
-Among these **four** algorithms, our study leads us to choose the <u>Polynomial Regression</u> for modeling.<br /><br />
+
+Among these **four** algorithms, our study leads us to choose the Polynomial Regression for modeling.<br /><br />
     
 **It is so because:**
-> * <u>Based on all four models' performance, it has:</u>
+> * Based on all four models' performance, it has:
     1. Comparatively better values Root Mean Squared Error (**RMSE**) and R-Squared values (**R<sup>2</sup>**)
     2. Comparatively better predictions  
 ><br /> 
-> * <u>In general:</u>
+> * In general:
     1. Polynomial provides the **best approximation of the relationship** between the dependent and independent variable.
     2. A Broad range of function can be fit under it.
     3. Polynomial basically **fits a wide range of curvature**, hence has a better fit.
 
-</font>
+
 
 <br />
-<font size="3"> 
+ 
 
 **We have NOT chosen kNN-Regression because:**
 > 1. It is a complex algorithm
 > 2. kNN usually works better for classification, because it mainly focuses on its surrounding values, for prediction.
 
-</font>
+
 
 
 ```R
@@ -3475,19 +3460,19 @@ fit.plm = lm(percent_active ~ poly(Day, deg, raw = TRUE), data = train.data)
 
 <hr /><br /><br />
 
-## <u>Deployment:</u>
+## Deployment:
 
 > * [SUMMARY](#*Summary)
 > * [FINAL RESULT](#Viewing-the-result)
 
 ### * Summary
 <br />
-<font size="3">
+
     
 We have trained our model by Polynomial Regression Algorithm<br />
 @**Degree:** 11
 
-</font>
+
 
 
 ```R
@@ -3545,13 +3530,13 @@ plm.predictions[which(plm.predictions$Degree == deg),]
 
 <br /> <hr />
 
-<font size="3">
+
     
 **It was all about the overview of our model!**<br />
 
     Now we ready to find the estimate of next one week's status of China about Active Case(%)
 
-</font>
+
 
 
 ```R
@@ -3577,7 +3562,7 @@ finalEstimate$"Estimated Active Case(%)" = predict(fit.plm, finalEstimate)
 
 <br />
 
-###  <u>Finally! We have estimated the possible % of Active Cases for next 7 week for China</u> 
+###  Finally! We have estimated the possible % of Active Cases for next 7 week for China 
 
 #### Viewing the result: 
 
@@ -3610,22 +3595,22 @@ and on 8th Aplril the total lockdown will be removed. [[source]](https://en.wiki
 
 <br /><hr /><br />
 
-# <u>Conclusion:</u>
+# Conclusion:
 
 <br /> 
-<font size="3">
 
-<u>So by this whole analysis, we come to a conclusion that</u>:
+
+So by this whole analysis, we come to a conclusion that:
 
 1. there will be a little increase in  the new cases
 2. by the end of this week, rate of new confirmed cases will decrease in China
 3. after there the rate of Active Cases(%) will decrease more fastly i.e. China will attain the control over the COVID-19 in it's provinces
-</font>
 
 
-<font size="3">
 
-Hence now <u>China</u> should start to focus on:
+
+
+Hence now China should start to focus on:
 1. taking precautions in most sensitive areas in order to ensure no new COVID-19 case.
 2. should focus even more to maintain the current status, else new cases might increase again within a few days
 3. the majors, that the country has taken till date, should be followed more strictly, for a few more days
@@ -3634,7 +3619,7 @@ Now, a far more COVID-19 cases are closing as compared to those that are being r
 It is supposed to decrease even more if China focused onto the precautions.<br />
 <br />
 By the end of this week, the cure of infected patient will prove to be more beneficial then construction even more hospitals/isolation centers etc..
-</font>
+
 
 
 ### Following word-cloud Visualization tells how fastly, the China is overcoming the COVID-19
@@ -3644,12 +3629,12 @@ By the end of this week, the cure of infected patient will prove to be more bene
 
 <hr /><br />
 
-# <u>Bibliography:</u>
+# Bibliography:
 
 ### Data Sources:
 
 
-<font size="4">
+
     
 > 1. [World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 > 2. [Johns Hopkins University](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
@@ -3657,7 +3642,7 @@ By the end of this week, the cure of infected patient will prove to be more bene
 > 4. [Imperial College of London](https://www.imperial.ac.uk/about/covid-19/)
 > 5. [Worldometers](https://www.worldometers.info/coronavirus/)
 
-</font>
+
 
 
 <hr />
