@@ -1,15 +1,15 @@
-<center>
+
     <font color="green"> 
         
 # <u>A Predictive Data Analysis ~ 19-nCoV</u>
         
    </font>
-</center><br />
+<br />
 
-<center>(Data-Science cum Data-Mining project in R)</center> <br />
-<a href="https://raviprakashravi.cf/" target="_blank">
-    <code style="float:right; background:none"> -Ravi Prakash</code>
-</a>
+(Data-Science cum Data-Mining project in R) <br />
+  ```diff
+  -[Ravi Prakash](https://raviprakashravi.cf/)
+  ```
 
 <hr />
 
@@ -54,9 +54,9 @@ In this project, I will be using the _**time series dataset(s)**_ that will cons
 
 <hr /><br />
 
-<center>
+
     <h1><u>Table of Contents</u></h1>
-</center>
+
 
 > #### 1. [Introduction](#Introduction)
 > #### 2. [Business Understanding](#Business-Understanding)
@@ -74,7 +74,7 @@ In this project, I will be using the _**time series dataset(s)**_ that will cons
 
 <br /><br />
 
-<center>
+
     <font color="teal">
         <h1>"<u>Rate of growth of COVID-19 in China : within next one week</u>"</h1>
    </font>
@@ -147,7 +147,7 @@ Since the outbreak of COVID-19, over 350000 people have been infected throughout
 
 
 
-#### <center>This map shows the daily spread of the 2019-vCoV</center>
+#### This map shows the daily spread of the 2019-vCoV
 <img src="pics/everAffected.gif" height="75%" width="75%" alt="GIF"/> <br /><br />
 
 ### <u>COVID-19: Outbreak in world</u> -
@@ -210,7 +210,7 @@ These are the symptoms that are reported by most of the patients. Apart from the
     Scientists are still trying to create the vaccine as soon as possible, but for now, no final cure is up.<br /><hr /><br />
 </font>
 
-## <center><u><b>Why do this analysis?</b></u></center>
+## <u><b>Why do this analysis?</b></u>
 
 <font size="3">
 <b>Due to this pandemic:</b>
@@ -231,10 +231,10 @@ China, being the origin of the COVID-19, is the most affected country, in the wo
 <img src="pics/deaths.png" height="75%" width="90%" alt="Code to generate the map-plot!!"/>
 
 <br />
-<center> <i>* Here we find the China to be the most affected country!</i> </center>
+ <i>* Here we find the China to be the most affected country!</i> 
 <br />
 
-## <center><u><b>CONTRIBUTION OF THIS PROJECT</b></u></center>
+## <u><b>CONTRIBUTION OF THIS PROJECT</b></u>
 
 <font size="4">
 <u>Finds an estimate about the rate of increase/decrease in appearance of new cases for next one week, in case of China.</u><br /><br />
@@ -255,15 +255,15 @@ China, being the origin of the COVID-19, is the most affected country, in the wo
 
 <hr />
 * We'll be preparing separate datasets for generating few of these visualization, while data-preparation phase.<br />
-* For understanding how these visuals are developed from scratch, please refer to <a href="#">this link</a>.
+* For understanding how these visuals are developed from scratch, please refer to [map.R](../COVID-19/map.R) and [visualizer.R](../COVID-19/visualizer.R).
 
 <br />
 
 ## <u>Data Understanding:</u>
 
-> * <a href="#*-Data-&-Problem-Statement">DATA &AMP; PROBLEM STATEMENT</a>
-> * <a href="#Beginning-with-the-coading-section:">BEGINNING WITH THE CODING SECTION</a>
-> * <a href="#*-Data-Collection">DATA COLLECTION</a>
+> * [DATA &AMP; PROBLEM STATEMENT](#-Data-&-Problem-Statement)
+> * [BEGINNING WITH THE CODING SECTION](#Beginning-with-the-coading-section)
+> * [DATA COLLECTION](-Data-Collection)
 
 ### * Data & Problem Statement
 
@@ -275,7 +275,7 @@ Further, we'd aim to generalize it for any of the country, so that we could find
 > 2. <u>Death</u> cases due to COVID-19, throughout the world
 > 3. Total <u>Recovery</u> from COVID-19, throughout the world
 
-We've collected this data from various sources including <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">CSSE @Johns Hopkins University</a>, <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">WHO</a> & <a href="https://www.mohfw.gov.in/" target="_blank">MoHFW - India</a>.<br />
+We've collected this data from various sources including [CSSE @Johns Hopkins University]((https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)), [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) & [MoHFW - India](https://www.mohfw.gov.in/).<br />
 <br /> 
 
 
@@ -572,12 +572,12 @@ check.Confirmed[which(str_detect(check.Confirmed$Province.State, "Hubei")),]
 
 ## <u>Data Preparation:</u>
 
-> * <a href="#*-Data-Cleaning">DATA CLEANING</a>
-> * <a href="#*-Data-Reduction">DATA REDUCTION</a>
-    * <a href="#Scaling">Scaling</a>
-> * <a href="#*-Data-transformation">DATA TRANSFORMATION</a>
-    * <a href="#Arrenging-data-Country-Wise">Arranging data Country-Wise</a>
-    * <a href="#Explaination-of-Pooled-Datasets-(bulk-&-four)">Pooled Datasets</a>
+> * [DATA CLEANING](#-Data-Cleaning)
+> * [DATA REDUCTION](#-Data-Reduction)
+>   - [Scaling](#Scaling)
+> * [DATA TRANSFORMATION](#-Data-transformation)
+>   - [Arranging data Country-Wise](#Arrenging-data-Country-Wise)
+>   - [Pooled Datasets](#Explaination-of-Pooled-Datasets-bulk--four)
 
 Now, as we have the raw data for our analysis, we can move forward for our next phase i.e. Data-Preparation.<br />
 * The data-preparation is considered to be the <u>most time consuming phase</u> of any datascience project.<br />
@@ -1633,7 +1633,7 @@ str(bulk)
 
 ## Explanation of Pooled Datasets (bulk & four)
 <br /> 
- \* <u>Pooled data is a combination of time series data and cross-sectional data</u> <br /><br />
+ * <u>Pooled data is a combination of time series data and cross-sectional data</u> <br /><br />
  
  
    Number of columns: 8 <br /> 
@@ -2026,14 +2026,14 @@ str(four)
 
 ## <u>Modeling:</u>
 
-> * <a href="#Extracting-China">EXTRACTING CHINA</a>
-> * <a href="#Choosing-the-Right-Algo.">CHOOSING THE RIGHT ALGO.</a>
-> * <a href="#Data-Splitting:-train-test">DATA SPLITTING: Train-Test</a>
-> * <a href="#Selection-of-an-algorithm">ALGORITHMS</a>
-    * <a href="#1.-SVMK-Regression">SVMK Regression</a>
-    * <a href="#2.-KNN-Regression">KNN Regression</a>
-    * <a href="#3.-Linear-Regression">Linear Regression</a>
-    * <a href="#4.-Polynomial-regression">Polynomial Regression</a>
+> * [EXTRACTING CHINA](#Extracting-China)
+> * [CHOOSING THE RIGHT ALGO.](#Choosing-the-Right-Algo)
+> * [DATA SPLITTING: Train-Test](#Data-Splitting-train-test)
+> * [ALGORITHMS](#Selection-of-an-algorithm)
+>   - [SVMK Regression](#1-support-vector-machine---kernel-regression)
+>   - [KNN Regression](#2-k-nearest-neighbours-regression)
+>   - [Linear Regression](#3-Linear-Regression)
+>   - [Polynomial Regression](#4-Polynomial-regression)
 
 
 * Now we have the data of all the different countries as well as the aggregate date-wise data of the whole world, too.
@@ -2140,7 +2140,7 @@ head(region, 10)
 
 
 <br /> 
-<center> <u><em>Now our Dataset is ready for modling</em></u> </center>
+ <u><em>Now our Dataset is ready for modling</em></u> 
 <br />
 
 ### Choosing the Right Algo.
@@ -2166,9 +2166,9 @@ So, in this situation, we can choose between two types of predictive algorithms,
 
 
 
-<center>
+
     <u>To estimate the future status of COVID-19 cases in China - we'll be using <b>Regression</b></u>
-</center>
+
 
 
 
@@ -2186,13 +2186,13 @@ So, in this situation, we can choose between two types of predictive algorithms,
 </font>
 
 <hr /><br /> <br /> 
-<center>
+
     <i>We want to calculate that what might be the upcoming figure for <em>Active Cases' %</em> in China, particularly; that ain't be limited values.</i>
     <br /> <br /> 
     <font size="4">
         <u>That's why, Regression has to be used!!</u>
     </font>
-</center>
+
 
 
 
@@ -3294,8 +3294,8 @@ temp.required
 
 ## <u>Evaluation:</u>
 
-> * <a href="#*-Comparision:-Among-Algorithms">COMPARISION</a>
-> * <a href="#*-Finalized-Algo">FINALIZED ALGO.</a>
+> * [COMPARISION](#-Comparision-Among-Algorithms)
+> * [FINALIZED ALGO.](#-Finalized-Algo)
 
 <br /><br />
 
@@ -3477,8 +3477,8 @@ fit.plm = lm(percent_active ~ poly(Day, deg, raw = TRUE), data = train.data)
 
 ## <u>Deployment:</u>
 
-> * <a href="#*-Summary">SUMMARY</a>
-> * <a href="#Viewing-the-result:">FINAL RESULT</a>
+> * [SUMMARY](#*Summary)
+> * [FINAL RESULT](#Viewing-the-result)
 
 ### * Summary
 <br />
@@ -3577,7 +3577,7 @@ finalEstimate$"Estimated Active Case(%)" = predict(fit.plm, finalEstimate)
 
 <br />
 
-### <center> <u>Finally! We have estimated the possible % of Active Cases for next 7 week for China</u> </center>
+###  <u>Finally! We have estimated the possible % of Active Cases for next 7 week for China</u> 
 
 #### Viewing the result: 
 
@@ -3637,7 +3637,7 @@ By the end of this week, the cure of infected patient will prove to be more bene
 </font>
 
 
-### <center>Following word-cloud Visualization tells how fastly, the China is overcoming the COVID-19</center>
+### Following word-cloud Visualization tells how fastly, the China is overcoming the COVID-19
 
 <img src="pics/recovery.png" height="75%" width="90%" alt="Code to generate the map-plot!!"/>
 
@@ -3651,11 +3651,11 @@ By the end of this week, the cure of infected patient will prove to be more bene
 
 <font size="4">
     
-> 1. <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">World Health Organization</a>
-> 2. <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">Johns Hopkins University</a>
-> 3. <a href="https://www.mohfw.gov.in/" target="_blank">Ministry of Human Resource & Developmant - India</a>
-> 4. <a href="https://www.imperial.ac.uk/about/covid-19/" target="_blank">Imperial College of London</a>
-> 5. <a href="https://www.worldometers.info/coronavirus/" target="_blank">Worldometers</a>
+> 1. [World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
+> 2. [Johns Hopkins University](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+> 3. [Ministry of Human Resource & Developmant - India](https://www.mohfw.gov.in/)
+> 4. [Imperial College of London](https://www.imperial.ac.uk/about/covid-19/)
+> 5. [Worldometers](https://www.worldometers.info/coronavirus/)
 
 </font>
 
