@@ -88,13 +88,12 @@ In this project, I will be using the _**time series dataset(s)**_ that will cons
 > * #### Great Plague of Marseille: 1720
 > <br />
 > As per the records Great Plague of Marseille started when a ship called Grand-Saint-Antoine docked in Marseille, France, carrying a cargo of goods from the eastern Mediterranean. <br />
-It continued for the next three years, killing up to **30%** of the population of Marseille.<br /> 
-
+> It continued for the next three years, killing up to **30%** of the population of Marseille.<br /> 
+> 
 > * #### First Cholera Pandemic: 1820
 > <br />
-> In 1820 the _First Cholera Pandemic_ occurred, in Asia, affecting countries, mainly Indonesia, Thailand and the Philippines. This pandemic has also killed about **100,000** as declared officially. It was a bacterial infection caused due to the contaminated water.
-<br />
-
+> In 1820 the _First Cholera Pandemic_ occurred, in Asia, affecting countries, mainly Indonesia, Thailand and the Philippines. This pandemic has also killed about **100,000** as declared officially. It was a bacterial infection caused due to the contaminated water.<br />
+>
 > * #### Spanish Influenza/Flu: 1920
 > <br />
 > Spanish Flu was the mose recent and the most unrelenting pandemics. It has infected about half a billion people and **killed 100 million**. The Spanish flu holds the official record for the deadliest pandemic officially recorded in history.
@@ -121,7 +120,7 @@ In the 21<sup>st</sup> century, novel **Co**rona**vi**rus **D**isease (COVID-19)
 As per the sources, in 2003, the same lab found first deadly SARS Coronavirus, led to 813 casualties, all over the world, within two months! <br /><br />
 Initially, it was named as "Wuhan Virus". But, as it started spreading rapidly from Hubei to the whole mainland of China, its name got replaced by term "China Virus".<br />
 
-> <br />
+<br />
 
 
 
@@ -134,7 +133,7 @@ Since the outbreak of COVID-19, over 350000 people have been infected throughout
 
 
 #### This map shows the daily spread of the 2019-vCoV
-<img src="pics/everAffected.gif" height="75%" width="75%" alt="GIF"/> <br /><br />
+![Map Plot](pics/everAffected.gif)
 
 ### COVID-19: Outbreak in world -
 > A grand Cruise Ship called **Diamond Princess** was all set for it's two weeks' journey from **Yokohama** (Japan) to China, Vietnam, Taiwan and back to Japan. Guests boarded it on January 20<sup>th</sup>, but as the journey was about to end, on **February 1<sup>st</sup>** tested positive for coronavirus, who disembarked in Hong Kong on January 25<sup>th</sup>.<br /><br />
