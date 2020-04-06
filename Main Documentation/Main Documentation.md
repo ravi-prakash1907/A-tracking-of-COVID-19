@@ -372,6 +372,7 @@ head(check.Recovered)
 
 
 #### We can see that type of collected data is: time-series
+
 > A **Time series data** of a variable have a set of observations on values at different points of time. They are usually collected at fixed intervals, such as daily, weekly, monthly, annually, quarterly, etc.
 
 <br />
@@ -623,9 +624,8 @@ head(check.Recovered)
 </tbody>
 </table>
 
-
-
 <br />
+
 So, there are also many issues (like blanks in the place of states' name and data of a Cruise Ship among countries' data) with our available datasets.<br />
 To get rid of these issues, the data-cleaning is performed.<br />
 
@@ -639,7 +639,6 @@ For data cleaning,we consider either of these two methods (or both, too):
     Sometimes, we also fill them on the basis of some specific calculations.<br />
 
 ### What will we do?
-
 
 Because we have the time-series dataset populated with discrete data values, storing the total count of the total people (having COVID-19 confirmed, have died due to COVID-19 or have recovered from COVID-19), the issues:
 > 1. can NOT be resolved by MEAN<br />
@@ -1053,7 +1052,6 @@ tail(Mean.Comparision.Table, 10)
 So it's clear that the Hubei is the outlier..<br />
 
 
-
 ```R
 # let's remove Hubei from our dataset:
 Hubei.Confirmed = check.Confirmed[ which(str_detect(check.Confirmed$Province.State, "Hubei", negate = F)), ]
@@ -1123,15 +1121,11 @@ cat("\n\n")
 
 ```
 
-    
-    
-
-
 
 ![png](output_59_1.png)
 
-
 <br />
+
 Although now it's comparatively better, still have some outliers...
 
 
@@ -1200,6 +1194,7 @@ So, while talking about the whole world, the complete mainland of China seems to
 Although, we'll have to verify it first.
 ```
 <br /><br />
+
 But because, it's not a single row, we will perform this action later i.e. during data-transformation.<br />
 
 <hr /><br />
@@ -1312,10 +1307,10 @@ Hence, we need to transform the data in order:
 > 3. remove unnecessary columns i.e. *States, Latitude & Longitude*
 
 #### Arranging data Country-Wise
-<br /> 
+
+<br />
+
 **Steps:**
-
-
 ```R
 # We need Countries' data:
 
@@ -1348,6 +1343,7 @@ cat(unknown, "/", nrow(Recovered), " States are NOT identified")
     146 / 466  States are NOT identified
 
 <br /> 
+
 As we know that Country column is a *Factor*, we can easily list those countries', who have reported Confirmed cases (on the daily basis):
 
 
@@ -1454,8 +1450,7 @@ World.Recovered = countries.daily("Recovered", Countries)
 </table>
 
 
-
-    
+   
     
 
 
@@ -1474,7 +1469,8 @@ World.Recovered = countries.daily("Recovered", Countries)
 
 
 
-<br /> 
+<br />
+
 ### Moving to next step
 
 #### We need datewise data:
@@ -1485,6 +1481,7 @@ World.Recovered = countries.daily("Recovered", Countries)
 * in order to do so, we'd have to transform our data into Cross-sectional (China, Hubei & Diamond Princess) or Pooled data (Countries of world other than China)
 
 <br /> 
+
 #### Let's understand what a Cross-sectional & a Pooled data is:-
 > * **Cross-sectional data:** Data of one or more variables, collected at the same point in time. <br />
 > * **Pooled data:** A combination of time series data and cross-sectional data.<br />
@@ -1616,8 +1613,10 @@ str(bulk)
 
 
 ## Explanation of Pooled Datasets (bulk & four)
-<br /> 
- * Pooled data is a combination of time series data and cross-sectional data <br /><br />
+
+<br />
+
+* Pooled data is a combination of time series data and cross-sectional data <br /><br />
  
  
    Number of columns: 8 <br /> 
@@ -1718,7 +1717,9 @@ The 2<sup>nd</sup> type of dataset is very necessary because it consists of all 
 
 
 <hr />
+
 * We've already saved this dataset
+
 <br />
 
 
@@ -1762,7 +1763,8 @@ str(four)
      $ Closed.Cases: int  45 45 55 72 94 121 205 213 252 345 ...
 
 
-<br /> <br /> 
+<br /> <br />
+
 In the __*all dataset*__, everything is same as in 'Bulk' dataset <br />
 
 In the __*four dataset*__: <br />
@@ -2127,6 +2129,7 @@ head(region, 10)
 _Now our Dataset is ready for modling_ 
 
 <br />
+
 ### Choosing the Right Algo.
 
 
@@ -2151,13 +2154,13 @@ These 2 categories are:-<br />
 
 
 
-    To estimate the future status of COVID-19 cases in China - we'll be using **Regression**
-
-
+To estimate the future status of COVID-19 cases in China - we'll be using **Regression**
 
 
 <br /> 
+
 ## * Why Regression and not Classification?
+
 <br /> 
 
 * Classification:
@@ -2171,16 +2174,18 @@ These 2 categories are:-<br />
 
 <hr /><br /> <br /> 
 
-    _We want to calculate that what might be the upcoming figure for _Active Cases' %_ in China, particularly; that ain't be limited values._
-    <br /> <br /> 
+_We want to calculate that what might be the upcoming figure for _Active Cases' %_ in China, particularly; that ain't be limited values._
+
+<br /> <br /> 
     
-        That's why, Regression has to be used!!
+That's why, Regression has to be used!!
     
 
 
 
 
 <br /> 
+
 We will compare mainly 3 regression algorithms to predict the required value from rest all of the columns.<br />
 Then based onto the accuracy of the prediction using different columns, we'll choose the column that has to be used for prediction.
 
@@ -2309,7 +2314,7 @@ cat("RMSE: ", mse)
 <hr />
 <br /><br /> 
 
-    From the summary of different regression algorithms above, we find that **Day** column should be given the priority.
+From the summary of different regression algorithms above, we find that **Day** column should be given the priority.
 
 As inn the summary of linear regression:<br /><br /> 
 ```
@@ -2355,7 +2360,8 @@ From the above visualization, it's clear that on an average, the active case per
 
 Now we'll **split** our China dataset for *training(80%) &amp; testing(20%)* 
 
-<br /> 
+<br />
+
 ### Data Splitting: train-test
 
 
@@ -2390,6 +2396,7 @@ dim(test.data)
 
 
 <br /><br /><br />
+
 ## Summery
 
 
@@ -2524,7 +2531,8 @@ For this, we will compare four regression algorithms i.e.
     3. Linear Regression
     4. Polynomial Regression
     
-<br /> 
+<br />
+
 ### What should be compared?
 * Errors (should be minimized)
 * Accuracy (should be maximized)
@@ -2636,12 +2644,6 @@ svmk.trainer
 svmk.tester
 ```
 
-    `geom_smooth()` using formula 'y ~ x'
-    
-    `geom_smooth()` using formula 'y ~ x'
-    
-
-
 
 ![png](output_135_1.png)
 
@@ -2752,12 +2754,6 @@ knn.tester <- ggplot(test.data, aes(Day, percent_active) ) +
 knn.trainer
 knn.tester
 ```
-
-    `geom_smooth()` using formula 'y ~ x'
-    
-    `geom_smooth()` using formula 'y ~ x'
-    
-
 
 
 ![png](output_142_1.png)
@@ -3461,7 +3457,7 @@ fit.plm = lm(percent_active ~ poly(Day, deg, raw = TRUE), data = train.data)
 
 ## Deployment:
 
-> * [SUMMARY](#*Summary)
+> * [SUMMARY](#-Summary)
 > * [FINAL RESULT](#Viewing-the-result)
 
 ### * Summary
