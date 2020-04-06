@@ -35,21 +35,20 @@ This <b>Data Mining Project</b> involves a sequence of (<i>six</i>) steps i.e. <
 In this project, I will be using the _**time series dataset(s)**_ that will consist of the data values of different locations, worldwide.
 
 ### [DATA PREPROCESSIG &amp; POSTPROCESSING](#data-understanding)
-### <a href="#Data-Understanding:">DATA PREPROCESSIG &amp; POSTPROCESSING</a>
 
-> #### <a href="#Data-Understanding:">Data Understanding</a> & <a href="#Data-Preparation:">Data Preparation</a>
+> #### [Data Understanding](#Data-Understanding) &amp; [Data Preparation](#data-preparation)
 > * Anomaly/Outliers - identification, varification & removal
 > * Data Reduction
 > * Exploratory Data Analysis (EDA) - using **boxplots** & **scatter-plots**
 
-### <a href="#Choosing-the-Right-Algo.">MODLING</a>
+### [MODLING](#choosing-the-right-algo)
 > * Regression
 > * Model **overfitting**
 > * SVMK, KNN, Linear &amp; Polynomial Regression
 
-### <a href="#Evaluation:">RESULT EVALUATION</a>
+### [RESULT EVALUATION](#evaluation)
 
-> #### <a href="h#4.-Polynomial-regression">Selection of best fitting algorithm based on:</a>
+> #### [Selection of best fitting algorithm based on:](#choosing-the-right-algo)
 > * RMSE
 > * R<sup>2</sup>
 
@@ -59,15 +58,15 @@ In this project, I will be using the _**time series dataset(s)**_ that will cons
     <h1><u>Table of Contents</u></h1>
 </center>
 
-> #### 1. <a href="#Introduction">Introduction</a>
-> #### 2. <a href="#Business-Understanding:">Business Understanding</a>
-> #### 3. <a href="#Data-Understanding:">Data Understanding</a>
-> #### 4. <a href="#Data-Preparation:">Data Preparation</a>
-> #### 5. <a href="#Modeling:">Modeling</a>
-> #### 6. <a href="#Evaluation:">Evaluation</a>
-> #### 7. <a href="#Deployment:">Deployment</a>
-> #### 8. <a href="#Conclusion:">Conclusion</a>
-> #### 9. <a href="#Bibliography:">Bibliography</a>
+> #### 1. [Introduction](#Introduction)
+> #### 2. [Business Understanding](#Business-Understanding)
+> #### 3. [Data Understanding](#Data-Understanding)
+> #### 4. [Data Preparation](#Data-Preparation)
+> #### 5. [Modeling](#Modeling)
+> #### 6. [Evaluation](#Evaluation)
+> #### 7. [Deployment](#Deployment)
+> #### 8. [Conclusion](#Conclusion)
+> #### 9. [Bibliography](#Bibliography)
 
 <hr /><br />
 
@@ -87,9 +86,9 @@ In this project, I will be using the _**time series dataset(s)**_ that will cons
 
 <h2><u>Introduction</u></h2>
 
-> * <a href="#History-of-Pendemics:">History of Pandemics</a>
-> * <a href="#novel-Coronavirus:-2020">novel Coronavirus Diseases: 2020</a>
-> * <a href="#The-Outbreak---COVID-19:">The Outbreak - COVID-19</a>
+> * [History of Pandemics](#History-of-Pendemics)
+> * [novel Coronavirus Diseases: 2020](#novel-Coronavirus-2020)
+> * [The Outbreak - COVID-19](#The-Outbreak---COVID-19)
 
 ### History of Pandemics: 
 
