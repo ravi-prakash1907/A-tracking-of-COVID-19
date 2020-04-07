@@ -149,30 +149,32 @@ And since then, the number of confirmed cases for COVID-19 kept increasing. Curr
 ##### As per the data available, following graphs show the 2019-nCoV cases have increased since Jan. 22<sup>nd</sup>: <br /><br />
 
 * Confirmed Cases:
-  <img src="pics/tracker/confirmed.png" height="75%" width="90%" alt="Code to generate the map-plot!!"/>
+  ![Confirmed Graph](pics/tracker/confirmed.png)
 * Death Cases:
-  <img src="pics/tracker/deaths.png" height="75%" width="90%" alt="Code to generate the map-plot!!"/>
+  ![Deaths Graph](pics/tracker/deaths.png)
   
 <br /><br />
 
 ### About the Disease
 
- 
-    The COVID-19 is spread as rapidly as it has the **Reproducibility Score** (R-naught) **2.5**.
-    <img src="pics/rnaught.png" height="75%" width="90%" alt="Code to generate the map-plot!!"/>
-    <br /><br />
-    **Reproducibility Score:** is meant for the number of average persons, whom an infected person is further infecting. In more generalized language, on an average, from every COVID-19 patient, virus are getting transmitted to at least 2.5 fit persons.<br />
-    For Ebola, this number is appx. 1.7<br /><br />
-    In order to have controle on any epidemic, the reproducibility score has to be decreased as much as possible.<br /><br />
-    That's why, most of the highly countries are locked down. In many of them, there are the shortage of hospitals/beds/doctors, too.<br />
-    Due to the lockdown, the market is also going down.<br /><br />
+The COVID-19 is spread as rapidly as it has the **Reproduction Number** (R-naught) **2.5**.
+
+![R-naught](pics/rnaught.png)
+
+<br /><br />
+
+**Reproduction Number:** is meant for the average number of people, whom an infected person is further infecting. In more generalized language, on an average, from every COVID-19 patient, virus are getting transmitted to at least 2.5 fit persons.<br />
+For Ebola, this number is appx. 1.7<br /><br />
+In order to have controle on any epidemic, the reproducibility score has to be decreased as much as possible.<br /><br />
+That's why, most of the highly countries are locked down. In many of them, there are the shortage of hospitals/beds/doctors, too.<br />
+Due to the lockdown, the market is also going down.<br /><br />
 
 
 <br /> 
 ### Symptoms: 
 <br /> 
 
-    The _severe acute respiratory syndrome COVID-19_ **(SARS-CoV-19)**, which is often termed as 2019-nCoV, as well, is basically a viral disease spread by the novel coronavirus in which the virus tend to attack onto the respiratory system of the patient.<br />
+The _severe acute respiratory syndrome COVID-19_ **(SARS-CoV-19)**, which is often termed as 2019-nCoV, as well, is basically a viral disease spread by the novel coronavirus in which the virus tend to attack onto the respiratory system of the patient.<br />
 
 Though the studies are still going on, following are some most common symptoms of COVID-19, known so far:
 > 1. Fever
@@ -189,9 +191,8 @@ These are the symptoms that are reported by most of the patients. Apart from the
 
 ## Business Understanding:
 
-
-    Now we all are well aware that this is a very severe pandemic i.e. the pandemic of 21<sup>st</sup> century. Not only this but another major problem is that it has been around **5 months**, since when the _2019-nCoV_ appeared, first.<br /><br /> 
-    Scientists are still trying to create the vaccine as soon as possible, but for now, no final cure is up.<br /><hr /><br />
+Now we all are well aware that this is a very severe pandemic i.e. the pandemic of 21<sup>st</sup> century. Not only this but another major problem is that it has been around **5 months**, since when the _2019-nCoV_ appeared, first.<br /><br /> 
+Scientists are still trying to create the vaccine as soon as possible, but for now, no final cure is up.<br /><hr /><br />
 
 
 ## **Why do this analysis?**
@@ -212,7 +213,7 @@ China, being the origin of the COVID-19, is the most affected country, in the wo
 #### * This becomes more clear from the following  wordclouds
 (total confirmed cases & deaths due to coronavirus till 21/03/2020) <br /><br />
 
-<img src="pics/deaths.png" height="75%" width="90%" alt="Code to generate the map-plot!!"/>
+![Deaths: World-Cloud](pics/deaths.png)
 
 <br />
  _* Here we find the China to be the most affected country!_ 
@@ -223,7 +224,6 @@ China, being the origin of the COVID-19, is the most affected country, in the wo
 
 Finds an estimate about the rate of increase/decrease in appearance of new cases for next one week, in case of China.<br /><br />
 
-
     
 > 1. This estimate can help the country to know how much new beds/hospitals are going to be required within next few days.<br />
 > 2. Helpful for the country in terms of the financial planning, as the economy is also going down.<br />
@@ -231,9 +231,7 @@ Finds an estimate about the rate of increase/decrease in appearance of new cases
 > 4. It would convey a more precise information for deciding that how the money has to be divided for the constructions of new hospitals/isolation centers, COVID-19 test kits, other medical equipments, caring and treatments, etc.. <br />
 
 
-
 This all would be helpful for other countries as well, in order to bring the Reproducibility Score (**R-naught**) down to an acceptable limit. (by applying useful strategies of China)
-
 
 
 
@@ -263,10 +261,7 @@ We've collected this data from various sources including [CSSE @Johns Hopkins Un
 <br /> 
 
 
-
 #### Beginning with the coding section:
-
-
 
 > Let's start with setting-up our working directory and load all the required packages, that we would be required:
 
@@ -3618,7 +3613,7 @@ By the end of this week, the cure of infected patient will prove to be more bene
 
 ### Following word-cloud Visualization tells how fastly, the China is overcoming the COVID-19
 
-<img src="pics/recovery.png" height="75%" width="90%" alt="Code to generate the map-plot!!"/>
+![Recovery: -Wordcloud](pics/recovery.png)
 
 
 <hr /><br />
