@@ -51,7 +51,7 @@ Since the outbreak of COVID-19, over 350000 people have been infected throughout
 
 The COVID-19 is spread as rapidly as it has the **Reproduction Number** (R-naught) **2.5**.
 
-![R-naught](Main\ Documentation/pics/rnaught.png)
+![R-naught](Main%20Documentation/pics/rnaught.png)
 
 <br /><br />
 
@@ -63,7 +63,9 @@ Due to the lockdown, the market is also going down.<br /><br />
 
 
 <br /> 
+
 ### Symptoms: 
+
 <br /> 
 
 The _severe acute respiratory syndrome COVID-19_ **(SARS-CoV-19)**, which is often termed as 2019-nCoV, as well, is basically a viral disease spread by the novel coronavirus in which the virus tend to attack onto the respiratory system of the patient.<br />
