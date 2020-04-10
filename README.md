@@ -83,11 +83,10 @@ These are the symptoms that are reported by most of the patients. Apart from the
 <hr />
 <br />
 
-<hr /> <br /> 
-
 ## Resources
 
 ### COVID-19 Data
 1. [CSSE at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/)
 2. [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/)
-3. [Worldometer - Live](https://www.worldometers.info/coronavirus/)
+3. [Ministry of Health and Family Welfare -India](https://www.mohfw.gov.in/)
+4. [Worldometer - Live](https://www.worldometers.info/coronavirus/)
