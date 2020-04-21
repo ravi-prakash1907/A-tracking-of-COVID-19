@@ -54,7 +54,7 @@ if(url.exists("https://raviprakashravi.cf/")){  # files for US are no longer bei
 
 india.conf = check.Confirmed[which(str_detect(check.Confirmed$Country.Region, "India")),]
 
-write.csv(india.conf, file = "~/Documents/COVID-19-India/time_series_data/jhu_format/time_series_19-covid-jhu-Confirmed.csv", row.names = FALSE)
+write.csv(india.conf, file = "~/Documents/COVID-19-India/archived/time_series_data/jhu_format/time_series_19-covid-jhu-Confirmed.csv", row.names = FALSE)
 
 #check.Confirmed = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
 #check.Deaths = read.csv("Johns H. University/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
