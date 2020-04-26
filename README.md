@@ -47,7 +47,7 @@ Since the outbreak of COVID-19, over 2,940,000 people have been infected through
 
 The COVID-19 is spread as rapidly as it has the **Reproduction Number** (R-naught) **2.5**.
 
-![R-naught](Main%20Documentation/pics/rnaught.png)
+![R-naught](COVID-19/PLOTS/others/rnaught.png)
 
 <br />
 
