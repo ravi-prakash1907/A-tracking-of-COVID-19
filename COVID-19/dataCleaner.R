@@ -129,6 +129,9 @@ countries = as.character(check.Confirmed$Country.Region)
 countries.levels = as.character(levels(check.Confirmed$Country.Region))
 
 countries[countries %in% "US"] = "United States"
+countries[countries %in% "Burma"] = "Myanmar"
+countries[countries %in% "Czechia"] = "Czech Republic"
+countries[countries %in% "Cote d'Ivoire"] = "Ivory Coast"
 countries[countries %in% "UK"] = "United Kingdom"
 countries[countries %in% "Taiwan*"] = "Taiwan"
 countries[countries %in% "The Bahamas"] = "Bahamas"
@@ -137,6 +140,9 @@ countries[countries %in% "Korea, South"] = "South Korea"
 countries[countries %in% c("Congo (Brazzaville)", "Congo (Kinshasa)", "Republic of the Congo")] = "Democratic Republic of the Congo"
 ###
 countries.levels[countries.levels %in% "US"] = "United States"
+countries.levels[countries.levels %in% "Burma"] = "Myanmar"
+countries.levels[countries.levels %in% "Czechia"] = "Czech Republic"
+countries.levels[countries.levels %in% "Cote d'Ivoire"] = "Ivory Coast"
 countries.levels[countries.levels %in% "UK"] = "United Kingdom"
 countries.levels[countries.levels %in% "Taiwan*"] = "Taiwan"
 countries.levels[countries.levels %in% "The Bahamas"] = "Bahamas"
@@ -246,7 +252,7 @@ row.names(check.Recovered) <- NULL
 cases.Active = cbind(check.Confirmed[,1:4],  (check.Confirmed[,5:ncol(check.Confirmed)] - check.Deaths[,5:ncol(check.Deaths)])) # cases.Closed[,5:ncol(cases.Closed)]))
 
 
-###  When and Where COVID-19 ever.Affected / still.Affected  --->  excluding Diamond Princess
+###  When and Where COVID-19 ever.Affected / highly.Affected  --->  excluding Diamond Princess
 ever.Affected = cases.Active
 # Unit scaling
 for (i in row.names(ever.Affected)) {
@@ -265,8 +271,17 @@ for (i in row.names(highly.Affected)) {
   }
 }
 
+## Replacing country Name from Denmark to Greenland for Greeland
+target = ever.Affected[which(str_detect(ever.Affected$Province.State, "Greenland")),]
+target$Country.Region = target$Province.State
+ever.Affected = rbind(ever.Affected[which(str_detect(ever.Affected$Province.State, "Greenland", negate = T)),], target)
+
+target = highly.Affected[which(str_detect(highly.Affected$Province.State, "Greenland")),]
+target$Country.Region = target$Province.State
+highly.Affected = rbind(highly.Affected[which(str_detect(highly.Affected$Province.State, "Greenland", negate = T)),], target)
+
 #View(ever.Affected)
-#View(still.Affected)
+#View(highly.Affected)
 
 
 # Removing outlier i.e. Hubei
