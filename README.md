@@ -11,14 +11,10 @@ This project mainly works onto the Confirmed & Deaths cases.
 <br />
 
 ## novel Coronavirus Disease: 2020 
-<br /> 
 
 In the 21<sup>st</sup> century, novel **Co**rona**vi**rus **D**isease (COVID-19) has appeared as the most severe pandemic, originated from **Hubei** province of China.<br /><br /> 
     Caused by: **novel Coronavirus - 2**
     
-
-
-<br />
 
 
 
@@ -35,7 +31,7 @@ Finally, on **Feb. 11<sup>th</sup> 2020**, the World Health Organization (WHO) g
 WHO has also declared the COVID-19 as a **pandemic**. 
 <br /><br /> 
 
-Since the outbreak of COVID-19, over 350000 people have been infected throughout the world and **over 15000 people** have been **killed**.<br /><br />
+Since the outbreak of COVID-19, over 2,940,000 people have been infected throughout the world and **over 203,822 people** have been **killed**.<br /><br />
 
 ## How fast it grew since Jan 21<sup>st</sup>, 2020
 
@@ -53,20 +49,16 @@ The COVID-19 is spread as rapidly as it has the **Reproduction Number** (R-naugh
 
 ![R-naught](Main%20Documentation/pics/rnaught.png)
 
-<br /><br />
+<br />
 
 **Reproduction Number:** is meant for the average number of people, whom an infected person is further infecting. In more generalized language, on an average, from every COVID-19 patient, virus are getting transmitted to at least 2.5 fit persons.<br />
 For Ebola, this number is appx. 1.7<br /><br />
 In order to have controle on any epidemic, the reproducibility score has to be decreased as much as possible.<br /><br />
 That's why, most of the highly countries are locked down. In many of them, there are the shortage of hospitals/beds/doctors, too.<br />
-Due to the lockdown, the market is also going down.<br /><br />
+Due to the lockdown, the market is also going down.<br />
 
-
-<br /> 
 
 ### Symptoms: 
-
-<br /> 
 
 The _severe acute respiratory syndrome COVID-19_ **(SARS-CoV-19)**, which is often termed as 2019-nCoV, as well, is basically a viral disease spread by the novel coronavirus in which the virus tend to attack onto the respiratory system of the patient.<br />
 
@@ -81,7 +73,6 @@ These are the symptoms that are reported by most of the patients. Apart from the
 
 
 <hr />
-<br />
 
 ## Resources
 
