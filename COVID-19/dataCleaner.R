@@ -272,13 +272,13 @@ for (i in row.names(highly.Affected)) {
 }
 
 ## Replacing country Name from Denmark to Greenland for Greeland
-target = ever.Affected[which(str_detect(ever.Affected$Province.State, "Greenland")),]
+target = rbind(ever.Affected[which(str_detect(ever.Affected$Province.State, "Greenland")),], ever.Affected[which(str_detect(ever.Affected$Province.State, "French Guiana")),])
 target$Country.Region = target$Province.State
-ever.Affected = rbind(ever.Affected[which(str_detect(ever.Affected$Province.State, "Greenland", negate = T)),], target)
+ever.Affected = rbind(ever.Affected[which(str_detect(ever.Affected$Province.State, "Greenland", negate = T)),], ever.Affected[which(str_detect(ever.Affected$Province.State, "French Guiana", negate = T)),], target)
 
-target = highly.Affected[which(str_detect(highly.Affected$Province.State, "Greenland")),]
+target = rbind(highly.Affected[which(str_detect(highly.Affected$Province.State, "Greenland")),], highly.Affected[which(str_detect(highly.Affected$Province.State, "French Guiana")),])
 target$Country.Region = target$Province.State
-highly.Affected = rbind(highly.Affected[which(str_detect(highly.Affected$Province.State, "Greenland", negate = T)),], target)
+highly.Affected = rbind(highly.Affected[which(str_detect(highly.Affected$Province.State, "Greenland", negate = T)),], highly.Affected[which(str_detect(highly.Affected$Province.State, "French Guiana", negate = T)),], target)
 
 #View(ever.Affected)
 #View(highly.Affected)
