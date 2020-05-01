@@ -21,7 +21,7 @@ check.Deaths = NULL
 check.Recovered = NULL
 
 # loading the datasets
-if(url.exists("https://raviprakashravi.cf/")){  # files for US are no longer being updated   --->    url.exists("https://raviprakashravi.cf/")
+if(url.exists("https://raviprakashravi.cf/")){  
   
   # names
   confirmLocation = "Johns H. University/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
