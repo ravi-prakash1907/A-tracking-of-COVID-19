@@ -1,7 +1,7 @@
-# A tracking of 2019-nCoV
+# A tracking of COVID-19
 [Ravi Prakash](https://raviprakashravi.cf/)
 
-A dedicated repository for my data-science and analytics' work on the **_novel Coronavirus_**, that came into action during late 2019 <br />
+A dedicated repository for my data-science and analytics' work on the PANDEMIC _sars_ **2019-nCoV** OR **COVID-19** (official name), spread through a **_novel Coronavirus_**. This disease was initially reported into the China during mid November 2019. Thereafter, it spread worldwide. <br />
 
 <br />
 
@@ -13,7 +13,7 @@ This project mainly works onto the Confirmed & Deaths cases.
 ## novel Coronavirus Disease: 2020 
 
 In the 21<sup>st</sup> century, novel **Co**rona**vi**rus **D**isease (COVID-19) has appeared as the most severe pandemic, originated from **Hubei** province of China.<br /><br /> 
-    Caused by: **novel Coronavirus - 2**
+    Caused by: **novel Coronavirus - 2<sup>nd</sup>**
     
 
 
