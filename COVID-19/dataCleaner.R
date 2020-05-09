@@ -1,7 +1,7 @@
 # 22/01/2020 to yesterday
 
 # Setting the working directory
-setwd("~/Documents/A-tracking-of-2019-nCoV/COVID-19/")
+setwd("~/Documents/A-tracking-of-COVID-19/COVID-19/")
 
 #####  LIBRARIES  #####
 # loading library for string operations
