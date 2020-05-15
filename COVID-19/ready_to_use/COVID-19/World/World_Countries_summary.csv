@@ -1,186 +1,187 @@
 "Country","Confirmed","Deaths","Active.Cases","Closed.Cases"
-"Afghanistan",4687,122,4565,122
-"Albania",872,31,841,31
-"Algeria",5891,507,5384,507
-"Andorra",755,48,707,48
-"Angola",45,2,43,2
+"Afghanistan",5639,136,5503,136
+"Albania",898,31,867,31
+"Algeria",6442,529,5913,529
+"Andorra",761,49,712,49
+"Angola",48,2,46,2
 "Antigua and Barbuda",25,3,22,3
-"Argentina",6278,314,5964,314
-"Armenia",3392,46,3346,46
-"Australia",6970,97,6873,97
-"Austria",15882,620,15262,620
-"Azerbaijan",2589,32,2557,32
-"Bahamas",93,11,82,11
-"Bahrain",5236,8,5228,8
-"Bangladesh",15691,239,15452,239
-"Barbados",84,7,77,7
-"Belarus",23906,135,23771,135
-"Belgium",53449,8707,44742,8707
+"Argentina",7134,353,6781,353
+"Armenia",3860,49,3811,49
+"Australia",7020,98,6922,98
+"Austria",16058,626,15432,626
+"Azerbaijan",2879,35,2844,35
+"Bahamas",96,11,85,11
+"Bahrain",6198,10,6188,10
+"Bangladesh",18863,283,18580,283
+"Barbados",85,7,78,7
+"Belarus",26772,151,26621,151
+"Belgium",54288,8903,45385,8903
 "Belize",18,2,16,2
-"Benin",319,2,317,2
-"Bhutan",9,0,9,0
-"Bolivia",2831,122,2709,122
-"Bosnia and Herzegovina",2141,113,2028,113
+"Benin",339,2,337,2
+"Bhutan",20,0,20,0
+"Bolivia",3372,152,3220,152
+"Bosnia and Herzegovina",2218,122,2096,122
 "Botswana",24,1,23,1
-"Brazil",169594,11653,157941,11653
+"Brazil",203165,13999,189166,13999
 "Brunei",141,1,140,1
-"Bulgaria",1990,93,1897,93
-"Burkina Faso",760,50,710,50
+"Bulgaria",2100,99,2001,99
+"Burkina Faso",773,51,722,51
 "Burundi",15,1,14,1
-"Cabo Verde",260,2,258,2
+"Cabo Verde",315,2,313,2
 "Cambodia",122,0,122,0
-"Cameroon",2689,125,2564,125
-"Canada",71264,5116,66148,5116
+"Cameroon",2954,139,2815,139
+"Canada",74782,5593,69189,5593
 "Central African Republic",143,0,143,0
-"Chad",322,31,291,31
-"Chile",30063,323,29740,323
-"Colombia",11613,479,11134,479
+"Chad",399,46,353,46
+"Chile",37040,368,36672,368
+"Colombia",13610,525,13085,525
 "Comoros",11,1,10,1
-"Costa Rica",801,7,794,7
-"Croatia",2196,91,2105,91
-"Cuba",1783,77,1706,77
-"Cyprus",901,16,885,16
-"Czech Republic",8176,282,7894,282
-"Democratic Republic of the Congo",1357,52,1305,52
-"Denmark",10711,533,10178,533
+"Costa Rica",830,8,822,8
+"Croatia",2221,94,2127,94
+"Cuba",1830,79,1751,79
+"Cyprus",907,17,890,17
+"Czech Republic",8351,293,8058,293
+"Democratic Republic of the Congo",1633,65,1568,65
+"Denmark",10911,537,10374,537
 "Diamond Princess",712,13,699,13
-"Djibouti",1227,3,1224,3
-"Dominica",10650,393,10257,393
-"Dominican Republic",10634,393,10241,393
-"Ecuador",31881,2145,29736,2145
-"Egypt",9746,533,9213,533
-"El Salvador",958,18,940,18
-"Equatorial Guinea",439,4,435,4
+"Djibouti",1284,3,1281,3
+"Dominica",11336,422,10914,422
+"Dominican Republic",11320,422,10898,422
+"Ecuador",31881,2338,29543,2338
+"Egypt",10829,571,10258,571
+"El Salvador",1112,23,1089,23
+"Equatorial Guinea",583,7,576,7
 "Eritrea",39,0,39,0
-"Estonia",1741,61,1680,61
-"Eswatini",175,2,173,2
-"Ethiopia",250,5,245,5
+"Estonia",1758,62,1696,62
+"Eswatini",187,2,185,2
+"Ethiopia",272,5,267,5
 "Fiji",18,0,18,0
-"Finland",5984,271,5713,271
-"France",177547,26646,150901,26646
-"Gabon",802,9,793,9
-"Gambia",22,1,21,1
-"Georgia",638,11,627,11
-"Germany",172576,7661,164915,7661
-"Ghana",4700,22,4678,22
-"Greece",2726,151,2575,151
+"Finland",6145,287,5858,287
+"France",178994,27428,151566,27428
+"Gabon",1104,10,1094,10
+"Gambia",23,1,22,1
+"Georgia",667,12,655,12
+"Germany",174478,7884,166594,7884
+"Ghana",5530,24,5506,24
+"Greece",2770,156,2614,156
 "Grenada",21,0,21,0
-"Guatemala",1114,26,1088,26
-"Guinea",3354,18,3336,18
-"Guinea-Bissau",761,3,758,3
-"Guyana",109,10,99,10
-"Haiti",209,16,193,16
+"Guatemala",1518,29,1489,29
+"Guinea",3977,25,3952,25
+"Guinea-Bissau",913,3,910,3
+"Guyana",113,10,103,10
+"Haiti",273,20,253,20
 "Holy See",12,0,12,0
-"Honduras",2100,116,1984,116
-"Hungary",3284,421,2863,421
-"Iceland",1801,10,1791,10
-"India",70768,2294,68474,2294
-"Indonesia",14265,991,13274,991
-"Iran",109286,6685,102601,6685
-"Iraq",2818,110,2708,110
-"Ireland",23135,1467,21668,1467
-"Israel",16506,258,16248,258
-"Italy",219814,30739,189075,30739
-"Ivory Coast",1730,21,1709,21
-"Jamaica",505,9,496,9
-"Japan",15847,633,15214,633
-"Jordan",562,9,553,9
-"Kazakhstan",5207,32,5175,32
-"Kenya",700,33,667,33
-"Kosovo",884,28,856,28
-"Kuwait",9286,65,9221,65
-"Kyrgyzstan",1016,12,1004,12
+"Honduras",2318,133,2185,133
+"Hungary",3380,436,2944,436
+"Iceland",1802,10,1792,10
+"India",81997,2649,79348,2649
+"Indonesia",16006,1043,14963,1043
+"Iran",114533,6854,107679,6854
+"Iraq",3143,115,3028,115
+"Ireland",23827,1506,22321,1506
+"Israel",16579,265,16314,265
+"Italy",223096,31368,191728,31368
+"Ivory Coast",1971,24,1947,24
+"Jamaica",509,9,500,9
+"Japan",16120,697,15423,697
+"Jordan",586,9,577,9
+"Kazakhstan",5571,32,5539,32
+"Kenya",758,42,716,42
+"Kosovo",944,29,915,29
+"Kuwait",11975,88,11887,88
+"Kyrgyzstan",1082,12,1070,12
 "Laos",19,0,19,0
-"Latvia",946,18,928,18
-"Lebanon",859,26,833,26
-"Liberia",211,20,191,20
+"Latvia",962,19,943,19
+"Lebanon",886,26,860,26
+"Lesotho",1,0,1,0
+"Liberia",215,20,195,20
 "Libya",64,3,61,3
 "Liechtenstein",82,1,81,1
-"Lithuania",1485,50,1435,50
-"Luxembourg",3888,101,3787,101
-"Madagascar",193,0,193,0
-"Malawi",57,3,54,3
-"Malaysia",6726,109,6617,109
-"Maldives",897,3,894,3
-"Mali",712,39,673,39
-"Malta",503,5,498,5
-"Mauritania",8,1,7,1
+"Lithuania",1511,54,1457,54
+"Luxembourg",3915,103,3812,103
+"Madagascar",230,0,230,0
+"Malawi",63,3,60,3
+"Malaysia",6819,112,6707,112
+"Maldives",982,4,978,4
+"Mali",779,46,733,46
+"Malta",522,6,516,6
+"Mauritania",20,2,18,2
 "Mauritius",334,10,324,10
-"Mexico",36327,3573,32754,3573
-"Moldova",4995,175,4820,175
+"Mexico",42595,4477,38118,4477
+"Moldova",5553,194,5359,194
 "Monaco",96,4,92,4
-"Mongolia",42,0,42,0
+"Mongolia",98,0,98,0
 "Montenegro",324,9,315,9
-"Morocco",6281,188,6093,188
-"Mozambique",103,0,103,0
+"Morocco",6607,190,6417,190
+"Mozambique",115,0,115,0
 "MS Zaandam",9,2,7,2
-"Myanmar",180,6,174,6
+"Myanmar",181,6,175,6
 "Namibia",16,0,16,0
-"Nepal",134,0,134,0
-"Netherlands",42987,5475,37512,5475
-"New Zealand",1497,21,1476,21
-"Nicaragua",16,5,11,5
-"Niger",5473,196,5277,196
-"Nigeria",4641,150,4491,150
-"North Macedonia",1664,91,1573,91
-"Norway",8132,224,7908,224
-"Oman",3573,17,3556,17
-"Pakistan",32081,706,31375,706
-"Panama",8616,249,8367,249
+"Nepal",250,0,250,0
+"Netherlands",43680,5609,38071,5609
+"New Zealand",1498,21,1477,21
+"Nicaragua",25,8,17,8
+"Niger",6038,217,5821,217
+"Nigeria",5162,167,4995,167
+"North Macedonia",1723,95,1628,95
+"Norway",8196,232,7964,232
+"Oman",4341,18,4323,18
+"Pakistan",35788,770,35018,770
+"Panama",9118,260,8858,260
 "Papua New Guinea",8,0,8,0
-"Paraguay",724,10,714,10
-"Peru",68822,1961,66861,1961
-"Philippines",11086,726,10360,726
-"Poland",16326,811,15515,811
-"Portugal",27679,1144,26535,1144
-"Qatar",23623,14,23609,14
-"Romania",15588,982,14606,982
-"Russia",221344,2009,219335,2009
-"Rwanda",285,0,285,0
+"Paraguay",754,11,743,11
+"Peru",80604,2267,78337,2267
+"Philippines",11876,790,11086,790
+"Poland",17615,883,16732,883
+"Portugal",28319,1184,27135,1184
+"Qatar",28272,14,28258,14
+"Romania",16247,1053,15194,1053
+"Russia",252245,2305,249940,2305
+"Rwanda",287,0,287,0
 "Saint Kitts and Nevis",15,0,15,0
 "Saint Lucia",18,0,18,0
 "Saint Vincent and the Grenadines",17,0,17,0
-"San Marino",637,41,596,41
-"Sao Tome and Principe",208,5,203,5
-"Saudi Arabia",41014,255,40759,255
-"Senegal",1886,19,1867,19
-"Serbia",10176,218,9958,218
+"San Marino",648,41,607,41
+"Sao Tome and Principe",235,7,228,7
+"Saudi Arabia",46869,283,46586,283
+"Senegal",2189,23,2166,23
+"Serbia",10374,224,10150,224
 "Seychelles",11,0,11,0
-"Sierra Leone",338,19,319,19
-"Singapore",23822,21,23801,21
-"Slovakia",1457,26,1431,26
-"Slovenia",1460,102,1358,102
-"Somalia",1089,52,1037,52
-"South Africa",10652,206,10446,206
-"South Korea",10936,258,10678,258
-"South Sudan",156,0,156,0
-"Spain",227436,26744,200692,26744
-"Sri Lanka",869,9,860,9
-"Sudan",1682,74,1608,74
+"Sierra Leone",408,26,382,26
+"Singapore",26098,21,26077,21
+"Slovakia",1477,27,1450,27
+"Slovenia",1464,103,1361,103
+"Somalia",1284,53,1231,53
+"South Africa",12739,238,12501,238
+"South Korea",11018,260,10758,260
+"South Sudan",203,0,203,0
+"Spain",229540,27321,202219,27321
+"Sri Lanka",925,9,916,9
+"Sudan",2021,90,1931,90
 "Suriname",10,1,9,1
-"Sweden",26670,3256,23414,3256
-"Switzerland",30344,1845,28499,1845
-"Syria",47,3,44,3
+"Sweden",28582,3529,25053,3529
+"Switzerland",30463,1872,28591,1872
+"Syria",48,3,45,3
 "Taiwan",440,7,433,7
-"Tajikistan",661,21,640,21
+"Tajikistan",907,29,878,29
 "Tanzania",509,21,488,21
-"Thailand",3015,56,2959,56
+"Thailand",3018,56,2962,56
 "Timor-Leste",24,0,24,0
-"Togo",181,11,170,11
+"Togo",238,11,227,11
 "Trinidad and Tobago",116,8,108,8
 "Tunisia",1032,45,987,45
-"Turkey",139771,3841,135930,3841
-"Uganda",121,0,121,0
-"Ukraine",15648,408,15240,408
-"United Arab Emirates",18878,201,18677,201
-"United Kingdom",224332,32141,192191,32141
-"United States",1347881,80682,1267199,80682
-"Uruguay",711,19,692,19
-"Uzbekistan",2486,10,2476,10
-"Venezuela",422,16,406,16
-"Vietnam",288,0,288,0
+"Turkey",144749,4007,140742,4007
+"Uganda",160,0,160,0
+"Ukraine",16847,456,16391,456
+"United Arab Emirates",21084,208,20876,208
+"United Kingdom",234441,33693,200748,33693
+"United States",1417774,85898,1331876,85898
+"Uruguay",724,19,705,19
+"Uzbekistan",2645,11,2634,11
+"Venezuela",455,16,439,16
+"Vietnam",312,0,312,0
 "West Bank and Gaza",375,2,373,2
 "Western Sahara",6,0,6,0
-"Yemen",56,9,47,9
-"Zambia",267,7,260,7
+"Yemen",85,12,73,12
+"Zambia",654,7,647,7
 "Zimbabwe",40,4,36,4
