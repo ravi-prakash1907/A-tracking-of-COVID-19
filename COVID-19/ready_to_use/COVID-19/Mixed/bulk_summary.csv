@@ -1,266 +1,266 @@
 "","States","Country","Confirmed","Deaths","Active.Cases","Closed.Cases"
-"1","Others","Afghanistan",5639,136,5503,136
-"2","Others","Albania",898,31,867,31
-"3","Others","Algeria",6442,529,5913,529
-"4","Others","Andorra",761,49,712,49
-"5","Others","Angola",48,2,46,2
+"1","Others","Afghanistan",7653,178,7475,178
+"2","Others","Albania",949,31,918,31
+"3","Others","Algeria",7377,561,6816,561
+"4","Others","Andorra",761,51,710,51
+"5","Others","Angola",52,3,49,3
 "6","Others","Antigua and Barbuda",25,3,22,3
-"7","Others","Argentina",7134,353,6781,353
-"8","Others","Armenia",3860,49,3811,49
+"7","Others","Argentina",8809,393,8416,393
+"8","Others","Armenia",5041,64,4977,64
 "9","Australian Capital Territory","Australia",107,3,104,3
-"10","New South Wales","Australia",3071,45,3026,45
+"10","New South Wales","Australia",3081,47,3034,47
 "11","Northern Territory","Australia",29,0,29,0
-"12","Queensland","Australia",1054,6,1048,6
+"12","Queensland","Australia",1058,6,1052,6
 "13","South Australia","Australia",439,4,435,4
-"14","Tasmania","Australia",227,13,214,13
-"15","Victoria","Australia",1540,18,1522,18
-"16","Western Australia","Australia",553,9,544,9
-"17","Others","Austria",16058,626,15432,626
-"18","Others","Azerbaijan",2879,35,2844,35
+"14","Tasmania","Australia",228,13,215,13
+"15","Victoria","Australia",1573,18,1555,18
+"16","Western Australia","Australia",557,9,548,9
+"17","Others","Austria",16321,632,15689,632
+"18","Others","Azerbaijan",3518,41,3477,41
 "19","Others","Bahamas",96,11,85,11
-"20","Others","Bahrain",6198,10,6188,10
-"21","Others","Bangladesh",18863,283,18580,283
-"22","Others","Barbados",85,7,78,7
-"23","Others","Belarus",26772,151,26621,151
-"24","Others","Belgium",54288,8903,45385,8903
+"20","Others","Bahrain",7532,12,7520,12
+"21","Others","Bangladesh",25121,370,24751,370
+"22","Others","Barbados",90,7,83,7
+"23","Others","Belarus",31508,175,31333,175
+"24","Others","Belgium",55791,9108,46683,9108
 "25","Others","Belize",18,2,16,2
 "26","Others","Benin",339,2,337,2
-"27","Others","Bhutan",20,0,20,0
-"28","Others","Bolivia",3372,152,3220,152
-"29","Others","Bosnia and Herzegovina",2218,122,2096,122
-"30","Others","Botswana",24,1,23,1
-"31","Others","Brazil",203165,13999,189166,13999
+"27","Others","Bhutan",21,0,21,0
+"28","Others","Bolivia",4481,189,4292,189
+"29","Others","Bosnia and Herzegovina",2321,134,2187,134
+"30","Others","Botswana",25,1,24,1
+"31","Others","Brazil",271885,17983,253902,17983
 "32","Others","Brunei",141,1,140,1
-"33","Others","Bulgaria",2100,99,2001,99
-"34","Others","Burkina Faso",773,51,722,51
-"35","Others","Burundi",15,1,14,1
-"36","Others","Cabo Verde",315,2,313,2
+"33","Others","Bulgaria",2259,112,2147,112
+"34","Others","Burkina Faso",796,51,745,51
+"35","Others","Burundi",42,1,41,1
+"36","Others","Cabo Verde",335,3,332,3
 "37","Others","Cambodia",122,0,122,0
-"38","Others","Cameroon",2954,139,2815,139
-"39","Alberta","Canada",6457,121,6336,121
-"40","British Columbia","Canada",2392,135,2257,135
+"38","Others","Cameroon",3529,140,3389,140
+"39","Alberta","Canada",6716,128,6588,128
+"40","British Columbia","Canada",2446,146,2300,146
 "41","Grand Princess","Canada",13,0,13,0
 "42","Manitoba","Canada",290,7,283,7
 "43","New Brunswick","Canada",120,0,120,0
 "44","Newfoundland and Labrador","Canada",261,3,258,3
-"45","Nova Scotia","Canada",1026,51,975,51
-"46","Ontario","Canada",22865,1915,20950,1915
+"45","Nova Scotia","Canada",1044,56,988,56
+"46","Ontario","Canada",24755,2032,22723,2032
 "47","Prince Edward Island","Canada",27,1,26,1
-"48","Quebec","Canada",40732,3352,37380,3352
-"49","Saskatchewan","Canada",582,7,575,7
+"48","Quebec","Canada",44206,3648,40558,3648
+"49","Saskatchewan","Canada",599,7,592,7
 "50","Diamond Princess","Canada",1,1,0,1
 "51","Northwest Territories","Canada",5,0,5,0
 "52","Yukon","Canada",11,0,11,0
-"53","Others","Central African Republic",143,0,143,0
-"54","Others","Chad",399,46,353,46
-"55","Others","Chile",37040,368,36672,368
+"53","Others","Central African Republic",366,0,366,0
+"54","Others","Chad",545,56,489,56
+"55","Others","Chile",49579,509,49070,509
 "56","Anhui","China",991,6,985,6
 "57","Beijing","China",593,9,584,9
 "58","Chongqing","China",579,6,573,6
 "59","Fujian","China",356,1,355,1
 "60","Gansu","China",139,2,137,2
-"61","Guangdong","China",1589,8,1581,8
+"61","Guangdong","China",1590,8,1582,8
 "62","Guangxi","China",254,2,252,2
 "63","Guizhou","China",147,2,145,2
-"64","Hainan","China",168,6,162,6
+"64","Hainan","China",169,6,163,6
 "65","Hebei","China",328,6,322,6
 "66","Heilongjiang","China",945,13,932,13
 "67","Henan","China",1276,22,1254,22
-"68","Hong Kong","China",1051,4,1047,4
+"68","Hong Kong","China",1055,4,1051,4
 "69","Hunan","China",1019,4,1015,4
-"70","Inner Mongolia","China",209,1,208,1
+"70","Inner Mongolia","China",216,1,215,1
 "71","Jiangsu","China",653,0,653,0
 "72","Jiangxi","China",937,1,936,1
-"73","Jilin","China",138,1,137,1
+"73","Jilin","China",151,2,149,2
 "74","Liaoning","China",149,2,147,2
 "75","Macau","China",45,0,45,0
 "76","Ningxia","China",75,0,75,0
 "77","Qinghai","China",18,0,18,0
 "78","Shaanxi","China",308,3,305,3
 "79","Shandong","China",788,7,781,7
-"80","Shanghai","China",660,7,653,7
+"80","Shanghai","China",666,7,659,7
 "81","Shanxi","China",198,0,198,0
 "82","Sichuan","China",561,3,558,3
-"83","Tianjin","China",191,3,188,3
+"83","Tianjin","China",192,3,189,3
 "84","Tibet","China",1,0,1,0
 "85","Xinjiang","China",76,3,73,3
 "86","Yunnan","China",185,2,183,2
 "87","Zhejiang","China",1268,1,1267,1
-"88","Others","Colombia",13610,525,13085,525
+"88","Others","Colombia",16935,613,16322,613
 "89","Others","Comoros",11,1,10,1
-"90","Others","Costa Rica",830,8,822,8
-"91","Others","Croatia",2221,94,2127,94
-"92","Others","Cuba",1830,79,1751,79
-"93","Others","Cyprus",907,17,890,17
-"94","Others","Czech Republic",8351,293,8058,293
-"95","Others","Democratic Republic of the Congo",391,15,376,15
-"96","Others","Democratic Republic of the Congo",1242,50,1192,50
+"90","Others","Costa Rica",882,10,872,10
+"91","Others","Croatia",2232,96,2136,96
+"92","Others","Cuba",1887,79,1808,79
+"93","Others","Cyprus",918,17,901,17
+"94","Others","Czech Republic",8647,302,8345,302
+"95","Others","Democratic Republic of the Congo",420,15,405,15
+"96","Others","Democratic Republic of the Congo",1629,61,1568,61
 "97","Faroe Islands","Denmark",187,0,187,0
 "98","Greenland","Denmark",11,0,11,0
-"99","Others","Denmark",10713,537,10176,537
+"99","Others","Denmark",11044,551,10493,551
 "100","Others","Diamond Princess",712,13,699,13
-"101","Others","Djibouti",1284,3,1281,3
+"101","Others","Djibouti",1618,7,1611,7
 "102","Others","Dominica",16,0,16,0
-"103","Others","Dominican Republic",11320,422,10898,422
-"104","Others","Ecuador",31881,2338,29543,2338
-"105","Others","Egypt",10829,571,10258,571
-"106","Others","El Salvador",1112,23,1089,23
-"107","Others","Equatorial Guinea",583,7,576,7
+"103","Others","Dominican Republic",13223,441,12782,441
+"104","Others","Ecuador",34151,2839,31312,2839
+"105","Others","Egypt",13484,659,12825,659
+"106","Others","El Salvador",1498,30,1468,30
+"107","Others","Equatorial Guinea",825,7,818,7
 "108","Others","Eritrea",39,0,39,0
-"109","Others","Estonia",1758,62,1696,62
-"110","Others","Eswatini",187,2,185,2
-"111","Others","Ethiopia",272,5,267,5
+"109","Others","Estonia",1791,64,1727,64
+"110","Others","Eswatini",208,2,206,2
+"111","Others","Ethiopia",365,5,360,5
 "112","Others","Fiji",18,0,18,0
-"113","Others","Finland",6145,287,5858,287
-"114","French Guiana","France",164,1,163,1
+"113","Others","Finland",6399,301,6098,301
+"114","French Guiana","France",218,1,217,1
 "115","French Polynesia","France",60,0,60,0
 "116","Guadeloupe","France",155,13,142,13
-"117","Mayotte","France",1210,16,1194,16
+"117","Mayotte","France",1370,18,1352,18
 "118","New Caledonia","France",18,0,18,0
-"119","Reunion","France",440,0,440,0
+"119","Reunion","France",446,0,446,0
 "120","Saint Barthelemy","France",6,0,6,0
 "121","St Martin","France",39,3,36,3
-"122","Martinique","France",189,14,175,14
-"123","Others","France",176712,27381,149331,27381
+"122","Martinique","France",192,14,178,14
+"123","Others","France",178428,28193,150235,28193
 "124","Saint Pierre and Miquelon","France",1,0,1,0
-"125","Others","Gabon",1104,10,1094,10
-"126","Others","Gambia",23,1,22,1
-"127","Others","Georgia",667,12,655,12
-"128","Others","Germany",174478,7884,166594,7884
-"129","Others","Ghana",5530,24,5506,24
-"130","Others","Greece",2770,156,2614,156
-"131","Others","Grenada",21,0,21,0
-"132","Others","Guatemala",1518,29,1489,29
-"133","Others","Guinea",2473,15,2458,15
-"134","Others","Guinea-Bissau",913,3,910,3
-"135","Others","Guyana",113,10,103,10
-"136","Others","Haiti",273,20,253,20
+"125","Others","Gabon",1502,12,1490,12
+"126","Others","Gambia",24,1,23,1
+"127","Others","Georgia",707,12,695,12
+"128","Others","Germany",177778,8081,169697,8081
+"129","Others","Ghana",6096,31,6065,31
+"130","Others","Greece",2840,165,2675,165
+"131","Others","Grenada",22,0,22,0
+"132","Others","Guatemala",2133,43,2090,43
+"133","Others","Guinea",2863,18,2845,18
+"134","Others","Guinea-Bissau",1038,6,1032,6
+"135","Others","Guyana",125,10,115,10
+"136","Others","Haiti",533,21,512,21
 "137","Others","Holy See",12,0,12,0
-"138","Others","Honduras",2318,133,2185,133
-"139","Others","Hungary",3380,436,2944,436
+"138","Others","Honduras",2955,147,2808,147
+"139","Others","Hungary",3556,467,3089,467
 "140","Others","Iceland",1802,10,1792,10
-"141","Others","India",81997,2649,79348,2649
-"142","Others","Indonesia",16006,1043,14963,1043
-"143","Others","Iran",114533,6854,107679,6854
-"144","Others","Iraq",3143,115,3028,115
-"145","Others","Ireland",23827,1506,22321,1506
-"146","Others","Israel",16579,265,16314,265
-"147","Others","Italy",223096,31368,191728,31368
-"148","Others","Ivory Coast",1971,24,1947,24
-"149","Others","Jamaica",509,9,500,9
-"150","Others","Japan",16120,697,15423,697
-"151","Others","Jordan",586,9,577,9
-"152","Others","Kazakhstan",5571,32,5539,32
-"153","Others","Kenya",758,42,716,42
-"154","Others","Kosovo",944,29,915,29
-"155","Others","Kuwait",11975,88,11887,88
-"156","Others","Kyrgyzstan",1082,12,1070,12
+"141","Others","India",106475,3302,103173,3302
+"142","Others","Indonesia",18496,1221,17275,1221
+"143","Others","Iran",124603,7119,117484,7119
+"144","Others","Iraq",3611,131,3480,131
+"145","Others","Ireland",24251,1561,22690,1561
+"146","Others","Israel",16659,278,16381,278
+"147","Others","Italy",226699,32169,194530,32169
+"148","Others","Ivory Coast",2153,28,2125,28
+"149","Others","Jamaica",520,9,511,9
+"150","Others","Japan",16367,768,15599,768
+"151","Others","Jordan",649,9,640,9
+"152","Others","Kazakhstan",6751,35,6716,35
+"153","Others","Kenya",963,50,913,50
+"154","Others","Kosovo",989,29,960,29
+"155","Others","Kuwait",16764,121,16643,121
+"156","Others","Kyrgyzstan",1243,14,1229,14
 "157","Others","Laos",19,0,19,0
-"158","Others","Latvia",962,19,943,19
-"159","Others","Lebanon",886,26,860,26
+"158","Others","Latvia",1012,21,991,21
+"159","Others","Lebanon",954,26,928,26
 "160","Others","Lesotho",1,0,1,0
-"161","Others","Liberia",215,20,195,20
-"162","Others","Libya",64,3,61,3
+"161","Others","Liberia",233,23,210,23
+"162","Others","Libya",68,3,65,3
 "163","Others","Liechtenstein",82,1,81,1
-"164","Others","Lithuania",1511,54,1457,54
-"165","Others","Luxembourg",3915,103,3812,103
-"166","Others","Madagascar",230,0,230,0
-"167","Others","Malawi",63,3,60,3
-"168","Others","Malaysia",6819,112,6707,112
-"169","Others","Maldives",982,4,978,4
-"170","Others","Mali",779,46,733,46
-"171","Others","Malta",522,6,516,6
-"172","Others","Mauritania",20,2,18,2
+"164","Others","Lithuania",1562,60,1502,60
+"165","Others","Luxembourg",3958,109,3849,109
+"166","Others","Madagascar",326,2,324,2
+"167","Others","Malawi",70,3,67,3
+"168","Others","Malaysia",6978,114,6864,114
+"169","Others","Maldives",1143,4,1139,4
+"170","Others","Mali",901,53,848,53
+"171","Others","Malta",569,6,563,6
+"172","Others","Mauritania",131,4,127,4
 "173","Others","Mauritius",334,10,324,10
-"174","Others","Mexico",42595,4477,38118,4477
-"175","Others","Moldova",5553,194,5359,194
-"176","Others","Monaco",96,4,92,4
-"177","Others","Mongolia",98,0,98,0
+"174","Others","Mexico",54346,5666,48680,5666
+"175","Others","Moldova",6340,221,6119,221
+"176","Others","Monaco",97,4,93,4
+"177","Others","Mongolia",140,0,140,0
 "178","Others","Montenegro",324,9,315,9
-"179","Others","Morocco",6607,190,6417,190
-"180","Others","Mozambique",115,0,115,0
+"179","Others","Morocco",7023,193,6830,193
+"180","Others","Mozambique",146,0,146,0
 "181","Others","MS Zaandam",9,2,7,2
-"182","Others","Myanmar",181,6,175,6
+"182","Others","Myanmar",193,6,187,6
 "183","Others","Namibia",16,0,16,0
-"184","Others","Nepal",250,0,250,0
+"184","Others","Nepal",402,2,400,2
 "185","Aruba","Netherlands",101,3,98,3
 "186","Curacao","Netherlands",16,1,15,1
-"187","Sint Maarten","Netherlands",76,15,61,15
-"188","Others","Netherlands",43481,5590,37891,5590
+"187","Sint Maarten","Netherlands",77,15,62,15
+"188","Others","Netherlands",44249,5715,38534,5715
 "189","Bonaire, Sint Eustatius and Saba","Netherlands",6,0,6,0
-"190","Others","New Zealand",1498,21,1477,21
-"191","Others","Nicaragua",25,8,17,8
-"192","Others","Niger",876,50,826,50
-"193","Others","Nigeria",5162,167,4995,167
-"194","Others","North Macedonia",1723,95,1628,95
-"195","Others","Norway",8196,232,7964,232
-"196","Others","Oman",4341,18,4323,18
-"197","Others","Pakistan",35788,770,35018,770
-"198","Others","Panama",9118,260,8858,260
+"190","Others","New Zealand",1503,21,1482,21
+"191","Others","Nicaragua",254,17,237,17
+"192","Others","Niger",914,55,859,55
+"193","Others","Nigeria",6401,192,6209,192
+"194","Others","North Macedonia",1839,106,1733,106
+"195","Others","Norway",8267,233,8034,233
+"196","Others","Oman",5671,27,5644,27
+"197","Others","Pakistan",43966,939,43027,939
+"198","Others","Panama",9867,281,9586,281
 "199","Others","Papua New Guinea",8,0,8,0
-"200","Others","Paraguay",754,11,743,11
-"201","Others","Peru",80604,2267,78337,2267
-"202","Others","Philippines",11876,790,11086,790
-"203","Others","Poland",17615,883,16732,883
-"204","Others","Portugal",28319,1184,27135,1184
-"205","Others","Qatar",28272,14,28258,14
-"206","Others","Romania",16247,1053,15194,1053
-"207","Others","Russia",252245,2305,249940,2305
-"208","Others","Rwanda",287,0,287,0
+"200","Others","Paraguay",829,11,818,11
+"201","Others","Peru",99483,2914,96569,2914
+"202","Others","Philippines",12942,837,12105,837
+"203","Others","Poland",19268,948,18320,948
+"204","Others","Portugal",29432,1247,28185,1247
+"205","Others","Qatar",35606,15,35591,15
+"206","Others","Romania",17191,1137,16054,1137
+"207","Others","Russia",299941,2837,297104,2837
+"208","Others","Rwanda",308,0,308,0
 "209","Others","Saint Kitts and Nevis",15,0,15,0
 "210","Others","Saint Lucia",18,0,18,0
 "211","Others","Saint Vincent and the Grenadines",17,0,17,0
-"212","Others","San Marino",648,41,607,41
-"213","Others","Sao Tome and Principe",235,7,228,7
-"214","Others","Saudi Arabia",46869,283,46586,283
-"215","Others","Senegal",2189,23,2166,23
-"216","Others","Serbia",10374,224,10150,224
+"212","Others","San Marino",655,41,614,41
+"213","Others","Sao Tome and Principe",251,8,243,8
+"214","Others","Saudi Arabia",59854,329,59525,329
+"215","Others","Senegal",2617,30,2587,30
+"216","Others","Serbia",10733,234,10499,234
 "217","Others","Seychelles",11,0,11,0
-"218","Others","Sierra Leone",408,26,382,26
-"219","Others","Singapore",26098,21,26077,21
-"220","Others","Slovakia",1477,27,1450,27
-"221","Others","Slovenia",1464,103,1361,103
-"222","Others","Somalia",1284,53,1231,53
-"223","Others","South Africa",12739,238,12501,238
-"224","Others","South Korea",11018,260,10758,260
-"225","Others","South Sudan",203,0,203,0
-"226","Others","Spain",229540,27321,202219,27321
-"227","Others","Sri Lanka",925,9,916,9
-"228","Others","Sudan",1818,90,1728,90
-"229","Others","Suriname",10,1,9,1
-"230","Others","Sweden",28582,3529,25053,3529
-"231","Others","Switzerland",30463,1872,28591,1872
-"232","Others","Syria",48,3,45,3
+"218","Others","Sierra Leone",534,33,501,33
+"219","Others","Singapore",28794,22,28772,22
+"220","Others","Slovakia",1495,28,1467,28
+"221","Others","Slovenia",1467,104,1363,104
+"222","Others","Somalia",1502,59,1443,59
+"223","Others","South Africa",17200,312,16888,312
+"224","Others","South Korea",11110,263,10847,263
+"225","Others","South Sudan",290,4,286,4
+"226","Others","Spain",232037,27778,204259,27778
+"227","Others","Sri Lanka",1027,9,1018,9
+"228","Others","Sudan",2728,111,2617,111
+"229","Others","Suriname",11,1,10,1
+"230","Others","Sweden",30799,3743,27056,3743
+"231","Others","Switzerland",30618,1891,28727,1891
+"232","Others","Syria",58,3,55,3
 "233","Others","Taiwan",440,7,433,7
-"234","Others","Tajikistan",907,29,878,29
+"234","Others","Tajikistan",1936,41,1895,41
 "235","Others","Tanzania",509,21,488,21
-"236","Others","Thailand",3018,56,2962,56
+"236","Others","Thailand",3033,56,2977,56
 "237","Others","Timor-Leste",24,0,24,0
-"238","Others","Togo",238,11,227,11
+"238","Others","Togo",338,12,326,12
 "239","Others","Trinidad and Tobago",116,8,108,8
-"240","Others","Tunisia",1032,45,987,45
-"241","Others","Turkey",144749,4007,140742,4007
-"242","Others","Uganda",160,0,160,0
-"243","Others","Ukraine",16847,456,16391,456
-"244","Others","United Arab Emirates",21084,208,20876,208
-"245","Bermuda","United Kingdom",122,9,113,9
-"246","Cayman Islands","United Kingdom",93,1,92,1
-"247","Channel Islands","United Kingdom",549,43,506,43
+"240","Others","Tunisia",1044,47,997,47
+"241","Others","Turkey",151615,4199,147416,4199
+"242","Others","Uganda",260,0,260,0
+"243","Others","Ukraine",18876,548,18328,548
+"244","Others","United Arab Emirates",25063,227,24836,227
+"245","Bermuda","United Kingdom",125,9,116,9
+"246","Cayman Islands","United Kingdom",111,1,110,1
+"247","Channel Islands","United Kingdom",555,44,511,44
 "248","Gibraltar","United Kingdom",148,0,148,0
-"249","Isle of Man","United Kingdom",332,23,309,23
+"249","Isle of Man","United Kingdom",335,24,311,24
 "250","Montserrat","United Kingdom",11,1,10,1
-"251","Others","United Kingdom",233151,33614,199537,33614
+"251","Others","United Kingdom",248818,35341,213477,35341
 "252","Anguilla","United Kingdom",3,0,3,0
-"253","British Virgin Islands","United Kingdom",7,1,6,1
+"253","British Virgin Islands","United Kingdom",8,1,7,1
 "254","Turks and Caicos Islands","United Kingdom",12,1,11,1
 "255","Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"256","Others","United States",1417774,85898,1331876,85898
-"257","Others","Uruguay",724,19,705,19
-"258","Others","Uzbekistan",2645,11,2634,11
-"259","Others","Venezuela",455,16,439,16
-"260","Others","Vietnam",312,0,312,0
-"261","Others","West Bank and Gaza",375,2,373,2
+"256","Others","United States",1528568,91921,1436647,91921
+"257","Others","Uruguay",738,20,718,20
+"258","Others","Uzbekistan",2855,13,2842,13
+"259","Others","Venezuela",749,16,733,16
+"260","Others","Vietnam",324,0,324,0
+"261","Others","West Bank and Gaza",391,2,389,2
 "262","Others","Western Sahara",6,0,6,0
-"263","Others","Yemen",85,12,73,12
-"264","Others","Zambia",654,7,647,7
-"265","Others","Zimbabwe",40,4,36,4
+"263","Others","Yemen",167,28,139,28
+"264","Others","Zambia",772,7,765,7
+"265","Others","Zimbabwe",46,4,42,4
