@@ -1,4 +1,4 @@
-# 22/01/2020 to yesterday
+# 22/01/2020 to last data available
 
 # Setting the working directory
 setwd("~/Documents/A-tracking-of-COVID-19/COVID-19/")

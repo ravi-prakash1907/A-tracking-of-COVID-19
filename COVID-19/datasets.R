@@ -595,7 +595,7 @@ write.csv(datewise(cName, FALSE, Countries), file = "ready_to_use/COVID-19/China
 ################      WORLD     #################
 Non.China.Countries.daily.Confirmed = All.Countries.daily.Confirmed
 Non.China.Countries.daily.Deaths = All.Countries.daily.Deaths[ which(str_detect(All.Countries.daily.Deaths$Country, cName, negate = T)),]
-Non.China.Countries.daily.Recovered = All.Countries.daily.Recovered[ which(str_detect(All.Countries.daily.Recovered$Country, cName, negate = T)),]
+#Non.China.Countries.daily.Recovered = All.Countries.daily.Recovered[ which(str_detect(All.Countries.daily.Recovered$Country, cName, negate = T)),]
 Non.China.Countries.summary = All.Countries.summary[ which(str_detect(All.Countries.summary$Country, cName, negate = T)),]
 Non.China.datewise = world.daily.bulk.summary("Non.China.Countries.daily.Confirmed", "Non.China.Countries.daily.Deaths")      #             , "Non.China.Countries.daily.Recovered")
 
