@@ -440,6 +440,41 @@ One.Country.States.summary = states.summarizer(Country)
 One.Country.Aggregate.summary = country.summarizer(Country)
 All.Countries.summary = total.summarizer(Countries)
 
+
+
+
+
+#################################################
+
+main = data.frame(
+        "States" = NULL,
+        "Country" = NULL,
+        "Confirmed" = NULL,
+        "Deaths" = NULL,
+        "Active.Cases" = NULL,
+        "Closed.Cases" = NULL
+)
+  
+for(cnt in countries) {
+  temp = states.summarizer(cnt)
+  colNameList = colnames(temp)
+  
+  temp = cbind(temp[,1], Country = rep(cnt, nrow(temp)), temp[,2:ncol(temp)])
+  colnames(temp) <- c(colNameList[1], colnames(temp[2:6]))
+  
+  #############
+  main = rbind(main, temp)
+  
+}
+print(main)
+
+write.csv(main, file = "ready_to_use/COVID-19/World/allLocationAggrigateSummary.csv", row.names = FALSE)
+#################################################
+
+
+
+
+
 Hubei.summary = data.frame(
   State = "Hubei",
   
