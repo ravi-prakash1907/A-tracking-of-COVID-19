@@ -1,113 +1,59 @@
 "States","Country","Confirmed","Deaths","Active.Cases","Closed.Cases"
-"Others","Afghanistan",17267,294,16973,294
-"Others","Albania",1184,33,1151,33
-"Others","Algeria",9733,673,9060,673
-"Others","Andorra",851,51,800,51
+"Others","Afghanistan",18054,300,17754,300
+"Others","Albania",1197,33,1164,33
+"Others","Algeria",9831,681,9150,681
+"Others","Andorra",852,51,801,51
 "Others","Angola",86,4,82,4
 "Others","Antigua and Barbuda",26,3,23,3
-"Others","Argentina",19268,583,18685,583
-"Others","Armenia",10524,170,10354,170
+"Others","Argentina",20197,608,19589,608
+"Others","Armenia",11221,176,11045,176
 "Australian Capital Territory","Australia",107,3,104,3
-"New South Wales","Australia",3106,48,3058,48
+"New South Wales","Australia",3110,48,3062,48
 "Northern Territory","Australia",29,0,29,0
 "Queensland","Australia",1061,7,1054,7
 "South Australia","Australia",440,4,436,4
 "Tasmania","Australia",228,13,215,13
-"Victoria","Australia",1678,19,1659,19
+"Victoria","Australia",1681,19,1662,19
 "Western Australia","Australia",592,9,583,9
-"Australian Capital Territory","Australia",107,3,104,3
-"New South Wales","Australia",3106,48,3058,48
-"Northern Territory","Australia",29,0,29,0
-"Queensland","Australia",1061,7,1054,7
-"South Australia","Australia",440,4,436,4
-"Tasmania","Australia",228,13,215,13
-"Victoria","Australia",1678,19,1659,19
-"Western Australia","Australia",592,9,583,9
-"Australian Capital Territory","Australia",107,3,104,3
-"New South Wales","Australia",3106,48,3058,48
-"Northern Territory","Australia",29,0,29,0
-"Queensland","Australia",1061,7,1054,7
-"South Australia","Australia",440,4,436,4
-"Tasmania","Australia",228,13,215,13
-"Victoria","Australia",1678,19,1659,19
-"Western Australia","Australia",592,9,583,9
-"Australian Capital Territory","Australia",107,3,104,3
-"New South Wales","Australia",3106,48,3058,48
-"Northern Territory","Australia",29,0,29,0
-"Queensland","Australia",1061,7,1054,7
-"South Australia","Australia",440,4,436,4
-"Tasmania","Australia",228,13,215,13
-"Victoria","Australia",1678,19,1659,19
-"Western Australia","Australia",592,9,583,9
-"Australian Capital Territory","Australia",107,3,104,3
-"New South Wales","Australia",3106,48,3058,48
-"Northern Territory","Australia",29,0,29,0
-"Queensland","Australia",1061,7,1054,7
-"South Australia","Australia",440,4,436,4
-"Tasmania","Australia",228,13,215,13
-"Victoria","Australia",1678,19,1659,19
-"Western Australia","Australia",592,9,583,9
-"Australian Capital Territory","Australia",107,3,104,3
-"New South Wales","Australia",3106,48,3058,48
-"Northern Territory","Australia",29,0,29,0
-"Queensland","Australia",1061,7,1054,7
-"South Australia","Australia",440,4,436,4
-"Tasmania","Australia",228,13,215,13
-"Victoria","Australia",1678,19,1659,19
-"Western Australia","Australia",592,9,583,9
-"Australian Capital Territory","Australia",107,3,104,3
-"New South Wales","Australia",3106,48,3058,48
-"Northern Territory","Australia",29,0,29,0
-"Queensland","Australia",1061,7,1054,7
-"South Australia","Australia",440,4,436,4
-"Tasmania","Australia",228,13,215,13
-"Victoria","Australia",1678,19,1659,19
-"Western Australia","Australia",592,9,583,9
-"Australian Capital Territory","Australia",107,3,104,3
-"New South Wales","Australia",3106,48,3058,48
-"Northern Territory","Australia",29,0,29,0
-"Queensland","Australia",1061,7,1054,7
-"South Australia","Australia",440,4,436,4
-"Tasmania","Australia",228,13,215,13
-"Victoria","Australia",1678,19,1659,19
-"Western Australia","Australia",592,9,583,9
-"Others","Austria",16771,670,16101,670
-"Others","Azerbaijan",6260,76,6184,76
+"Others","Austria",16805,670,16135,670
+"Others","Azerbaijan",6522,78,6444,78
 "Others","Bahamas",102,11,91,11
-"Others","Bahrain",12815,20,12795,20
-"Others","Bangladesh",55140,746,54394,746
+"Others","Bahrain",13296,21,13275,21
+"Others","Bangladesh",57563,781,56782,781
 "Others","Barbados",92,7,85,7
-"Others","Belarus",45116,248,44868,248
-"Others","Belgium",58685,9522,49163,9522
+"Others","Belarus",45981,253,45728,253
+"Others","Belgium",58767,9548,49219,9548
 "Others","Belize",18,2,16,2
 "Others","Benin",339,3,336,3
 "Others","Bhutan",47,0,47,0
-"Others","Bolivia",11638,400,11238,400
-"Others","Bosnia and Herzegovina",2551,157,2394,157
-"Others","Brazil",584016,32548,551468,32548
+"Others","Bolivia",12245,415,11830,415
+"Others","Bosnia and Herzegovina",2594,159,2435,159
+"Others","Botswana",40,1,39,1
+"Others","Brazil",614941,34021,580920,34021
 "Others","Brunei",141,2,139,2
-"Others","Bulgaria",2560,146,2414,146
-"Others","Burkina Faso",884,53,831,53
-"Others","Cabo Verde",477,5,472,5
+"Others","Bulgaria",2585,147,2438,147
+"Others","Burkina Faso",885,53,832,53
+"Others","Burundi",63,1,62,1
+"Others","Cabo Verde",502,5,497,5
 "Others","Cambodia",125,0,125,0
-"Others","Cameroon",6585,200,6385,200
-"Alberta","Canada",7076,145,6931,145
-"British Columbia","Canada",2623,166,2457,166
+"Others","Cameroon",6789,203,6586,203
+"Alberta","Canada",7091,146,6945,146
+"British Columbia","Canada",2632,166,2466,166
 "Grand Princess","Canada",13,0,13,0
 "Manitoba","Canada",298,7,291,7
-"New Brunswick","Canada",135,0,135,0
+"New Brunswick","Canada",136,1,135,1
 "Newfoundland and Labrador","Canada",261,3,258,3
-"Nova Scotia","Canada",1058,60,998,60
-"Ontario","Canada",30603,2392,28211,2392
+"Nova Scotia","Canada",1058,61,997,61
+"Ontario","Canada",30946,2436,28510,2436
 "Prince Edward Island","Canada",27,1,26,1
-"Quebec","Canada",51884,4794,47090,4794
-"Saskatchewan","Canada",647,11,636,11
+"Quebec","Canada",52143,4885,47258,4885
+"Saskatchewan","Canada",648,11,637,11
 "Diamond Princess","Canada",1,1,0,1
 "Northwest Territories","Canada",5,0,5,0
 "Yukon","Canada",11,0,11,0
-"Others","Central African Republic",1173,4,1169,4
-"Others","Chad",820,66,754,66
-"Others","Chile",113628,1275,112353,1275
+"Others","Central African Republic",1288,4,1284,4
+"Others","Chad",828,66,762,66
+"Others","Chile",118292,1356,116936,1356
 "Anhui","China",991,6,985,6
 "Beijing","China",594,9,585,9
 "Chongqing","China",579,6,573,6
@@ -120,7 +66,7 @@
 "Hebei","China",328,6,322,6
 "Heilongjiang","China",947,13,934,13
 "Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
+"Hong Kong","China",1099,4,1095,4
 "Hunan","China",1019,4,1015,4
 "Inner Mongolia","China",235,1,234,1
 "Jiangsu","China",653,0,653,0
@@ -132,1466 +78,195 @@
 "Qinghai","China",18,0,18,0
 "Shaanxi","China",309,3,306,3
 "Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
+"Shanghai","China",677,7,670,7
 "Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
+"Sichuan","China",578,3,575,3
 "Tianjin","China",192,3,189,3
 "Tibet","China",1,0,1,0
 "Xinjiang","China",76,3,73,3
 "Yunnan","China",185,2,183,2
 "Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Anhui","China",991,6,985,6
-"Beijing","China",594,9,585,9
-"Chongqing","China",579,6,573,6
-"Fujian","China",358,1,357,1
-"Gansu","China",139,2,137,2
-"Guangdong","China",1598,8,1590,8
-"Guangxi","China",254,2,252,2
-"Guizhou","China",147,2,145,2
-"Hainan","China",169,6,163,6
-"Hebei","China",328,6,322,6
-"Heilongjiang","China",947,13,934,13
-"Henan","China",1276,22,1254,22
-"Hong Kong","China",1093,4,1089,4
-"Hunan","China",1019,4,1015,4
-"Inner Mongolia","China",235,1,234,1
-"Jiangsu","China",653,0,653,0
-"Jiangxi","China",937,1,936,1
-"Jilin","China",155,2,153,2
-"Liaoning","China",149,2,147,2
-"Macau","China",45,0,45,0
-"Ningxia","China",75,0,75,0
-"Qinghai","China",18,0,18,0
-"Shaanxi","China",309,3,306,3
-"Shandong","China",792,7,785,7
-"Shanghai","China",673,7,666,7
-"Shanxi","China",198,0,198,0
-"Sichuan","China",577,3,574,3
-"Tianjin","China",192,3,189,3
-"Tibet","China",1,0,1,0
-"Xinjiang","China",76,3,73,3
-"Yunnan","China",185,2,183,2
-"Zhejiang","China",1268,1,1267,1
-"Others","Colombia",31935,1057,30878,1057
-"Others","Democratic Republic of the Congo",611,20,591,20
-"Others","Democratic Republic of the Congo",3495,75,3420,75
-"Others","Democratic Republic of the Congo",611,20,591,20
-"Others","Democratic Republic of the Congo",3495,75,3420,75
-"Others","Costa Rica",1157,10,1147,10
-"Others","Croatia",2246,103,2143,103
-"Others","Diamond Princess",712,13,699,13
-"Others","Cuba",2107,83,2024,83
+"Others","Colombia",33466,1099,32367,1099
+"Others","Comoros",132,2,130,2
+"Others","Costa Rica",1194,10,1184,10
+"Others","Croatia",2247,103,2144,103
+"Others","Cuba",2119,83,2036,83
 "Others","Cyprus",958,17,941,17
+"Others","Czech Republic",9494,326,9168,326
+"Others","Democratic Republic of the Congo",611,20,591,20
+"Others","Democratic Republic of the Congo",3644,78,3566,78
 "Faroe Islands","Denmark",187,0,187,0
 "Greenland","Denmark",13,0,13,0
-"Others","Denmark",11771,580,11191,580
-"Faroe Islands","Denmark",187,0,187,0
-"Greenland","Denmark",13,0,13,0
-"Others","Denmark",11771,580,11191,580
-"Faroe Islands","Denmark",187,0,187,0
-"Greenland","Denmark",13,0,13,0
-"Others","Denmark",11771,580,11191,580
-"Others","Djibouti",3935,26,3909,26
+"Others","Denmark",11811,582,11229,582
+"Others","Diamond Princess",712,13,699,13
+"Others","Djibouti",4054,26,4028,26
 "Others","Dominica",18,0,18,0
-"Others","Dominica",18040,516,17524,516
-"Others","Dominican Republic",18040,516,17524,516
+"Others","Dominica",18319,520,17799,520
+"Others","Dominican Republic",18319,520,17799,520
 "Others","Ecuador",40966,3486,37480,3486
-"Others","Egypt",28615,1088,27527,1088
-"Others","El Salvador",2705,51,2654,51
+"Others","Egypt",29767,1126,28641,1126
+"Others","El Salvador",2781,52,2729,52
 "Others","Equatorial Guinea",1306,12,1294,12
 "Others","Eritrea",39,0,39,0
-"Others","Estonia",1880,69,1811,69
-"Others","Eswatini",295,3,292,3
-"Others","Ethiopia",1486,17,1469,17
+"Others","Estonia",1890,69,1821,69
+"Others","Eswatini",300,3,297,3
+"Others","Ethiopia",1636,18,1618,18
 "Others","Fiji",18,0,18,0
-"Others","Finland",6911,321,6590,321
-"French Guiana","France",533,1,532,1
+"Others","Finland",6911,322,6589,322
+"French Guiana","France",556,1,555,1
 "French Polynesia","France",60,0,60,0
 "Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
+"Mayotte","France",2058,25,2033,25
 "New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
+"Reunion","France",479,1,478,1
 "Saint Barthelemy","France",6,0,6,0
 "St Martin","France",41,3,38,3
 "Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
+"Others","France",188836,29010,159826,29010
 "Saint Pierre and Miquelon","France",1,0,1,0
-"French Guiana","France",533,1,532,1
-"French Polynesia","France",60,0,60,0
-"Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
-"New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
-"Saint Barthelemy","France",6,0,6,0
-"St Martin","France",41,3,38,3
-"Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
-"Saint Pierre and Miquelon","France",1,0,1,0
-"French Guiana","France",533,1,532,1
-"French Polynesia","France",60,0,60,0
-"Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
-"New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
-"Saint Barthelemy","France",6,0,6,0
-"St Martin","France",41,3,38,3
-"Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
-"Saint Pierre and Miquelon","France",1,0,1,0
-"French Guiana","France",533,1,532,1
-"French Polynesia","France",60,0,60,0
-"Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
-"New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
-"Saint Barthelemy","France",6,0,6,0
-"St Martin","France",41,3,38,3
-"Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
-"Saint Pierre and Miquelon","France",1,0,1,0
-"French Guiana","France",533,1,532,1
-"French Polynesia","France",60,0,60,0
-"Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
-"New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
-"Saint Barthelemy","France",6,0,6,0
-"St Martin","France",41,3,38,3
-"Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
-"Saint Pierre and Miquelon","France",1,0,1,0
-"French Guiana","France",533,1,532,1
-"French Polynesia","France",60,0,60,0
-"Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
-"New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
-"Saint Barthelemy","France",6,0,6,0
-"St Martin","France",41,3,38,3
-"Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
-"Saint Pierre and Miquelon","France",1,0,1,0
-"French Guiana","France",533,1,532,1
-"French Polynesia","France",60,0,60,0
-"Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
-"New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
-"Saint Barthelemy","France",6,0,6,0
-"St Martin","France",41,3,38,3
-"Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
-"Saint Pierre and Miquelon","France",1,0,1,0
-"French Guiana","France",533,1,532,1
-"French Polynesia","France",60,0,60,0
-"Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
-"New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
-"Saint Barthelemy","France",6,0,6,0
-"St Martin","France",41,3,38,3
-"Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
-"Saint Pierre and Miquelon","France",1,0,1,0
-"French Guiana","France",533,1,532,1
-"French Polynesia","France",60,0,60,0
-"Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
-"New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
-"Saint Barthelemy","France",6,0,6,0
-"St Martin","France",41,3,38,3
-"Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
-"Saint Pierre and Miquelon","France",1,0,1,0
-"French Guiana","France",533,1,532,1
-"French Polynesia","France",60,0,60,0
-"Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
-"New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
-"Saint Barthelemy","France",6,0,6,0
-"St Martin","France",41,3,38,3
-"Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
-"Saint Pierre and Miquelon","France",1,0,1,0
-"Others","Gabon",2902,20,2882,20
+"Others","Gabon",2955,21,2934,21
 "Others","Gambia",26,1,25,1
-"Others","Georgia",800,13,787,13
-"Others","Germany",184121,8602,175519,8602
-"Others","Ghana",8548,38,8510,38
+"Others","Georgia",801,13,788,13
+"Others","Germany",184472,8635,175837,8635
+"Others","Ghana",8885,38,8847,38
+"Others","Greece",2952,180,2772,180
 "Others","Grenada",23,0,23,0
-"Others","Greece",2937,179,2758,179
-"Others","Guatemala",5760,143,5617,143
+"Others","Guatemala",6154,158,5996,158
 "Others","Guinea",1306,12,1294,12
-"Others","Guinea",3933,23,3910,23
+"Others","Guinea",3991,23,3968,23
 "Others","Guinea",1339,8,1331,8
 "Others","Guinea",8,0,8,0
 "Others","Guinea-Bissau",1339,8,1331,8
 "Others","Guyana",153,12,141,12
-"Others","Haiti",2507,48,2459,48
+"Others","Haiti",2640,50,2590,50
 "Others","Holy See",12,0,12,0
-"Others","Honduras",5690,234,5456,234
-"Others","Hungary",3931,534,3397,534
+"Others","Honduras",5880,243,5637,243
+"Others","Hungary",3954,539,3415,539
 "Others","Iceland",1806,10,1796,10
-"Others","India",216824,6088,210736,6088
-"Others","Indonesia",28233,1698,26535,1698
-"Others","Iran",160696,8012,152684,8012
-"Others","Iraq",8168,256,7912,256
-"Others","Ireland",25111,1659,23452,1659
-"Others","Israel",17377,291,17086,291
-"Others","Italy",233836,33601,200235,33601
+"Others","India",226713,6363,220350,6363
+"Others","Indonesia",28818,1721,27097,1721
+"Others","Iran",164270,8071,156199,8071
+"Others","Iraq",8840,271,8569,271
+"Others","Ireland",25142,1664,23478,1664
+"Others","Israel",17495,291,17204,291
+"Others","Italy",234013,33689,200324,33689
+"Others","Ivory Coast",3262,35,3227,35
 "Others","Jamaica",591,10,581,10
-"Others","Japan",16867,905,15962,905
-"Others","Jordan",757,9,748,9
-"Others","Kazakhstan",12067,48,12019,48
-"Others","Kenya",2216,74,2142,74
-"Others","South Korea",11629,273,11356,273
-"Others","Kuwait",29359,230,29129,230
-"Others","Kyrgyzstan",1871,20,1851,20
-"Others","Latvia",1079,24,1055,24
-"Others","Lebanon",1256,27,1229,27
-"Others","Liberia",316,28,288,28
-"Others","Libya",196,5,191,5
+"Others","Japan",16911,911,16000,911
+"Others","Jordan",765,9,756,9
+"Others","Kazakhstan",12067,52,12015,52
+"Others","Kenya",2340,78,2262,78
+"Others","Kosovo",1142,30,1112,30
+"Others","Kuwait",29921,236,29685,236
+"Others","Kyrgyzstan",1899,20,1879,20
+"Others","Laos",19,0,19,0
+"Others","Latvia",1082,25,1057,25
+"Others","Lebanon",1306,28,1278,28
+"Others","Lesotho",4,0,4,0
+"Others","Liberia",321,28,293,28
+"Others","Libya",209,5,204,5
 "Others","Liechtenstein",82,1,81,1
-"Others","Lithuania",1684,71,1613,71
-"Others","Luxembourg",4024,110,3914,110
-"Others","Madagascar",908,6,902,6
-"Others","Malaysia",7970,115,7855,115
-"Others","Maldives",1850,7,1843,7
-"Others","Mali",1386,79,1307,79
+"Others","Lithuania",1687,71,1616,71
+"Others","Luxembourg",4027,110,3917,110
+"Others","Madagascar",957,7,950,7
+"Others","Malawi",393,4,389,4
+"Others","Malaysia",8247,115,8132,115
+"Others","Maldives",1872,7,1865,7
+"Others","Mali",1461,85,1376,85
 "Others","Malta",622,9,613,9
-"Others","Mauritania",745,34,711,34
+"Others","Mauritania",784,39,745,39
 "Others","Mauritius",335,10,325,10
-"Others","Mexico",101238,11729,89509,11729
-"Others","Moldova",8795,310,8485,310
+"Others","Mexico",105680,12545,93135,12545
+"Others","Moldova",9018,315,8703,315
 "Others","Monaco",99,4,95,4
-"Others","Mongolia",185,0,185,0
+"Others","Mongolia",186,0,186,0
 "Others","Montenegro",324,9,315,9
-"Others","Morocco",7922,206,7716,206
-"Others","Mozambique",316,2,314,2
+"Others","Morocco",8003,208,7795,208
+"Others","Mozambique",352,2,350,2
+"Others","MS Zaandam",9,2,7,2
+"Others","Myanmar",236,6,230,6
 "Others","Namibia",25,0,25,0
-"Others","Nepal",2300,9,2291,9
+"Others","Nepal",2634,10,2624,10
 "Aruba","Netherlands",101,3,98,3
 "Curacao","Netherlands",21,1,20,1
 "Sint Maarten","Netherlands",77,15,62,15
-"Others","Netherlands",46733,5977,40756,5977
-"Bonaire, Sint Eustatius and Saba","Netherlands",7,0,7,0
-"Aruba","Netherlands",101,3,98,3
-"Curacao","Netherlands",21,1,20,1
-"Sint Maarten","Netherlands",77,15,62,15
-"Others","Netherlands",46733,5977,40756,5977
-"Bonaire, Sint Eustatius and Saba","Netherlands",7,0,7,0
-"Aruba","Netherlands",101,3,98,3
-"Curacao","Netherlands",21,1,20,1
-"Sint Maarten","Netherlands",77,15,62,15
-"Others","Netherlands",46733,5977,40756,5977
-"Bonaire, Sint Eustatius and Saba","Netherlands",7,0,7,0
-"Aruba","Netherlands",101,3,98,3
-"Curacao","Netherlands",21,1,20,1
-"Sint Maarten","Netherlands",77,15,62,15
-"Others","Netherlands",46733,5977,40756,5977
+"Others","Netherlands",46942,5990,40952,5990
 "Bonaire, Sint Eustatius and Saba","Netherlands",7,0,7,0
 "Others","New Zealand",1504,22,1482,22
 "Others","Nicaragua",1118,46,1072,46
-"Others","Niger",961,65,896,65
-"Others","Niger",11166,315,10851,315
-"Others","Nigeria",11166,315,10851,315
-"Others","North Macedonia",2492,145,2347,145
-"Others","Norway",8477,237,8240,237
-"Others","Oman",13537,67,13470,67
-"Others","Pakistan",80463,1688,78775,1688
-"Others","Panama",14609,357,14252,357
+"Others","Niger",963,65,898,65
+"Others","Niger",11516,323,11193,323
+"Others","Nigeria",11516,323,11193,323
+"Others","North Macedonia",2611,147,2464,147
+"Others","Norway",8504,238,8266,238
+"Others","Oman",14316,67,14249,67
+"Others","Pakistan",85264,1770,83494,1770
+"Others","Panama",15044,363,14681,363
 "Others","Papua New Guinea",8,0,8,0
-"Others","Paraguay",1070,11,1059,11
-"Others","Peru",178914,4894,174020,4894
-"Others","Philippines",19748,974,18774,974
-"Others","Poland",24687,1115,23572,1115
-"Others","Portugal",33261,1447,31814,1447
-"Others","Qatar",62160,45,62115,45
-"Others","Romania",19669,1296,18373,1296
-"Others","Russia",431715,5208,426507,5208
-"Others","Rwanda",397,2,395,2
+"Others","Paraguay",1086,11,1075,11
+"Others","Peru",183198,5031,178167,5031
+"Others","Philippines",20382,984,19398,984
+"Others","Poland",25048,1117,23931,1117
+"Others","Portugal",33592,1455,32137,1455
+"Others","Qatar",63741,45,63696,45
+"Others","Romania",19907,1305,18602,1305
+"Others","Russia",440538,5376,435162,5376
+"Others","Rwanda",410,2,408,2
 "Others","Saint Kitts and Nevis",15,0,15,0
-"Others","Saint Lucia",18,0,18,0
+"Others","Saint Lucia",19,0,19,0
 "Others","Saint Vincent and the Grenadines",26,0,26,0
-"Others","San Marino",674,42,632,42
-"Others","Saudi Arabia",91182,579,90603,579
-"Others","Senegal",3932,45,3887,45
-"Others","Serbia",11523,245,11278,245
+"Others","San Marino",678,42,636,42
+"Others","Sao Tome and Principe",485,12,473,12
+"Others","Saudi Arabia",93157,611,92546,611
+"Others","Senegal",4021,45,3976,45
+"Others","Serbia",11571,246,11325,246
 "Others","Seychelles",11,0,11,0
-"Others","Singapore",36405,24,36381,24
-"Others","Slovakia",1525,28,1497,28
+"Others","Sierra Leone",914,47,867,47
+"Others","Singapore",36922,24,36898,24
+"Others","Slovakia",1526,28,1498,28
 "Others","Slovenia",1477,109,1368,109
-"Others","Somalia",2146,79,2067,79
-"Others","South Africa",37525,792,36733,792
-"Others","Spain",240326,28752,211574,28752
-"Others","Sri Lanka",1749,11,1738,11
+"Others","Somalia",2204,79,2125,79
+"Others","South Africa",40792,848,39944,848
+"Others","South Korea",11668,273,11395,273
+"Others","South Sudan",994,10,984,10
+"Others","Spain",240660,28752,211908,28752
+"Others","Sri Lanka",1797,11,1786,11
 "Others","Sudan",994,10,984,10
-"Others","Sudan",5499,314,5185,314
-"Others","Suriname",74,1,73,1
-"Others","Sweden",40803,4542,36261,4542
-"Others","Switzerland",30893,1921,28972,1921
-"Others","Syria",123,6,117,6
+"Others","Sudan",5714,333,5381,333
+"Others","Suriname",82,1,81,1
+"Others","Sweden",41883,4562,37321,4562
+"Others","Switzerland",30913,1921,28992,1921
+"Others","Syria",124,6,118,6
 "Others","Taiwan",443,7,436,7
+"Others","Tajikistan",4289,48,4241,48
 "Others","Tanzania",509,21,488,21
-"Others","Thailand",3084,58,3026,58
+"Others","Thailand",3101,58,3043,58
 "Others","Timor-Leste",24,0,24,0
-"Others","Togo",452,13,439,13
+"Others","Togo",465,13,452,13
 "Others","Trinidad and Tobago",117,8,109,8
 "Others","Tunisia",1087,49,1038,49
-"Others","Turkey",166422,4609,161813,4609
-"Others","Uganda",507,0,507,0
-"Others","Ukraine",25385,742,24643,742
-"Others","United Arab Emirates",36359,270,36089,270
+"Others","Turkey",167410,4630,162780,4630
+"Others","Uganda",522,0,522,0
+"Others","Ukraine",25981,755,25226,755
+"Others","United Arab Emirates",37018,273,36745,273
 "Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
+"Cayman Islands","United Kingdom",160,1,159,1
 "Channel Islands","United Kingdom",561,46,515,46
 "Gibraltar","United Kingdom",173,0,173,0
 "Isle of Man","United Kingdom",336,24,312,24
 "Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
+"Others","United Kingdom",281661,39904,241757,39904
 "Anguilla","United Kingdom",3,0,3,0
 "British Virgin Islands","United Kingdom",8,1,7,1
 "Turks and Caicos Islands","United Kingdom",12,1,11,1
 "Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
-"Channel Islands","United Kingdom",561,46,515,46
-"Gibraltar","United Kingdom",173,0,173,0
-"Isle of Man","United Kingdom",336,24,312,24
-"Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
-"Anguilla","United Kingdom",3,0,3,0
-"British Virgin Islands","United Kingdom",8,1,7,1
-"Turks and Caicos Islands","United Kingdom",12,1,11,1
-"Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
-"Channel Islands","United Kingdom",561,46,515,46
-"Gibraltar","United Kingdom",173,0,173,0
-"Isle of Man","United Kingdom",336,24,312,24
-"Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
-"Anguilla","United Kingdom",3,0,3,0
-"British Virgin Islands","United Kingdom",8,1,7,1
-"Turks and Caicos Islands","United Kingdom",12,1,11,1
-"Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
-"Channel Islands","United Kingdom",561,46,515,46
-"Gibraltar","United Kingdom",173,0,173,0
-"Isle of Man","United Kingdom",336,24,312,24
-"Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
-"Anguilla","United Kingdom",3,0,3,0
-"British Virgin Islands","United Kingdom",8,1,7,1
-"Turks and Caicos Islands","United Kingdom",12,1,11,1
-"Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
-"Channel Islands","United Kingdom",561,46,515,46
-"Gibraltar","United Kingdom",173,0,173,0
-"Isle of Man","United Kingdom",336,24,312,24
-"Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
-"Anguilla","United Kingdom",3,0,3,0
-"British Virgin Islands","United Kingdom",8,1,7,1
-"Turks and Caicos Islands","United Kingdom",12,1,11,1
-"Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
-"Channel Islands","United Kingdom",561,46,515,46
-"Gibraltar","United Kingdom",173,0,173,0
-"Isle of Man","United Kingdom",336,24,312,24
-"Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
-"Anguilla","United Kingdom",3,0,3,0
-"British Virgin Islands","United Kingdom",8,1,7,1
-"Turks and Caicos Islands","United Kingdom",12,1,11,1
-"Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
-"Channel Islands","United Kingdom",561,46,515,46
-"Gibraltar","United Kingdom",173,0,173,0
-"Isle of Man","United Kingdom",336,24,312,24
-"Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
-"Anguilla","United Kingdom",3,0,3,0
-"British Virgin Islands","United Kingdom",8,1,7,1
-"Turks and Caicos Islands","United Kingdom",12,1,11,1
-"Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"Others","Uruguay",828,23,805,23
-"Others","United States",1851520,107175,1744345,107175
-"Others","Uzbekistan",3843,16,3827,16
-"Others","Venezuela",1952,20,1932,20
+"Others","United States",1872660,108211,1764449,108211
+"Others","Uruguay",832,23,809,23
+"Others","Uzbekistan",3939,16,3923,16
+"Others","Venezuela",2087,20,2067,20
 "Others","Vietnam",328,0,328,0
-"Others","Zambia",1089,7,1082,7
-"Others","Zimbabwe",222,4,218,4
-"Others","West Bank and Gaza",457,3,454,3
-"Others","Laos",19,0,19,0
-"Others","Kosovo",1142,30,1112,30
-"Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
-"Channel Islands","United Kingdom",561,46,515,46
-"Gibraltar","United Kingdom",173,0,173,0
-"Isle of Man","United Kingdom",336,24,312,24
-"Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
-"Anguilla","United Kingdom",3,0,3,0
-"British Virgin Islands","United Kingdom",8,1,7,1
-"Turks and Caicos Islands","United Kingdom",12,1,11,1
-"Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
-"Channel Islands","United Kingdom",561,46,515,46
-"Gibraltar","United Kingdom",173,0,173,0
-"Isle of Man","United Kingdom",336,24,312,24
-"Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
-"Anguilla","United Kingdom",3,0,3,0
-"British Virgin Islands","United Kingdom",8,1,7,1
-"Turks and Caicos Islands","United Kingdom",12,1,11,1
-"Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
-"Channel Islands","United Kingdom",561,46,515,46
-"Gibraltar","United Kingdom",173,0,173,0
-"Isle of Man","United Kingdom",336,24,312,24
-"Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
-"Anguilla","United Kingdom",3,0,3,0
-"British Virgin Islands","United Kingdom",8,1,7,1
-"Turks and Caicos Islands","United Kingdom",12,1,11,1
-"Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"Others","MS Zaandam",9,2,7,2
-"Others","Botswana",40,1,39,1
-"Others","Burundi",63,1,62,1
-"Others","Sierra Leone",909,47,862,47
-"Aruba","Netherlands",101,3,98,3
-"Curacao","Netherlands",21,1,20,1
-"Sint Maarten","Netherlands",77,15,62,15
-"Others","Netherlands",46733,5977,40756,5977
-"Bonaire, Sint Eustatius and Saba","Netherlands",7,0,7,0
-"Others","Malawi",369,4,365,4
-"Bermuda","United Kingdom",141,9,132,9
-"Cayman Islands","United Kingdom",156,1,155,1
-"Channel Islands","United Kingdom",561,46,515,46
-"Gibraltar","United Kingdom",173,0,173,0
-"Isle of Man","United Kingdom",336,24,312,24
-"Montserrat","United Kingdom",11,1,10,1
-"Others","United Kingdom",279856,39728,240128,39728
-"Anguilla","United Kingdom",3,0,3,0
-"British Virgin Islands","United Kingdom",8,1,7,1
-"Turks and Caicos Islands","United Kingdom",12,1,11,1
-"Falkland Islands (Malvinas)","United Kingdom",13,0,13,0
-"French Guiana","France",533,1,532,1
-"French Polynesia","France",60,0,60,0
-"Guadeloupe","France",162,14,148,14
-"Mayotte","France",1993,24,1969,24
-"New Caledonia","France",20,0,20,0
-"Reunion","France",478,1,477,1
-"Saint Barthelemy","France",6,0,6,0
-"St Martin","France",41,3,38,3
-"Martinique","France",200,14,186,14
-"Others","France",188836,28967,159869,28967
-"Saint Pierre and Miquelon","France",1,0,1,0
-"Others","South Sudan",994,10,984,10
+"Others","West Bank and Gaza",464,3,461,3
 "Others","Western Sahara",9,1,8,1
-"Others","Sao Tome and Principe",484,12,472,12
-"Others","Yemen",419,95,324,95
-"Others","Comoros",132,2,130,2
-"Others","Tajikistan",4191,48,4143,48
-"Others","Lesotho",4,0,4,0
+"Others","Yemen",453,103,350,103
+"Others","Zambia",1089,7,1082,7
+"Others","Zimbabwe",237,4,233,4

@@ -454,7 +454,8 @@ main = data.frame(
         "Active.Cases" = NULL,
         "Closed.Cases" = NULL
 )
-  
+
+countries = levels(Confirmed$Country.Region)
 for(cnt in countries) {
   temp = states.summarizer(cnt)
   colNameList = colnames(temp)
