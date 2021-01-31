@@ -3,8 +3,8 @@
 .RData
 .Ruserdata
 
-covid.sh
-indiaUpdater.sh
+#covid.sh
+#indiaUpdater.sh
 
 plan k8.txt
 test.R
