@@ -1,5 +1,5 @@
 # A tracking of COVID-19
-[Ravi Prakash](https://raviprakashravi.cf/)
+[Ravi Prakash](http://ravi-prakash1907.gitlab.io/)
 
 A dedicated repository for my data-science and analytics' work on the PANDEMIC _sars_ **2019-nCoV** OR **COVID-19** (official name), spread through a **_novel Coronavirus_**. This disease was initially reported into the China during mid November 2019. Thereafter, it spread worldwide. <br />
 
